@@ -221,7 +221,7 @@ function HeaderTailwinds() {
     1: toggleExpansion
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
   return __jsx("header", {
-    className: "bg-gray-300",
+    className: "bg-blue-900",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -249,14 +249,14 @@ function HeaderTailwinds() {
     },
     __self: this
   }, __jsx("a", {
-    className: "font-bold text-blue-700 text-xl",
+    className: "font-bold text-white text-xl",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
   }, "Breakthrough College Fit Guide"))), __jsx("button", {
-    className: "block md:hidden border border-white flex items-center px-3 py-2 rounded text-blue-700",
+    className: "block md:hidden border-green-500 bg-green-500 flex items-center px-3 py-2 rounded text-white",
     onClick: () => toggleExpansion(!isExpanded),
     __source: {
       fileName: _jsxFileName,
@@ -320,7 +320,7 @@ function HeaderTailwinds() {
     },
     __self: this
   }, __jsx("a", {
-    className: "block text-blue-700",
+    className: "block text-white",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50

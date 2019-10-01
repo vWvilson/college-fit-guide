@@ -4,41 +4,28 @@ import Link from 'next/link';
 const Button = (props) => {
     return(
         <div>
-        <Link to href = {props.url}>
-        <button>
-            {props.label}
-        </button>
-        </Link>
-        <style jsx>{`
-        button {
-            cursor: pointer;
-            background: #FA9D1C;
-            font-size: 16px;
-            border-radius: 7px;
-            color: white;
-            border: 2px solid #FA9D1C;
-            margin: 0 1em;
-            padding: 0.25em .5em;
-            transition: 0.5s all ease-out;
-        }
-      `}</style>
-        </div>
+            <Link to href = {props.url}>
+               <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                    {props.label}
+                </button>
+            </Link>
+      </div>
+
+)};
+
+export default Button;
+
+
+
+
+
 
             
 
-          
+  
             
         
 
  
   
  
-    )};
-
-
-
-  
-    
-
-
-export default Button;

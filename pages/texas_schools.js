@@ -1,6 +1,7 @@
 import Layout from '../components/MyLayout';
 import Link from 'next/link';
 import Button from '../components/Button'
+import Cards from '../components/Cards'
 
 
 
@@ -34,13 +35,15 @@ const TexasSchools =()=> {
      </div>
      
      </div>
+
     </Layout>
+
     <style jsx>{`
      @import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');
 
        
      h1{
-      color:#0074C8;
+      color:#82B441;
       font-size:2.3em;
       font-family: 'Oswald', sans-serif;
     }

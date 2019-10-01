@@ -6,20 +6,20 @@ function HeaderTailwinds() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="bg-gray-300">
+    <header className="bg-blue-900">
       <div className="flex flex-wrap md:flex-no-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
         <div className="flex items-center">
           
 
           <Link href="/">
-            <a className="font-bold text-blue-700 text-xl">
+            <a className="font-bold text-white text-xl">
               Breakthrough College Fit Guide
             </a>
           </Link>
         </div>
 
         <button
-          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-blue-700"
+          className="block md:hidden border-green-500 bg-green-500 flex items-center px-3 py-2 rounded text-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -47,7 +47,7 @@ function HeaderTailwinds() {
           ].map(navigationItem => (
             <li className="mt-3 md:mt-0 md:ml-6" key={navigationItem.title}>
               <Link href={navigationItem.route}>
-                <a className="block text-blue-700">{navigationItem.title}</a>
+                <a className="block text-white">{navigationItem.title}</a>
               </Link>
             </li>
           ))}

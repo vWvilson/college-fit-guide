@@ -48,7 +48,7 @@ first-generation or other underrepresented students on that campus.
           
           
           h1{
-          color:#0074C8;
+          color:#82B441;
           font-size:2.3em;
           font-family: 'Oswald', sans-serif;
 
