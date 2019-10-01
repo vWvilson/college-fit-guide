@@ -140,69 +140,6 @@ const Button = props => {
 
 /***/ }),
 
-/***/ "./components/Cards.js":
-/*!*****************************!*\
-  !*** ./components/Cards.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.css */ "./styles/main.css");
-/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\Cards.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const Card = props => {
-  return __jsx("div", {
-    className: "max-w-sm rounded overflow-hidden shadow-lg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "px-6 py-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "font-semibold text-lg mb-2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, props.scores), __jsx("p", {
-    className: "text-gray-700 text-base",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "px-6 py-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: undefined
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Card);
-
-/***/ }),
-
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -2197,16 +2134,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Button */ "./components/Button.js");
-/* harmony import */ var _components_Cards__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Cards */ "./components/Cards.js");
+/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Button */ "./components/Button.js");
 var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
 
 
 
@@ -2215,119 +2147,119 @@ const TexasSchools = () => {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 13
     },
     __self: undefined
   }, __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 14
     },
     __self: undefined
   }, __jsx("div", {
     className: "jsx-3879602729" + " " + "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 15
     },
     __self: undefined
   }, __jsx("h1", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 16
     },
     __self: undefined
   }, "Texas Schools"), __jsx("div", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: undefined
   }, __jsx("p", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: undefined
-  }, "ACT Score of 19 or Below && GPA 0f 2.0 - 2.5 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "ACT Score of 19 or Below && GPA 0f 2.0 - 2.5 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     label: "SHOW",
     url: "/texas_schools_100",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     },
     __self: undefined
   })), __jsx("div", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx("p", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: undefined
-  }, "ACT Score of 20 - 21  && GPA 0f 2.0 - 3.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "ACT Score of 20 - 21  && GPA 0f 2.0 - 3.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     label: "SHOW",
     url: "/texas_schools_two",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  })), __jsx("div", {
+    className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: undefined
-  })), __jsx("div", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
   }, __jsx("p", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 27
     },
     __self: undefined
-  }, "ACT Score of 22 - 25  && GPA 0f 2.5 - 3.5 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "ACT Score of 22 - 25  && GPA 0f 2.5 - 3.5 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     label: "SHOW",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 28
     },
     __self: undefined
   })), __jsx("div", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 31
     },
     __self: undefined
   }, __jsx("p", {
     className: "jsx-3879602729",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 31
     },
     __self: undefined
-  }, "ACT Score of 26 and Above  && GPA 0f 3.5 - 4.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "ACT Score of 26 and Above  && GPA 0f 3.5 - 4.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     label: "SHOW",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 32
     },
     __self: undefined
   })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3879602729",
     __self: undefined
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-3879602729{color:#82B441;font-size:2.3em;font-family:'Oswald',sans-serif;}p.jsx-3879602729{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;}.container.jsx-3879602729{padding:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3Q2dCLEFBRXNHLEFBSWxGLEFBSzhCLEFBSy9CLGFBQ2QsQ0FWaUIsZ0JBQ2tCLFlBSWxCLGdCQUNqQixJQUpBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCc7XHJcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBCdXR0b24gZnJvbSAnLi4vY29tcG9uZW50cy9CdXR0b24nXHJcbmltcG9ydCBDYXJkcyBmcm9tICcuLi9jb21wb25lbnRzL0NhcmRzJ1xyXG5cclxuXHJcblxyXG4gXHJcbiBcclxuIFxyXG5cclxuY29uc3QgVGV4YXNTY2hvb2xzID0oKT0+IHtcclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXY+XHJcbiAgICA8TGF5b3V0PlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZSA9IFwiY29udGFpbmVyXCI+XHJcbiAgPGgxPlRleGFzIFNjaG9vbHM8L2gxPlxyXG5cclxuICAgPGRpdj5cclxuICAgICA8cD5BQ1QgU2NvcmUgb2YgMTkgb3IgQmVsb3cgJiYgR1BBIDBmIDIuMCAtIDIuNSA8L3A+IFxyXG4gICAgIDxCdXR0b24gbGFiZWwgPSBcIlNIT1dcIiB1cmwgPSBcIi90ZXhhc19zY2hvb2xzXzEwMFwiLz4gXHJcbiAgICA8L2Rpdj5cclxuICAgICAgICBcclxuXHJcbiAgICAgPGRpdj48cD5BQ1QgU2NvcmUgb2YgMjAgLSAyMSAgJiYgR1BBIDBmIDIuMCAtIDMuMCA8L3A+XHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiIHVybCA9IFwiL3RleGFzX3NjaG9vbHNfdHdvXCIvPlxyXG4gICAgIDwvZGl2PlxyXG4gICAgIDxkaXY+PHA+QUNUIFNjb3JlIG9mIDIyIC0gMjUgICYmIEdQQSAwZiAyLjUgLSAzLjUgPC9wPlxyXG4gICAgIDxCdXR0b24gbGFiZWwgPSBcIlNIT1dcIi8+XHJcbiAgICAgPC9kaXY+XHJcbiAgICAgXHJcbiAgICAgPGRpdj48cD5BQ1QgU2NvcmUgb2YgMjYgYW5kIEFib3ZlICAmJiBHUEEgMGYgMy41IC0gNC4wIDwvcD5cclxuICAgICA8QnV0dG9uIGxhYmVsID0gXCJTSE9XXCIvPlxyXG4gICAgIDwvZGl2PlxyXG4gICAgIFxyXG4gICAgIDwvZGl2PlxyXG5cclxuICAgIDwvTGF5b3V0PlxyXG5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG98T3N3YWxkfFJvYm90bytDb25kZW5zZWQmZGlzcGxheT1zd2FwJyk7XHJcblxyXG4gICAgICAgXHJcbiAgICAgaDF7XHJcbiAgICAgIGNvbG9yOiM4MkI0NDE7XHJcbiAgICAgIGZvbnQtc2l6ZToyLjNlbTtcclxuICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgfVxyXG4gICAgcHtcclxuICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgZm9udC1zaXplOjEuM2VtO1xyXG4gICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgcGFkZGluZzoyMHB4O1xyXG4gICAgfVxyXG5cclxuXHJcbiAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgPC9kaXY+XHJcblxyXG4gICk7XHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgVGV4YXNTY2hvb2xzOyJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js */"));
+  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-3879602729{color:#82B441;font-size:2.3em;font-family:'Oswald',sans-serif;}p.jsx-3879602729{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;}.container.jsx-3879602729{padding:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzQ2dCLEFBRXNHLEFBSWxGLEFBSzhCLEFBSy9CLGFBQ2QsQ0FWaUIsZ0JBQ2tCLFlBSWxCLGdCQUNqQixJQUpBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCc7XHJcbmltcG9ydCBCdXR0b24gZnJvbSAnLi4vY29tcG9uZW50cy9CdXR0b24nXHJcblxyXG5cclxuXHJcbiBcclxuIFxyXG4gXHJcblxyXG5jb25zdCBUZXhhc1NjaG9vbHMgPSgpPT4ge1xyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lID0gXCJjb250YWluZXJcIj5cclxuICA8aDE+VGV4YXMgU2Nob29sczwvaDE+XHJcblxyXG4gICA8ZGl2PlxyXG4gICAgIDxwPkFDVCBTY29yZSBvZiAxOSBvciBCZWxvdyAmJiBHUEEgMGYgMi4wIC0gMi41IDwvcD4gXHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiIHVybCA9IFwiL3RleGFzX3NjaG9vbHNfMTAwXCIvPiBcclxuICAgIDwvZGl2PlxyXG4gICAgICAgIFxyXG5cclxuICAgICA8ZGl2PjxwPkFDVCBTY29yZSBvZiAyMCAtIDIxICAmJiBHUEEgMGYgMi4wIC0gMy4wIDwvcD5cclxuICAgICA8QnV0dG9uIGxhYmVsID0gXCJTSE9XXCIgdXJsID0gXCIvdGV4YXNfc2Nob29sc190d29cIi8+XHJcbiAgICAgPC9kaXY+XHJcbiAgICAgPGRpdj48cD5BQ1QgU2NvcmUgb2YgMjIgLSAyNSAgJiYgR1BBIDBmIDIuNSAtIDMuNSA8L3A+XHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiLz5cclxuICAgICA8L2Rpdj5cclxuICAgICBcclxuICAgICA8ZGl2PjxwPkFDVCBTY29yZSBvZiAyNiBhbmQgQWJvdmUgICYmIEdQQSAwZiAzLjUgLSA0LjAgPC9wPlxyXG4gICAgIDxCdXR0b24gbGFiZWwgPSBcIlNIT1dcIi8+XHJcbiAgICAgPC9kaXY+XHJcbiAgICAgXHJcbiAgICAgPC9kaXY+XHJcblxyXG4gICAgPC9MYXlvdXQ+XHJcblxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0b3xPc3dhbGR8Um9ib3RvK0NvbmRlbnNlZCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbiAgICAgICBcclxuICAgICBoMXtcclxuICAgICAgY29sb3I6IzgyQjQ0MTtcclxuICAgICAgZm9udC1zaXplOjIuM2VtO1xyXG4gICAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICB9XHJcbiAgICBwe1xyXG4gICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICBmb250LXNpemU6MS4zZW07XHJcbiAgICB9XHJcbiAgICAgICAgICBcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICBwYWRkaW5nOjIwcHg7XHJcbiAgICB9XHJcblxyXG5cclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuXHJcbiAgKTtcclxufVxyXG5leHBvcnQgZGVmYXVsdCBUZXhhc1NjaG9vbHM7Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TexasSchools);

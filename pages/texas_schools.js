@@ -1,7 +1,5 @@
 import Layout from '../components/MyLayout';
-import Link from 'next/link';
 import Button from '../components/Button'
-import Cards from '../components/Cards'
 
 
 
