@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\texas_schools_two.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -123,40 +123,31 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var HeaderTailwinds = function HeaderTailwinds() {
-  return __jsx("nav", {
-    className: "flex items-center justify-between flex-wrap bg-gray-300 p-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "w-full block flex-grow lg:flex lg:items-center lg:w-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "text-sm lg:flex-grow",
+
+function HeaderTailwinds() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      isExpanded = _useState[0],
+      toggleExpansion = _useState[1];
+
+  return __jsx("header", {
+    className: "bg-gray-300",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, __jsx("ul", {
-    className: "flex",
+  }, __jsx("div", {
+    className: "flex flex-wrap md:flex-no-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 10
     },
     __self: this
-  }, __jsx("li", {
-    className: "mr-6",
+  }, __jsx("div", {
+    className: "flex items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 11
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -167,77 +158,89 @@ var HeaderTailwinds = function HeaderTailwinds() {
     },
     __self: this
   }, __jsx("a", {
-    "class": "block mt-4 lg:inline-block lg:mt-0  text-lg text-blue-500 hover:text-blue-900 mr-4",
+    className: "font-bold text-blue-700 text-xl",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Home"))), __jsx("li", {
-    className: "mr-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
+  }, "Breakthrough College Fit Guide"))), __jsx("button", {
+    className: "block md:hidden border border-white flex items-center px-3 py-2 rounded text-blue-700",
+    onClick: function onClick() {
+      return toggleExpansion(!isExpanded);
     },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "texas_schools",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "block mt-4 lg:inline-block lg:mt-0 text-lg text-blue-500 hover:text-blue-900 mr-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "Texas Schools"))), __jsx("li", {
-    className: "mr-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/outside_texas",
+  }, __jsx("svg", {
+    className: "fill-current h-3 w-3",
+    viewBox: "0 0 20 20",
+    xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, __jsx("a", {
-    className: "block mt-4 lg:inline-block lg:mt-0 text-lg text-blue-500 hover:text-blue-900 mr-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Out of State Schools"))), __jsx("li", {
-    className: "mr-6",
+  }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/hbcu",
+  }, "Texas Schools"), __jsx("path", {
+    d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, __jsx("a", {
-    className: "block mt-4 lg:inline-block lg:mt-0  text-lg text-blue-500 hover:text-blue-900 mr-4",
+  }))), __jsx("ul", {
+    className: "".concat(isExpanded ? "block" : "hidden", " md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
-  }, "HBCUs")))))));
-};
+  }, [{
+    title: "Home",
+    route: "/"
+  }, {
+    title: "Texas Schools",
+    route: "/texas_schools"
+  }, {
+    title: "HBCUs",
+    route: "/hbcu"
+  }, {
+    title: "Out Of State Schools",
+    route: "/outside_texas"
+  }].map(function (navigationItem) {
+    return __jsx("li", {
+      className: "mt-3 md:mt-0 md:ml-6",
+      key: navigationItem.title,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: navigationItem.route,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "block text-blue-700",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, navigationItem.title)));
+  }))));
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (HeaderTailwinds);
 
@@ -286,144 +289,6 @@ var Layout = function Layout(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./components/SchoolList.js":
-/*!**********************************!*\
-  !*** ./components/SchoolList.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\SchoolList.js";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-var SchoolList = function SchoolList(props) {
-  return __jsx("div", {
-    className: "jsx-3506793901",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-3506793901" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-3506793901",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "jsx-3506793901",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, props.name))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3506793901",
-    __self: this
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-3506793901{color:#0074C8;font-size:2.3em;font-family:'Oswald',sans-serif;}p.jsx-3506793901{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;padding:20px;}.container.jsx-3506793901{padding:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxTY2hvb2xMaXN0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCZ0IsQUFFc0csQUFJbEYsQUFLOEIsQUFNL0IsYUFDZCxDQVhpQixnQkFDa0IsWUFJbEIsZ0JBQ0gsSUFKZCxTQUtBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxTY2hvb2xMaXN0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0JztcclxuXHJcblxyXG5cclxuY29uc3QgU2Nob29sTGlzdCA9KHByb3BzKT0+IHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgIFxyXG4gICAgPGRpdiBjbGFzc05hbWUgPSBcImNvbnRhaW5lclwiPlxyXG4gIFxyXG4gIDxkaXY+XHJcbiAgICA8cD57cHJvcHMubmFtZX08L3A+XHJcbiAgPC9kaXY+XHJcblxyXG4gICA8L2Rpdj5cclxuICAgIFxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0b3xPc3dhbGR8Um9ib3RvK0NvbmRlbnNlZCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbiAgICAgICBcclxuICAgICBoMXtcclxuICAgICAgY29sb3I6IzAwNzRDODtcclxuICAgICAgZm9udC1zaXplOjIuM2VtO1xyXG4gICAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICB9XHJcbiAgICBwe1xyXG4gICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICBmb250LXNpemU6MS4zZW07XHJcbiAgICAgIHBhZGRpbmc6MjBweDtcclxuICAgIH1cclxuICAgICAgICAgIFxyXG4gICAgLmNvbnRhaW5lciB7XHJcbiAgICAgIHBhZGRpbmc6MjBweDtcclxuICAgIH1cclxuXHJcblxyXG4gICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG5cclxuICAgIFxyXG4gICAgICBcclxuICApO1xyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBTY2hvb2xMaXN0Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\SchoolList.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SchoolList);
-
-/***/ }),
-
-/***/ "./data/texas_schools/texas_schools_two.js":
-/*!*************************************************!*\
-  !*** ./data/texas_schools/texas_schools_two.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var texas_school_two = [{
-  id: 5,
-  name: "Howard Payne University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 6,
-  name: "Midwestern State University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 7,
-  name: "Our lady of the Lake University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 8,
-  name: "Southwestern Advent University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 9,
-  name: "Tarleton State University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 10,
-  name: "Texas A&M University - Commerce",
-  act: 101,
-  gpa: 201
-}, {
-  id: 11,
-  name: "Texas Lutheran University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 12,
-  name: "Texas Woman’s University",
-  act: 101,
-  gpa: 201
-}, {
-  id: 13,
-  name: "The University of Texas at El Paso",
-  act: 101,
-  gpa: 201
-}, {
-  id: 14,
-  name: "The University of Texas of the Permian Basin",
-  act: 101,
-  gpa: 201
-}, {
-  id: 15,
-  name: "The University of Texas Rio Grande",
-  act: 101,
-  gpa: 201
-}, {
-  id: 16,
-  name: "The University of North Texas at Dallas",
-  act: 101,
-  gpa: 201
-}, {
-  id: 17,
-  name: "West Texas A & M University",
-  act: 101,
-  gpa: 201
-}];
-/* harmony default export */ __webpack_exports__["default"] = (texas_school_two);
 
 /***/ }),
 
@@ -4859,21 +4724,21 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools_two&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools_two.js!./":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools_two&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools_two.js ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cindex.js!./":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cindex.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/texas_schools_two", function() {
-      var mod = __webpack_require__(/*! ./pages/texas_schools_two.js */ "./pages/texas_schools_two.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/texas_schools_two.js */ "./pages/texas_schools_two.js", function() {
-          if(!next.router.components["/texas_schools_two"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/texas_schools_two.js */ "./pages/texas_schools_two.js")
-          next.router.update("/texas_schools_two", updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -11348,78 +11213,136 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/texas_schools_two.js":
-/*!************************************!*\
-  !*** ./pages/texas_schools_two.js ***!
-  \************************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_SchoolList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SchoolList */ "./components/SchoolList.js");
-/* harmony import */ var _data_texas_schools_texas_schools_two__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/texas_schools/texas_schools_two */ "./data/texas_schools/texas_schools_two.js");
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools_two.js";
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-
-
-var TexasSchoolsTwo = function TexasSchoolsTwo() {
-  return __jsx("div", {
-    className: "jsx-1142115243",
+function Blog() {
+  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-879918788",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx("h1", {
+    className: "jsx-879918788",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, __jsx("h3", {
-    className: "jsx-1142115243",
+  }, "COLLEGE FIT GUIDE"), __jsx("p", {
+    className: "jsx-879918788",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "ACT Score of 20 - 21 && GPA 0f 2.0 - 3.0"), _data_texas_schools_texas_schools_two__WEBPACK_IMPORTED_MODULE_3__["default"].map(function (name) {
-    return __jsx(_components_SchoolList__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      name: name.name,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
-    });
-  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1142115243",
+  }, "HOW TO USE THE GUIDE: We designed this guide to be useful to you, Breakthrough students and families! We\u2019ve completed hundreds of hours of research to find out which colleges are best serving first-generation college students. We looked closely at graduation rates and average net price to determine which colleges are out-performing other colleges in graduating their students without placing a heavy financial burden on them, and we are including the colleges that we consider to be \u201Cbest in class\u201D in these two categories. We know other factors are important in choosing a college as well, so we also included other data points related to a university\u2019s academic, financial, and social profile. We know choosing a college is a very personal decision and you will consider many different factors, and we hope this guide will provide useful information to help you in this process! "), __jsx("p", {
+    className: "jsx-879918788" + " " + "terms",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
     __self: this
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-1142115243{font-family:'Oswald',sans-serif;background-color:#0074C8;color:white;padding:10px;}.dcu.jsx-1142115243{cursor:pointer;}.dcu.jsx-1142115243: hover.jsx-1142115243{background-color:yellow;}.one.jsx-1142115243{background-color:#E2E2E2;margin:0 20px;}h2.jsx-1142115243{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;padding:10px;}span.jsx-1142115243{color:#0074C8;font-family:'Roboto Condensed',sans-serif;}p.jsx-1142115243{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;padding:20px;}iframe.jsx-1142115243{padding:0 20px;}h3.jsx-1142115243{font-size:1.3em;font-family:'Oswald',sans-serif;color:#0074C8;margin:10px 20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29sc190d28uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJ3QixBQUVtSCxBQUdyRSxBQU9sQixBQUlTLEFBSUEsQUFJbUIsQUFLOUIsQUFPOEIsQUFPN0IsQUFJRixjQWpCK0IsQ0FoQi9DLEFBOEJBLENBSWtDLFFBOUJsQyxDQUdpQixPQWZXLE9BZ0I1QixHQUdrQixBQVlDLE1BWUosUUF2QkUsQUFPakIsQ0ExQmUsQ0ErQkMsSUFZQyxPQTFDRCxBQW1CWixFQWFKLFFBWUgsR0ExQ0ciLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXHBhZ2VzXFx0ZXhhc19zY2hvb2xzX3R3by5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBTY2hvb2xMaXN0IGZyb20gJy4uL2NvbXBvbmVudHMvU2Nob29sTGlzdCdcclxuaW1wb3J0IHRleGFzX3NjaG9vbF90d28gZnJvbSAnLi4vZGF0YS90ZXhhc19zY2hvb2xzL3RleGFzX3NjaG9vbHNfdHdvJ1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQnXHJcbiBcclxuXHJcblxyXG5cclxuY29uc3QgVGV4YXNTY2hvb2xzVHdvID0gKCk9PiB7XHJcbiAgXHJcbiAgICByZXR1cm4oXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgPExheW91dD5cclxuICAgICAgICAgICAgPGgzPkFDVCBTY29yZSBvZiAyMCAtIDIxICYmIEdQQSAwZiAyLjAgLSAzLjA8L2gzPlxyXG4gICAgICAgICAgICAgICAge3RleGFzX3NjaG9vbF90d28ubWFwKG5hbWUgPT4gPFNjaG9vbExpc3QgXHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIG5hbWUgPSB7bmFtZS5uYW1lfSAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAvPil9XHJcbiAgICAgICAgICAgIDwvTGF5b3V0PlxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG98T3N3YWxkfFJvYm90bytDb25kZW5zZWQmZGlzcGxheT1zd2FwJyk7XHJcblxyXG4gICAgICAgIGgxIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiMwMDc0Qzg7XHJcbiAgICAgICAgICAgIGNvbG9yOndoaXRlO1xyXG4gICAgICAgICAgICBwYWRkaW5nOjEwcHg7XHJcblxyXG4gICAgICAgIH1cclxuICAgICAgICAuZGN1e1xyXG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcblxyXG4gICAgICAgIH1cclxuICAgICAgICAuZGN1IDogaG92ZXIge1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XHJcblxyXG4gICAgICAgIH1cclxuICAgICAgICAub25lIHtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojRTJFMkUyO1xyXG4gICAgICAgICAgICBtYXJnaW46MCAyMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICBoMntcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgIGNvbG9yOiNGQTlEMUM7XHJcbiAgICAgICAgICAgICBwYWRkaW5nOjEwcHg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBzcGFuIHtcclxuICAgICAgICAgICAgY29sb3I6IzAwNzRDODtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuXHJcblxyXG4gICAgICAgIH1cclxuICAgICAgIFxyXG4gICAgICAgIHAge1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICBmb250LXNpemU6MS4zZW07XHJcbiAgICAgICAgICAgIHBhZGRpbmc6MjBweDtcclxuXHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBpZnJhbWV7XHJcbiAgICAgICAgICAgIHBhZGRpbmc6MCAyMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICBoM3tcclxuICAgICAgICAgZm9udC1zaXplOjEuM2VtO1xyXG4gICAgICAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgIGNvbG9yOiAjMDA3NEM4O1xyXG4gICAgICAgICBtYXJnaW46MTBweCAyMHB4O1xyXG5cclxuICAgICB9XHJcbiAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG5cclxuXHJcbiAgICApXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG59XHJcblxyXG5cclxuZXhwb3J0IGRlZmF1bHQgVGV4YXNTY2hvb2xzVHdvIl19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools_two.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (TexasSchoolsTwo);
+  }, "Below are important terms you\u2019ll find in the guide, along with their definitions:"), __jsx("h2", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "LEVEL OF SELECTIVITY"), __jsx("p", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "This refers to a college\u2019s admissions process. A school that is more or most selective has higher standards for admissions requirements and admits fewer students, whereas a school that is less or least selective offers admission to more students."), __jsx("h2", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "GRADUATION RATES"), " ", __jsx("p", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "This refers to the rate at which students at a particular institution receive bachelor\u2019s degrees within six years or less. For this guide we intentionally included the graduation rates for students who receive Pell grants at that institution, since most Breakthrough students qualify for Pell grants."), __jsx("h2", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "AVERAGE NET PRICE"), __jsx("p", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "The \u201Caverage net price\u201D of a college is defined as the school\u2019s \u201Csticker price\u201D (published cost of attendance) minus the average dollar amount of grants and scholarships awarded to students ; in other words, the \u201Caverage net price\u201D allows us to see the \u201Cfinancial gap\u201D (before loans) that our students will likely face if they are accepted to that college.  This tells us how much the \u201Caverage\u201D student will need to cover out of pocket, often assisted by borrowing student loans, in order to be able to attend that school.  "), __jsx("h2", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS"), __jsx("p", {
+    className: "jsx-879918788",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "This refers to programs that specifically support first-generation or other underrepresented students on that campus."), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "879918788",
+    __self: this
+  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-879918788{color:#0074C8;font-size:2.3em;font-family:'Oswald',sans-serif;}h2.jsx-879918788{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;font-size:2em;}p.jsx-879918788{font-size:16px;font-family:'Lato',sans-serif;}.terms.jsx-879918788{font-size:1.3em;}div.jsx-879918788{margin:2em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkNZLEFBRTJHLEFBSW5GLEFBYTRCLEFBTzVCLEFBTUMsQUFJTCxXQUNaLEdBOUJrQixDQW9CZSxDQU1qQyxjQXpCb0MsWUFZdEIsR0FVZCxXQVRjLE1BVmIsUUFXRiIsImZpbGUiOiJDOlxcVXNlcnNcXEpvaG5uaWVHXFxEZXNrdG9wXFxjb2xsZWdlLWZpdC1ndWlkZVxccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0JztcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcblxyXG5cclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCbG9nKCkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8TGF5b3V0PlxyXG4gICAgICA8ZGl2PlxyXG4gICAgICA8aDE+Q09MTEVHRSBGSVQgR1VJREU8L2gxPlxyXG4gICAgICA8cD5IT1cgVE8gVVNFIFRIRSBHVUlERTogICBcclxuV2UgZGVzaWduZWQgdGhpcyBndWlkZSB0byBiZSB1c2VmdWwgdG8geW91LCBCcmVha3Rocm91Z2ggc3R1ZGVudHMgYW5kIGZhbWlsaWVzISBcclxuV2XigJl2ZSBjb21wbGV0ZWQgaHVuZHJlZHMgb2YgaG91cnMgb2YgcmVzZWFyY2ggdG8gZmluZCBvdXQgd2hpY2ggY29sbGVnZXMgYXJlIGJlc3Qgc2VydmluZyBcclxuZmlyc3QtZ2VuZXJhdGlvbiBjb2xsZWdlIHN0dWRlbnRzLiBXZSBsb29rZWQgY2xvc2VseSBhdCBncmFkdWF0aW9uIHJhdGVzIGFuZCBhdmVyYWdlIG5ldCBwcmljZSB0byBcclxuZGV0ZXJtaW5lIHdoaWNoIGNvbGxlZ2VzIGFyZSBvdXQtcGVyZm9ybWluZyBvdGhlciBjb2xsZWdlcyBpbiBncmFkdWF0aW5nIHRoZWlyIHN0dWRlbnRzIHdpdGhvdXRcclxuIHBsYWNpbmcgYSBoZWF2eSBmaW5hbmNpYWwgYnVyZGVuIG9uIHRoZW0sIGFuZCB3ZSBhcmUgaW5jbHVkaW5nIHRoZSBjb2xsZWdlcyB0aGF0IHdlIGNvbnNpZGVyIHRvIFxyXG4gYmUg4oCcYmVzdCBpbiBjbGFzc+KAnSBpbiB0aGVzZSB0d28gY2F0ZWdvcmllcy4gV2Uga25vdyBvdGhlciBmYWN0b3JzIGFyZSBpbXBvcnRhbnQgaW4gY2hvb3NpbmcgYSBcclxuIGNvbGxlZ2UgYXMgd2VsbCwgc28gd2UgYWxzbyBpbmNsdWRlZCBvdGhlciBkYXRhIHBvaW50cyByZWxhdGVkIHRvIGEgdW5pdmVyc2l0eeKAmXMgYWNhZGVtaWMsIFxyXG4gZmluYW5jaWFsLCBhbmQgc29jaWFsIHByb2ZpbGUuIFdlIGtub3cgY2hvb3NpbmcgYSBjb2xsZWdlIGlzIGEgdmVyeSBwZXJzb25hbCBkZWNpc2lvbiBhbmQgeW91IHdpbGwgXHJcbiBjb25zaWRlciBtYW55IGRpZmZlcmVudCBmYWN0b3JzLCBhbmQgd2UgaG9wZSB0aGlzIGd1aWRlIHdpbGwgcHJvdmlkZSB1c2VmdWwgaW5mb3JtYXRpb24gdG8gaGVscCB5b3UgaW4gXHJcbiB0aGlzIHByb2Nlc3MhIDwvcD4gXHJcbjxwIGNsYXNzTmFtZSA9IFwidGVybXNcIj5CZWxvdyBhcmUgaW1wb3J0YW50IHRlcm1zIHlvdeKAmWxsIGZpbmQgaW4gdGhlIGd1aWRlLCBhbG9uZyB3aXRoIHRoZWlyIGRlZmluaXRpb25zOjwvcD4gICBcclxuPGgyPkxFVkVMIE9GIFNFTEVDVElWSVRZPC9oMj4gXHJcbjxwPlRoaXMgcmVmZXJzIHRvIGEgY29sbGVnZeKAmXMgYWRtaXNzaW9ucyBwcm9jZXNzLiBBIHNjaG9vbCB0aGF0IGlzIG1vcmUgb3IgbW9zdCBcclxuc2VsZWN0aXZlIGhhcyBoaWdoZXIgc3RhbmRhcmRzIGZvciBhZG1pc3Npb25zIHJlcXVpcmVtZW50cyBhbmQgYWRtaXRzIGZld2VyIHN0dWRlbnRzLCB3aGVyZWFzIGEgc2Nob29sIFxyXG50aGF0IGlzIGxlc3Mgb3IgbGVhc3Qgc2VsZWN0aXZlIG9mZmVycyBhZG1pc3Npb24gdG8gbW9yZSBzdHVkZW50cy48L3A+XHJcblxyXG48aDI+R1JBRFVBVElPTiBSQVRFUzwvaDI+IDxwPlRoaXMgcmVmZXJzIHRvIHRoZSByYXRlIGF0IHdoaWNoIHN0dWRlbnRzIGF0IGEgcGFydGljdWxhciBpbnN0aXR1dGlvbiByZWNlaXZlIGJhY2hlbG9y4oCZcyBcclxuZGVncmVlcyB3aXRoaW4gc2l4IHllYXJzIG9yIGxlc3MuIEZvciB0aGlzIGd1aWRlIHdlIGludGVudGlvbmFsbHkgaW5jbHVkZWQgdGhlIGdyYWR1YXRpb24gcmF0ZXMgZm9yIHN0dWRlbnRzIFxyXG53aG8gcmVjZWl2ZSBQZWxsIGdyYW50cyBhdCB0aGF0IGluc3RpdHV0aW9uLCBzaW5jZSBtb3N0IEJyZWFrdGhyb3VnaCBzdHVkZW50cyBxdWFsaWZ5IGZvciBQZWxsIGdyYW50cy5cclxuPC9wPiAgXHJcbjxoMj5BVkVSQUdFIE5FVCBQUklDRTwvaDI+IFxyXG48cD5UaGUg4oCcYXZlcmFnZSBuZXQgcHJpY2XigJ0gb2YgYSBjb2xsZWdlIGlzIGRlZmluZWQgYXMgdGhlIHNjaG9vbOKAmXMg4oCcc3RpY2tlciBwcmljZeKAnSBcclxuKHB1Ymxpc2hlZCBjb3N0IG9mIGF0dGVuZGFuY2UpIG1pbnVzIHRoZSBhdmVyYWdlIGRvbGxhciBhbW91bnQgb2YgZ3JhbnRzIGFuZCBzY2hvbGFyc2hpcHMgYXdhcmRlZCB0byBcclxuc3R1ZGVudHMgOyBpbiBvdGhlciB3b3JkcywgdGhlIOKAnGF2ZXJhZ2UgbmV0IHByaWNl4oCdIGFsbG93cyB1cyB0byBzZWUgdGhlIOKAnGZpbmFuY2lhbCBnYXDigJ0gKGJlZm9yZSBsb2FucykgXHJcbnRoYXQgb3VyIHN0dWRlbnRzIHdpbGwgbGlrZWx5IGZhY2UgaWYgdGhleSBhcmUgYWNjZXB0ZWQgdG8gdGhhdCBjb2xsZWdlLiAgVGhpcyB0ZWxscyB1cyBob3cgbXVjaCB0aGUgXHJcbuKAnGF2ZXJhZ2XigJ0gc3R1ZGVudCB3aWxsIG5lZWQgdG8gY292ZXIgb3V0IG9mIHBvY2tldCwgb2Z0ZW4gYXNzaXN0ZWQgYnkgYm9ycm93aW5nIHN0dWRlbnQgbG9hbnMsIGluIG9yZGVyIFxyXG50byBiZSBhYmxlIHRvIGF0dGVuZCB0aGF0IHNjaG9vbC4gIDwvcD5cclxuXHJcbjxoMj5QUk9HUkFNUyBUSEFUIFNVUFBPUlQgRklSU1QtR0VOIFNUVURFTlRTIE9OIENBTVBVUzwvaDI+IFxyXG48cD5UaGlzIHJlZmVycyB0byBwcm9ncmFtcyB0aGF0IHNwZWNpZmljYWxseSBzdXBwb3J0IFxyXG5maXJzdC1nZW5lcmF0aW9uIG9yIG90aGVyIHVuZGVycmVwcmVzZW50ZWQgc3R1ZGVudHMgb24gdGhhdCBjYW1wdXMuICBcclxuPC9wPlxyXG48c3R5bGUganN4PntgXHJcbiAgICAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG98T3N3YWxkfFJvYm90bytDb25kZW5zZWQmZGlzcGxheT1zd2FwJyk7XHJcbiAgICAgICAgICBcclxuICAgICAgICAgIFxyXG4gICAgICAgICAgaDF7XHJcbiAgICAgICAgICBjb2xvcjojMDA3NEM4O1xyXG4gICAgICAgICAgZm9udC1zaXplOjIuM2VtO1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG5cclxuXHJcbiAgICAgICAgfVxyXG4gICAgICAgICAgXHJcblxyXG5cclxuXHJcbiAgICAgICAgaDJ7XHJcbiAgICAgICAgICBcclxuICAgICAgICAgIFxyXG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgY29sb3I6I0ZBOUQxQztcclxuICAgICAgICBmb250LXNpemU6MmVtO1xyXG4gICAgICB9XHJcblxyXG5cclxuICAgICAgIHB7XHJcbiAgICAgICAgIGZvbnQtc2l6ZToxNnB4O1xyXG4gICAgICAgICBmb250LWZhbWlseTogJ0xhdG8nLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICBcclxuXHJcbiAgICAgICB9XHJcbiAgICAgICAudGVybXN7XHJcbiAgICAgICAgIGZvbnQtc2l6ZToxLjNlbTtcclxuICAgICAgIH1cclxuXHJcbiAgICAgICBkaXYge1xyXG4gICAgICAgICBtYXJnaW46MmVtO1xyXG4gICAgICAgfVxyXG4gICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC9kaXY+XHJcbiAgICA8L0xheW91dD5cclxuICAgXHJcbiAgKTtcclxufSJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\index.js */")));
+}
 
 /***/ }),
 
-/***/ 3:
-/*!**********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Ftexas_schools_two&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools_two.js ***!
-  \**********************************************************************************************************************************************************************/
+/***/ 0:
+/*!*****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cindex.js ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftexas_schools_two&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools_two.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools_two&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools_two.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -11435,5 +11358,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=texas_schools_two.js.map
+},[[0,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=index.js.map
