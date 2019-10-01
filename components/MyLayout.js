@@ -1,10 +1,11 @@
 import Header from './Header';
+import HeaderTailwinds from './HeaderTailwinds'
 
 
 
 const Layout = props => (
     <div >
-        <Header />
+        <HeaderTailwinds />
         {props.children}
         <style jsx>{`
         div {

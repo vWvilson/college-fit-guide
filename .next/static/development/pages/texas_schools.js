@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\hello-next\\components\\Button.js";
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\Button.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -47,7 +47,7 @@ var Button = function Button(props) {
   }, props.label)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "4200166092",
     __self: this
-  }, "button.jsx-4200166092{cursor:pointer;background:#FA9D1C;font-size:16px;border-radius:7px;color:white;border:2px solid #FA9D1C;margin:0 1em;padding:0.25em .5em;-webkit-transition:0.5s all ease-out;transition:0.5s all ease-out;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGhlbGxvLW5leHRcXGNvbXBvbmVudHNcXEJ1dHRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXb0IsQUFHNEIsZUFDSSxtQkFDSixlQUNHLGtCQUNOLFlBQ2EseUJBQ1osYUFDTyxvQkFDUyxrRUFDakMiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcaGVsbG8tbmV4dFxcY29tcG9uZW50c1xcQnV0dG9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcblxyXG5jb25zdCBCdXR0b24gPSAocHJvcHMpID0+IHtcclxuICAgIHJldHVybihcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgIDxMaW5rIHRvIGhyZWYgPSB7cHJvcHMudXJsfT5cclxuICAgICAgICA8YnV0dG9uPlxyXG4gICAgICAgICAgICB7cHJvcHMubGFiZWx9XHJcbiAgICAgICAgPC9idXR0b24+XHJcbiAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBidXR0b24ge1xyXG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGQTlEMUM7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogN3B4O1xyXG4gICAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkICNGQTlEMUM7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMCAxZW07XHJcbiAgICAgICAgICAgIHBhZGRpbmc6IDAuMjVlbSAuNWVtO1xyXG4gICAgICAgICAgICB0cmFuc2l0aW9uOiAwLjVzIGFsbCBlYXNlLW91dDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICAgIFxyXG5cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgICBcclxuXHJcbiBcclxuICBcclxuIFxyXG4gICAgKX07XHJcblxyXG5cclxuXHJcbiAgXHJcbiAgICBcclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBCdXR0b247Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\hello-next\\components\\Button.js */"));
+  }, "button.jsx-4200166092{cursor:pointer;background:#FA9D1C;font-size:16px;border-radius:7px;color:white;border:2px solid #FA9D1C;margin:0 1em;padding:0.25em .5em;-webkit-transition:0.5s all ease-out;transition:0.5s all ease-out;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxCdXR0b24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBV29CLEFBRzRCLGVBQ0ksbUJBQ0osZUFDRyxrQkFDTixZQUNhLHlCQUNaLGFBQ08sb0JBQ1Msa0VBQ2pDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxCdXR0b24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5cclxuXHJcbmNvbnN0IEJ1dHRvbiA9IChwcm9wcykgPT4ge1xyXG4gICAgcmV0dXJuKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgPExpbmsgdG8gaHJlZiA9IHtwcm9wcy51cmx9PlxyXG4gICAgICAgIDxidXR0b24+XHJcbiAgICAgICAgICAgIHtwcm9wcy5sYWJlbH1cclxuICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGJ1dHRvbiB7XHJcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZBOUQxQztcclxuICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiA3cHg7XHJcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgYm9yZGVyOiAycHggc29saWQgI0ZBOUQxQztcclxuICAgICAgICAgICAgbWFyZ2luOiAwIDFlbTtcclxuICAgICAgICAgICAgcGFkZGluZzogMC4yNWVtIC41ZW07XHJcbiAgICAgICAgICAgIHRyYW5zaXRpb246IDAuNXMgYWxsIGVhc2Utb3V0O1xyXG4gICAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgXHJcblxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgIFxyXG5cclxuIFxyXG4gIFxyXG4gXHJcbiAgICApfTtcclxuXHJcblxyXG5cclxuICBcclxuICAgIFxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEJ1dHRvbjsiXX0= */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\Button.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Button);
@@ -69,7 +69,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\hello-next\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\Header.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -149,10 +149,151 @@ var Header = function Header() {
   }, "Historically Black Colleges & Universities")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1210170743",
     __self: this
-  }, "@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');a.jsx-1210170743{-webkit-text-decoration:none;text-decoration:none;font-family:'Ubuntu',sans-serif;color:white;}a.jsx-1210170743{font-size:1em;}div.jsx-1210170743{background:#004464;height:20vh;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGhlbGxvLW5leHRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1QmdCLEFBRStFLEFBRW5ELEFBU0wsQUFLSyxjQUhwQixLQUlhLFlBQ2IsbUJBZmlDLGdDQUN0QixZQUlaIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGhlbGxvLW5leHRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcblxyXG5jb25zdCBsaW5rU3R5bGUgPSB7XHJcbiAgbWFyZ2luUmlnaHQ6IDE1XHJcbn07XHJcblxyXG5jb25zdCBIZWFkZXIgPSAoKSA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkhvbWU8L2E+XHJcbiAgICA8L0xpbms+XHJcblxyXG4gICAgPExpbmsgaHJlZj1cIi90ZXhhc19zY2hvb2xzXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PlRleGFzIFNjaG9vbHM8L2E+XHJcbiAgICA8L0xpbms+XHJcblxyXG4gICAgPExpbmsgaHJlZiA9XCIvb3V0c2lkZV90ZXhhc1wiPlxyXG4gICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+U2Nob29scyBvdXRzaWRlIG9mIFRleGFzPC9hPlxyXG4gICAgPC9MaW5rPlxyXG5cclxuICAgIDxMaW5rIGhyZWYgPVwiL2hiY3VcIj5cclxuICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9Pkhpc3RvcmljYWxseSBCbGFjayBDb2xsZWdlcyAmIFVuaXZlcnNpdGllczwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9VWJ1bnR1JmRpc3BsYXk9c3dhcCcpO1xyXG4gICAgICBhe1xyXG4gICAgICAgdGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcbiAgICAgICBmb250LWZhbWlseTogJ1VidW50dScsIHNhbnMtc2VyaWY7XHJcbiAgICAgICBjb2xvcjp3aGl0ZTtcclxuICAgICAgIFxyXG5cclxuICAgICAgIFxyXG4gICAgICB9XHJcbiAgICAgIFxyXG4gICAgICAgYSB7XHJcbiAgICAgICAgIGZvbnQtc2l6ZToxZW07XHJcblxyXG4gICAgICAgfVxyXG4gICAgICAgXHJcbiAgICAgICBkaXYge1xyXG4gICAgICAgICBiYWNrZ3JvdW5kOiMwMDQ0NjQ7XHJcbiAgICAgICAgIGhlaWdodDoyMHZoO1xyXG4gICAgICAgfVxyXG5cclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICBcclxuICA8L2Rpdj5cclxuKTtcclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBIZWFkZXI7Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\hello-next\\components\\Header.js */"));
+  }, "@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');a.jsx-1210170743{-webkit-text-decoration:none;text-decoration:none;font-family:'Ubuntu',sans-serif;color:white;}a.jsx-1210170743{font-size:1em;}div.jsx-1210170743{background:#004464;height:20vh;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxIZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUJnQixBQUUrRSxBQUVuRCxBQVNMLEFBS0ssY0FIcEIsS0FJYSxZQUNiLG1CQWZpQyxnQ0FDdEIsWUFJWiIsImZpbGUiOiJDOlxcVXNlcnNcXEpvaG5uaWVHXFxEZXNrdG9wXFxjb2xsZWdlLWZpdC1ndWlkZVxcY29tcG9uZW50c1xcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTVcclxufTtcclxuXHJcbmNvbnN0IEhlYWRlciA9ICgpID0+IChcclxuICA8ZGl2PlxyXG4gICAgPExpbmsgaHJlZj1cIi9cIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+SG9tZTwvYT5cclxuICAgIDwvTGluaz5cclxuXHJcbiAgICA8TGluayBocmVmPVwiL3RleGFzX3NjaG9vbHNcIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+VGV4YXMgU2Nob29sczwvYT5cclxuICAgIDwvTGluaz5cclxuXHJcbiAgICA8TGluayBocmVmID1cIi9vdXRzaWRlX3RleGFzXCI+XHJcbiAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5TY2hvb2xzIG91dHNpZGUgb2YgVGV4YXM8L2E+XHJcbiAgICA8L0xpbms+XHJcblxyXG4gICAgPExpbmsgaHJlZiA9XCIvaGJjdVwiPlxyXG4gICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+SGlzdG9yaWNhbGx5IEJsYWNrIENvbGxlZ2VzICYgVW5pdmVyc2l0aWVzPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1VYnVudHUmZGlzcGxheT1zd2FwJyk7XHJcbiAgICAgIGF7XHJcbiAgICAgICB0ZXh0LWRlY29yYXRpb246bm9uZTtcclxuICAgICAgIGZvbnQtZmFtaWx5OiAnVWJ1bnR1Jywgc2Fucy1zZXJpZjtcclxuICAgICAgIGNvbG9yOndoaXRlO1xyXG4gICAgICAgXHJcblxyXG4gICAgICAgXHJcbiAgICAgIH1cclxuICAgICAgXHJcbiAgICAgICBhIHtcclxuICAgICAgICAgZm9udC1zaXplOjFlbTtcclxuXHJcbiAgICAgICB9XHJcbiAgICAgICBcclxuICAgICAgIGRpdiB7XHJcbiAgICAgICAgIGJhY2tncm91bmQ6IzAwNDQ2NDtcclxuICAgICAgICAgaGVpZ2h0OjIwdmg7XHJcbiAgICAgICB9XHJcblxyXG4gICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIFxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjsiXX0= */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\Header.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/HeaderTailwinds.js":
+/*!***************************************!*\
+  !*** ./components/HeaderTailwinds.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.css */ "./styles/main.css");
+/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\HeaderTailwinds.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var HeaderTailwinds = function HeaderTailwinds() {
+  return __jsx("nav", {
+    className: "flex items-center justify-between flex-wrap bg-gray-300 p-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "w-full block flex-grow lg:flex lg:items-center lg:w-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "text-sm lg:flex-grow",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("ul", {
+    className: "flex",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx("li", {
+    className: "mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("a", {
+    "class": "block mt-4 lg:inline-block lg:mt-0  text-lg text-blue-500 hover:text-blue-900 mr-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Home"))), __jsx("li", {
+    className: "mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "texas_schools",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "block mt-4 lg:inline-block lg:mt-0 text-lg text-blue-500 hover:text-blue-900 mr-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Texas Schools"))), __jsx("li", {
+    className: "mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/outside_texas",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "block mt-4 lg:inline-block lg:mt-0 text-lg text-blue-500 hover:text-blue-900 mr-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Out of State Schools"))), __jsx("li", {
+    className: "mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/hbcu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "block mt-4 lg:inline-block lg:mt-0  text-lg text-blue-500 hover:text-blue-900 mr-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "HBCUs")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (HeaderTailwinds);
 
 /***/ }),
 
@@ -170,10 +311,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\hello-next\\components\\MyLayout.js";
+/* harmony import */ var _HeaderTailwinds__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HeaderTailwinds */ "./components/HeaderTailwinds.js");
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\MyLayout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 var Layout = function Layout(props) {
@@ -181,19 +324,19 @@ var Layout = function Layout(props) {
     className: "jsx-3060885451",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
-  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_HeaderTailwinds__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3060885451",
     __self: this
-  }, "div.jsx-3060885451{margin:20px;border:1px solid #DDD;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGhlbGxvLW5leHRcXGNvbXBvbmVudHNcXE15TGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFvQixBQUdzQixZQUVXLHNCQUV4QiIsImZpbGUiOiJDOlxcVXNlcnNcXEpvaG5uaWVHXFxEZXNrdG9wXFxoZWxsby1uZXh0XFxjb21wb25lbnRzXFxNeUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInO1xyXG5cclxuXHJcblxyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgICA8ZGl2ID5cclxuICAgICAgICA8SGVhZGVyIC8+XHJcbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBkaXYge1xyXG4gICAgICAgICAgbWFyZ2luOjIwcHg7XHJcbiAgICAgICAgIFxyXG4gICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI0RERDtcclxuXHJcbiAgICAgICAgfVxyXG4gICAgICAgXHJcbiAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG48L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IExheW91dCJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\hello-next\\components\\MyLayout.js */"));
+  }, "div.jsx-3060885451{margin:20px;border:1px solid #DDD;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxNeUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTb0IsQUFHc0IsWUFFVyxzQkFFeEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXGNvbXBvbmVudHNcXE15TGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlciBmcm9tICcuL0hlYWRlcic7XHJcbmltcG9ydCBIZWFkZXJUYWlsd2luZHMgZnJvbSAnLi9IZWFkZXJUYWlsd2luZHMnXHJcblxyXG5cclxuXHJcbmNvbnN0IExheW91dCA9IHByb3BzID0+IChcclxuICAgIDxkaXYgPlxyXG4gICAgICAgIDxIZWFkZXJUYWlsd2luZHMgLz5cclxuICAgICAgICB7cHJvcHMuY2hpbGRyZW59XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGRpdiB7XHJcbiAgICAgICAgICBtYXJnaW46MjBweDtcclxuICAgICAgICAgXHJcbiAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjREREO1xyXG5cclxuICAgICAgICB9XHJcbiAgICAgICBcclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbjwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\MyLayout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -4632,10 +4775,10 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Chello-next%5Cpages%5Ctexas_schools.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Chello-next%5Cpages%5Ctexas_schools.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11138,7 +11281,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Button */ "./components/Button.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\hello-next\\pages\\texas_schools.js";
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -11212,6 +11355,7 @@ var TexasSchools = function TexasSchools() {
     __self: this
   }, "ACT Score of 20 - 21  && GPA 0f 2.0 - 3.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
     label: "SHOW",
+    url: "/texas_schools_two",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -11262,21 +11406,21 @@ var TexasSchools = function TexasSchools() {
   })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3624837354",
     __self: this
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-3624837354{color:#0074C8;font-size:2.3em;font-family:'Oswald',sans-serif;}p.jsx-3624837354{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;}.container.jsx-3624837354{padding:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGhlbGxvLW5leHRcXHBhZ2VzXFx0ZXhhc19zY2hvb2xzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFDZ0IsQUFFc0csQUFJbEYsQUFLOEIsQUFLL0IsYUFDZCxDQVZpQixnQkFDa0IsWUFJbEIsZ0JBQ2pCLElBSkEiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcaGVsbG8tbmV4dFxccGFnZXNcXHRleGFzX3NjaG9vbHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQnO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgQnV0dG9uIGZyb20gJy4uL2NvbXBvbmVudHMvQnV0dG9uJ1xyXG5cclxuXHJcblxyXG4gXHJcbiBcclxuIFxyXG5cclxuY29uc3QgVGV4YXNTY2hvb2xzID0oKT0+IHtcclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXY+XHJcbiAgICA8TGF5b3V0PlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZSA9IFwiY29udGFpbmVyXCI+XHJcbiAgPGgxPlRleGFzIFNjaG9vbHM8L2gxPlxyXG5cclxuICAgPGRpdj5cclxuICAgICA8cD5BQ1QgU2NvcmUgb2YgMTkgb3IgQmVsb3cgJiYgR1BBIDBmIDIuMCAtIDIuNSA8L3A+IFxyXG4gICAgIDxCdXR0b24gbGFiZWwgPSBcIlNIT1dcIiB1cmwgPSBcIi90ZXhhc19zY2hvb2xzXzEwMFwiLz4gXHJcbiAgICA8L2Rpdj5cclxuICAgICAgICBcclxuXHJcbiAgICAgPGRpdj48cD5BQ1QgU2NvcmUgb2YgMjAgLSAyMSAgJiYgR1BBIDBmIDIuMCAtIDMuMCA8L3A+XHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiLz5cclxuICAgICA8L2Rpdj5cclxuICAgICA8ZGl2PjxwPkFDVCBTY29yZSBvZiAyMiAtIDI1ICAmJiBHUEEgMGYgMi41IC0gMy41IDwvcD5cclxuICAgICA8QnV0dG9uIGxhYmVsID0gXCJTSE9XXCIvPlxyXG4gICAgIDwvZGl2PlxyXG4gICAgIFxyXG4gICAgIDxkaXY+PHA+QUNUIFNjb3JlIG9mIDI2IGFuZCBBYm92ZSAgJiYgR1BBIDBmIDMuNSAtIDQuMCA8L3A+XHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiLz5cclxuICAgICA8L2Rpdj5cclxuICAgICBcclxuICAgICA8L2Rpdj5cclxuICAgIDwvTGF5b3V0PlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0b3xPc3dhbGR8Um9ib3RvK0NvbmRlbnNlZCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbiAgICAgICBcclxuICAgICBoMXtcclxuICAgICAgY29sb3I6IzAwNzRDODtcclxuICAgICAgZm9udC1zaXplOjIuM2VtO1xyXG4gICAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICB9XHJcbiAgICBwe1xyXG4gICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICBmb250LXNpemU6MS4zZW07XHJcbiAgICB9XHJcbiAgICAgICAgICBcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICBwYWRkaW5nOjIwcHg7XHJcbiAgICB9XHJcblxyXG5cclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuXHJcbiAgKTtcclxufVxyXG5leHBvcnQgZGVmYXVsdCBUZXhhc1NjaG9vbHM7Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\hello-next\\pages\\texas_schools.js */"));
+  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-3624837354{color:#0074C8;font-size:2.3em;font-family:'Oswald',sans-serif;}p.jsx-3624837354{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;}.container.jsx-3624837354{padding:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ2dCLEFBRXNHLEFBSWxGLEFBSzhCLEFBSy9CLGFBQ2QsQ0FWaUIsZ0JBQ2tCLFlBSWxCLGdCQUNqQixJQUpBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCc7XHJcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBCdXR0b24gZnJvbSAnLi4vY29tcG9uZW50cy9CdXR0b24nXHJcblxyXG5cclxuXHJcbiBcclxuIFxyXG4gXHJcblxyXG5jb25zdCBUZXhhc1NjaG9vbHMgPSgpPT4ge1xyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lID0gXCJjb250YWluZXJcIj5cclxuICA8aDE+VGV4YXMgU2Nob29sczwvaDE+XHJcblxyXG4gICA8ZGl2PlxyXG4gICAgIDxwPkFDVCBTY29yZSBvZiAxOSBvciBCZWxvdyAmJiBHUEEgMGYgMi4wIC0gMi41IDwvcD4gXHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiIHVybCA9IFwiL3RleGFzX3NjaG9vbHNfMTAwXCIvPiBcclxuICAgIDwvZGl2PlxyXG4gICAgICAgIFxyXG5cclxuICAgICA8ZGl2PjxwPkFDVCBTY29yZSBvZiAyMCAtIDIxICAmJiBHUEEgMGYgMi4wIC0gMy4wIDwvcD5cclxuICAgICA8QnV0dG9uIGxhYmVsID0gXCJTSE9XXCIgdXJsID0gXCIvdGV4YXNfc2Nob29sc190d29cIi8+XHJcbiAgICAgPC9kaXY+XHJcbiAgICAgPGRpdj48cD5BQ1QgU2NvcmUgb2YgMjIgLSAyNSAgJiYgR1BBIDBmIDIuNSAtIDMuNSA8L3A+XHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiLz5cclxuICAgICA8L2Rpdj5cclxuICAgICBcclxuICAgICA8ZGl2PjxwPkFDVCBTY29yZSBvZiAyNiBhbmQgQWJvdmUgICYmIEdQQSAwZiAzLjUgLSA0LjAgPC9wPlxyXG4gICAgIDxCdXR0b24gbGFiZWwgPSBcIlNIT1dcIi8+XHJcbiAgICAgPC9kaXY+XHJcbiAgICAgXHJcbiAgICAgPC9kaXY+XHJcbiAgICA8L0xheW91dD5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG98T3N3YWxkfFJvYm90bytDb25kZW5zZWQmZGlzcGxheT1zd2FwJyk7XHJcblxyXG4gICAgICAgXHJcbiAgICAgaDF7XHJcbiAgICAgIGNvbG9yOiMwMDc0Qzg7XHJcbiAgICAgIGZvbnQtc2l6ZToyLjNlbTtcclxuICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgfVxyXG4gICAgcHtcclxuICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgZm9udC1zaXplOjEuM2VtO1xyXG4gICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgcGFkZGluZzoyMHB4O1xyXG4gICAgfVxyXG5cclxuXHJcbiAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgPC9kaXY+XHJcblxyXG4gICk7XHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgVGV4YXNTY2hvb2xzOyJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TexasSchools);
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Chello-next%5Cpages%5Ctexas_schools.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ 2:
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Chello-next%5Cpages%5Ctexas_schools.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Chello-next%5Cpages%5Ctexas_schools.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js!./");
 
 
 /***/ }),
@@ -11292,5 +11436,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=texas_schools.js.map

@@ -23,7 +23,7 @@ const TexasSchools =()=> {
         
 
      <div><p>ACT Score of 20 - 21  && GPA 0f 2.0 - 3.0 </p>
-     <Button label = "SHOW"/>
+     <Button label = "SHOW" url = "/texas_schools_two"/>
      </div>
      <div><p>ACT Score of 22 - 25  && GPA 0f 2.5 - 3.5 </p>
      <Button label = "SHOW"/>

@@ -1,5 +1,5 @@
 import Layout from '../components/MyLayout';
-import texas_schools from '../data/texas_schools'
+// import texas_schools from '../data/texas_schools/texas_schools'
 
 
 
@@ -25,9 +25,10 @@ export default function TexasSchoolsOneHundred() {
                 <span>SIZE OF SCHOOL:</span> 248 (total undergraduate size)<br></br> 
                 <span>SETTING:</span> Large Suburb LOCATION: Dallas, TX 
             </p>
-           <h2>ACADEMIC INFORMATION</h2>
-           <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.4123590902464!2d-96.8897749848145!3d32.91370188093109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c27a2d5347751%3A0xa4e88076142acd66!2sDallas%20Christian%20College!5e0!3m2!1sen!2sus!4v1569860919808!5m2!1sen!2sus" 
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.4123590902464!2d-96.8897749848145!3d32.91370188093109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c27a2d5347751%3A0xa4e88076142acd66!2sDallas%20Christian%20College!5e0!3m2!1sen!2sus!4v1569860919808!5m2!1sen!2sus" 
            width="300" height="300" frameborder="0"  allowfullscreen=""></iframe></div>
+           <h2>ACADEMIC INFORMATION</h2>
+          
            <p>
                <span>LEVEL OF SELECTIVITY:</span> Least Selective <br></br>
                <span>MEDIAN ACT SCORE:</span>  19<br></br>
@@ -79,7 +80,8 @@ export default function TexasSchoolsOneHundred() {
         }
        
         p {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size:1.3em;
             padding:20px;
 
         }
