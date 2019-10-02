@@ -12,7 +12,7 @@ export default function TexasSchoolsOneHundred() {
     return(
         <Layout>
         <div>
-        <h3>ACT Score of 19 or Below && GPA 0f 2.0 - 2.5</h3>
+        <h3 className ="h1">ACT Score of 19 or Below & GPA of 2.0 - 2.5</h3>
         <p className ="dcu" onClick = {() => setShowText(!showText)}>Dallas Christian College</p>
 
         {showText && <div className = "one" >
@@ -54,6 +54,12 @@ export default function TexasSchoolsOneHundred() {
             color:white;
             padding:10px;
 
+        }
+
+        .h1 {
+            color:#82B441;
+            font-size:2.3em;
+            font-family: 'Oswald', sans-serif;
         }
         .dcu{
             cursor: pointer;

@@ -38,7 +38,6 @@ const SchoolList =(props)=> {
       `}</style>
     </div>
 
-    
       
   );
 }
