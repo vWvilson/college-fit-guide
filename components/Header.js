@@ -6,19 +6,19 @@ const linkStyle = {
 
 const Header = () => (
   <div>
-    <Link href="/">
+    <Link href="/" title = "Home page">
       <a style={linkStyle}>Home</a>
     </Link>
 
-    <Link href="/texas_schools">
+    <Link href="/texas_schools" title = "Texas Schools">
       <a style={linkStyle}>Texas Schools</a>
     </Link>
 
-    <Link href ="/outside_texas">
+    <Link href ="/outside_texas" title = "Out of State Schools">
     <a style={linkStyle}>Schools outside of Texas</a>
     </Link>
 
-    <Link href ="/hbcu">
+    <Link href ="/hbcu" title = "Historically Black Colleges & Universities">
     <a style={linkStyle}>Historically Black Colleges & Universities</a>
     </Link>
     <style jsx>{`

@@ -22,6 +22,7 @@ const SchoolList =(props)=> {
       color:#0074C8;
       font-size:2.3em;
       font-family: 'Oswald', sans-serif;
+      margin: 10px;
     }
     p{
       font-family: 'Roboto Condensed', sans-serif;
