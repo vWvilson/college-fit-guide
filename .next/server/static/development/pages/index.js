@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -337,360 +337,6 @@ function HeaderTailwinds() {
 
 /***/ }),
 
-/***/ "./components/IndividualDetails.js":
-/*!*****************************************!*\
-  !*** ./components/IndividualDetails.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\IndividualDetails.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-const IndividualDetails = props => {
-  const {
-    0: showText,
-    1: setShowText
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false);
-  return __jsx("div", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, __jsx("h1", {
-    onClick: () => setShowText(!showText),
-    className: "jsx-925535652" + " " + "h1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: undefined
-  }, props.name), showText && __jsx("div", {
-    className: "jsx-925535652" + " " + "one",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: undefined
-  }, __jsx("h2", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: undefined
-  }, "GENERAL INFORMATION"), __jsx("p", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
-  }, __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
-  }, "SCHOOL NAME:"), " ", props.name, " ", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: undefined
-  }, " WEBSITE:"), " ", props.url, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: undefined
-  }, "PUBLIC OR PRIVATE:"), " ", props.private, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: undefined
-  }, "SIZE OF SCHOOL:"), " ", props.size, "(total undergraduate size)", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: undefined
-  }, "SETTING:"), " ", props.setting, " ", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: undefined
-  }, "LOCATION:"), " ", props.location), __jsx("div", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: undefined
-  }, __jsx("iframe", {
-    src: props.iframe,
-    width: "250",
-    height: "250",
-    frameborder: "0",
-    allowfullscreen: "",
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: undefined
-  })), __jsx("h2", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, "ACADEMIC INFORMATION"), __jsx("p", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }, "LEVEL OF SELECTIVITY:"), " ", props.selectivity, " ", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
-  }, "MEDIAN ACT SCORE:"), " ", props.act, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: undefined
-  }, "MEDIAN SAT CRITICAL READING SCORE:"), " ", props.reading, " ", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: undefined
-  }, "MEDIAN SAT MATH SCORE:"), " ", props.math, " ", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }, "GRADUATION RATE FOR STUDENTS RECEIVING PELL GRANTS:"), " ", props.rate, " ", __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: undefined
-  }, "MOST POPULAR MAJORS: "), " ", props.majors), __jsx("h2", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: undefined
-  }, "FINANCIAL INFORMATION"), __jsx("p", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: undefined
-  }, __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: undefined
-  }, "AVERAGE NET PRICE FOR LOW INCOME STUDENTS:"), " ", props.price), __jsx("h2", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: undefined
-  }, "SOCIAL INFORMATION"), __jsx("p", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: undefined
-  }, __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: undefined
-  }, "RACIAL DEMOGRAPHIC DATA:"), " ", props.demographic, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: undefined
-  }, "PERCENT OF STUDENTS AWARDED PELL GRANTS:"), " ", props.grants, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: undefined
-  }, "PERCENT OF STUDENTS WHO LIVE ON CAMPUS:"), " ", props.lives, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: undefined
-  }, "PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS: "), props.programs, __jsx("br", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-925535652",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: undefined
-  }, "BREAKTHROUGH ALUMNI:"), " ", props.alumni)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "925535652",
-    __self: undefined
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');.h1.jsx-925535652{color:#82B441;font-size:4vh;font-family:'Oswald',sans-serif;cursor:pointer;margin:5vw;}.one.jsx-925535652{background-color:#E2E2E2;margin:20px;}h2.jsx-925535652{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;padding:10px;font-size:4vh;}span.jsx-925535652{color:#0074C8;font-family:'Roboto Condensed',sans-serif;}p.jsx-925535652{font-family:'Roboto Condensed',sans-serif;font-size:2.7vh;padding:20px;}iframe.jsx-925535652{margin:0 20px;background:grey;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxJbmRpdmlkdWFsRGV0YWlscy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1RG9CLEFBRW1ILEFBS3pGLEFBU1csQUFLbUIsQUFPOUIsQUFPOEIsQUFPOUIsY0FsQ0EsQUFxQjhCLEFBYzNCLFdBMUJMLEdBUnNCLEVBbUNyQyxPQTFCQSxLQUlrQixBQWNDLGNBYkYsQUFPakIsRUFPZ0IsRUEzQkcsU0FjRCxFQWVsQixJQTVCYyxRQWNWLEdBYkoiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXGNvbXBvbmVudHNcXEluZGl2aWR1YWxEZXRhaWxzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCBSZWFjdCwge3VzZVN0YXRlfSBmcm9tICdyZWFjdCdcclxuXHJcblxyXG5cclxuY29uc3QgSW5kaXZpZHVhbERldGFpbHMgPShwcm9wcyk9PiB7XHJcbiAgICBjb25zdCAgW3Nob3dUZXh0LHNldFNob3dUZXh0XSA9IHVzZVN0YXRlKGZhbHNlKVxyXG4gICAgcmV0dXJuKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJoMVwiIG9uQ2xpY2sgPXsoKT0+IHNldFNob3dUZXh0KCFzaG93VGV4dCl9Pntwcm9wcy5uYW1lfTwvaDE+XHJcblxyXG4gICAgICAgICAgICB7c2hvd1RleHQgJiYgPGRpdiBjbGFzc05hbWUgPSBcIm9uZVwiID5cclxuXHJcbiAgICAgICAgICAgIDxoMj5HRU5FUkFMIElORk9STUFUSU9OPC9oMj5cclxuICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5TQ0hPT0wgTkFNRTo8L3NwYW4+IHtwcm9wcy5uYW1lfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPiBXRUJTSVRFOjwvc3Bhbj4ge3Byb3BzLnVybH08YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPlBVQkxJQyBPUiBQUklWQVRFOjwvc3Bhbj4ge3Byb3BzLnByaXZhdGV9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5TSVpFIE9GIFNDSE9PTDo8L3NwYW4+IHtwcm9wcy5zaXplfSh0b3RhbCB1bmRlcmdyYWR1YXRlIHNpemUpPGJyPjwvYnI+IFxyXG4gICAgICAgICAgICAgICAgPHNwYW4+U0VUVElORzo8L3NwYW4+IHtwcm9wcy5zZXR0aW5nfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPkxPQ0FUSU9OOjwvc3Bhbj4ge3Byb3BzLmxvY2F0aW9ufSBcclxuICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICA8ZGl2PjxpZnJhbWUgc3JjPSB7cHJvcHMuaWZyYW1lfSBcclxuICAgICAgICAgICB3aWR0aD1cIjI1MFwiIGhlaWdodD1cIjI1MFwiIGZyYW1lYm9yZGVyPVwiMFwiICBhbGxvd2Z1bGxzY3JlZW49XCJcIj48L2lmcmFtZT48L2Rpdj5cclxuICAgICAgICAgICBcclxuICAgICAgICAgICA8aDI+QUNBREVNSUMgSU5GT1JNQVRJT048L2gyPlxyXG4gICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5MRVZFTCBPRiBTRUxFQ1RJVklUWTo8L3NwYW4+IHtwcm9wcy5zZWxlY3Rpdml0eX0gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPk1FRElBTiBBQ1QgU0NPUkU6PC9zcGFuPiB7cHJvcHMuYWN0fTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5NRURJQU4gU0FUIENSSVRJQ0FMIFJFQURJTkcgU0NPUkU6PC9zcGFuPiB7cHJvcHMucmVhZGluZ30gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPk1FRElBTiBTQVQgTUFUSCBTQ09SRTo8L3NwYW4+IHtwcm9wcy5tYXRofSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+R1JBRFVBVElPTiBSQVRFIEZPUiBTVFVERU5UUyBSRUNFSVZJTkcgUEVMTCBHUkFOVFM6PC9zcGFuPiB7cHJvcHMucmF0ZX0gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPk1PU1QgUE9QVUxBUiBNQUpPUlM6IDwvc3Bhbj4ge3Byb3BzLm1ham9yc31cclxuICAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgIDxoMj5GSU5BTkNJQUwgSU5GT1JNQVRJT048L2gyPlxyXG4gICAgICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgICAgPHNwYW4+QVZFUkFHRSBORVQgUFJJQ0UgRk9SIExPVyBJTkNPTUUgU1RVREVOVFM6PC9zcGFuPiB7cHJvcHMucHJpY2V9XHJcbiAgICAgICAgICAgICAgIDwvcD5cclxuXHJcbiAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICA8aDI+U09DSUFMIElORk9STUFUSU9OPC9oMj5cclxuICAgICAgICAgICAgPHA+ICAgXHJcbiAgICAgICAgICAgICAgIDxzcGFuPlJBQ0lBTCBERU1PR1JBUEhJQyBEQVRBOjwvc3Bhbj4ge3Byb3BzLmRlbW9ncmFwaGljfTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5QRVJDRU5UIE9GIFNUVURFTlRTIEFXQVJERUQgUEVMTCBHUkFOVFM6PC9zcGFuPiB7cHJvcHMuZ3JhbnRzfTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5QRVJDRU5UIE9GIFNUVURFTlRTIFdITyBMSVZFIE9OIENBTVBVUzo8L3NwYW4+IHtwcm9wcy5saXZlc308YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+UFJPR1JBTVMgVEhBVCBTVVBQT1JUIEZJUlNULUdFTiBTVFVERU5UUyBPTiBDQU1QVVM6IDwvc3Bhbj57cHJvcHMucHJvZ3JhbXN9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPkJSRUFLVEhST1VHSCBBTFVNTkk6PC9zcGFuPiB7cHJvcHMuYWx1bW5pfVxyXG4gICAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8L2Rpdj59XHJcbiAgICAgICAgICAgICBcclxuICAgICAgICBcclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgICAgICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0b3xPc3dhbGR8Um9ib3RvK0NvbmRlbnNlZCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbiAgICBcclxuXHJcbiAgICAgICAgLmgxIHtcclxuICAgICAgICAgICAgY29sb3I6IzgyQjQ0MTtcclxuICAgICAgICAgICAgZm9udC1zaXplOjR2aDtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgIG1hcmdpbjo1dnc7XHJcbiAgICAgICAgfVxyXG4gICAgICAgXHJcbiAgICAgICBcclxuICAgICAgICAub25lIHtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojRTJFMkUyO1xyXG4gICAgICAgICAgICBtYXJnaW46MjBweDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGgye1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICAgY29sb3I6I0ZBOUQxQztcclxuICAgICAgICAgICAgIHBhZGRpbmc6MTBweDtcclxuICAgICAgICAgICAgIGZvbnQtc2l6ZTo0dmg7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgc3BhbiB7XHJcbiAgICAgICAgICAgIGNvbG9yOiMwMDc0Qzg7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgfVxyXG5cclxuXHJcbiAgICAgICBcclxuICAgICAgICBwIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgZm9udC1zaXplOjIuN3ZoO1xyXG4gICAgICAgICAgICBwYWRkaW5nOjIwcHg7XHJcblxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgaWZyYW1le1xyXG4gICAgICAgICAgICBtYXJnaW46MCAyMHB4O1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBncmV5O1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuIFxyXG5cclxuICAgIFxyXG4gICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufVxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGl2aWR1YWxEZXRhaWxzOyJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\IndividualDetails.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (IndividualDetails);
-
-/***/ }),
-
 /***/ "./components/MyLayout.js":
 /*!********************************!*\
   !*** ./components/MyLayout.js ***!
@@ -732,104 +378,6 @@ const Layout = props => __jsx("div", {
 }, "div.jsx-3060885451{margin:20px;border:1px solid #DDD;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxNeUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTb0IsQUFHc0IsWUFFVyxzQkFFeEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXGNvbXBvbmVudHNcXE15TGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlciBmcm9tICcuL0hlYWRlcic7XHJcbmltcG9ydCBIZWFkZXJUYWlsd2luZHMgZnJvbSAnLi9IZWFkZXJUYWlsd2luZHMnXHJcblxyXG5cclxuXHJcbmNvbnN0IExheW91dCA9IHByb3BzID0+IChcclxuICAgIDxkaXYgPlxyXG4gICAgICAgIDxIZWFkZXJUYWlsd2luZHMgLz5cclxuICAgICAgICB7cHJvcHMuY2hpbGRyZW59XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGRpdiB7XHJcbiAgICAgICAgICBtYXJnaW46MjBweDtcclxuICAgICAgICAgXHJcbiAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjREREO1xyXG5cclxuICAgICAgICB9XHJcbiAgICAgICBcclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbjwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0Il19 */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\MyLayout.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./data/texas_schools/texas_schools_one.js":
-/*!*************************************************!*\
-  !*** ./data/texas_schools/texas_schools_one.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const texas_schools_one = [{
-  id: 1,
-  name: "Dallas Christian College",
-  gpa: 200,
-  url: 'www.dallas.edu',
-  public: 'Private',
-  size: "240",
-  setting: "Large Suburb",
-  location: "Dallas,TX",
-  selectivity: 'Least Selective',
-  act: 19,
-  reading: 424,
-  math: 424,
-  rate: '36%',
-  majors: 'Interdisiplinary studies - Practical Ministries - Worship Arts - Humanities - Business - Psychology - Teacher Education - Biblical Ministry',
-  netPrice: "$22,929",
-  demographic: "16% Latino, 24% African American, 46% white",
-  grants: "53%",
-  livesOnCampus: "46%",
-  programs: null,
-  alumni: null
-}, {
-  id: 2,
-  name: "Prairie View A&M University",
-  gpa: 200,
-  url: 'www.pvamu.edu',
-  public: 'Public',
-  size: "7,417",
-  setting: "Town: Distant",
-  location: "Prairie View, TX",
-  selectivity: 'Least Selective',
-  act: 17,
-  reading: 420,
-  math: 420,
-  rate: '31%',
-  majors: 'Juvenile Justice and Psychology - Agriculture - Architecture - Agriculture - Army/Navy ROTC - Construction Science - Executive MBA - Civil and Environmental Engineering',
-  netPrice: "$7,447",
-  demographic: "7% Latino, 85% African American, 2% white",
-  grants: "70%",
-  livesOnCampus: "51%",
-  programs: null,
-  alumni: "Felicia Monroe, Criminal Justice"
-}, {
-  id: 3,
-  name: "Texas A&M International University",
-  gpa: 200,
-  url: 'www.tamiu.edu',
-  public: 'Public',
-  size: "6,591",
-  setting: "Large City",
-  location: "Laredo, TX",
-  selectivity: 'Least Selective',
-  act: 19,
-  reading: 450,
-  math: 450,
-  rate: '41%',
-  majors: 'International Economics - Elementary Education with EC-6 Certification and a Bilingual Emphasis - Multidisiplinary Studies in Health Administration - Systems Engineering - Communication Disorders',
-  netPrice: "$5,617 ",
-  demographic: "95% Latino, 0% African American, 2% white",
-  grants: "55%",
-  livesOnCampus: "8%",
-  programs: null,
-  alumni: "Mario Palomo, Criminal Justice"
-}, {
-  id: 4,
-  name: "University of the Incarnate Word",
-  gpa: 200,
-  url: 'www.uiw.edu ',
-  public: 'Private',
-  size: "6,423",
-  setting: "Large City",
-  location: "San Antonio, TX  ",
-  selectivity: 'Least Selective',
-  act: 19,
-  reading: 445,
-  math: 445,
-  rate: '51%',
-  majors: '3-D Animation and Game Design - Asian Studies - Bilingual Communication Arts - Fashion Design - Professional Golf Management - Nuclear Medicine - Vision Studies',
-  netPrice: "$17,912",
-  demographic: "57% Latino, 7% African American, 19% white",
-  grants: "46%",
-  livesOnCampus: "17%",
-  programs: "TRiO",
-  alumni: null
-}];
-/* harmony default export */ __webpack_exports__["default"] = (texas_schools_one);
 
 /***/ }),
 
@@ -2529,64 +2077,125 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/texas_schools_100.js":
-/*!************************************!*\
-  !*** ./pages/texas_schools_100.js ***!
-  \************************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/IndividualDetails */ "./components/IndividualDetails.js");
-/* harmony import */ var _data_texas_schools_texas_schools_one__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/texas_schools/texas_schools_one */ "./data/texas_schools/texas_schools_one.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools_100.js";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-
-
-const texas_schools_100 = () => {
-  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, _data_texas_schools_texas_schools_one__WEBPACK_IMPORTED_MODULE_3__["default"].map(name => __jsx(_components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    key: name.id,
-    name: name.name,
-    url: name.url,
-    private: name.public,
-    size: name.size,
-    setting: name.setting,
-    location: name.location,
-    iframe: null,
-    selectivity: name.selectivity,
-    act: name.act,
-    reading: name.reading,
-    math: name.math,
-    majors: name.majors,
-    rate: name.rate,
-    price: name.netPrice,
-    demographic: name.demographic,
-    grants: name.grants,
-    lives: name.livesOnCampus,
-    programs: name.programs,
-    alumni: name.alumni,
+function Blog() {
+  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
-    __self: undefined
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (texas_schools_100);
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("h2", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "HOW TO USE THE GUIDE:"), __jsx("p", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "We designed this guide to be useful to you, Breakthrough students and families! We\u2019ve completed hundreds of hours of research to find out which colleges are best serving first-generation college students. We looked closely at graduation rates and average net price to determine which colleges are out-performing other colleges in graduating their students without placing a heavy financial burden on them, and we are including the colleges that we consider to be \u201Cbest in class\u201D in these two categories. We know other factors are important in choosing a college as well, so we also included other data points related to a university\u2019s academic, financial, and social profile. We know choosing a college is a very personal decision and you will consider many different factors, and we hope this guide will provide useful information to help you in this process! "), __jsx("p", {
+    className: "jsx-1567202276" + " " + "terms",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Below are important terms you\u2019ll find in the guide, along with their definitions:"), __jsx("h2", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "LEVEL OF SELECTIVITY"), __jsx("p", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "This refers to a college\u2019s admissions process. A school that is more or most selective has higher standards for admissions requirements and admits fewer students, whereas a school that is less or least selective offers admission to more students."), __jsx("h2", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "GRADUATION RATES"), " ", __jsx("p", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "This refers to the rate at which students at a particular institution receive bachelor\u2019s degrees within six years or less. For this guide we intentionally included the graduation rates for students who receive Pell grants at that institution, since most Breakthrough students qualify for Pell grants."), __jsx("h2", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "AVERAGE NET PRICE"), __jsx("p", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "The \u201Caverage net price\u201D of a college is defined as the school\u2019s \u201Csticker price\u201D (published cost of attendance) minus the average dollar amount of grants and scholarships awarded to students ; in other words, the \u201Caverage net price\u201D allows us to see the \u201Cfinancial gap\u201D (before loans) that our students will likely face if they are accepted to that college.  This tells us how much the \u201Caverage\u201D student will need to cover out of pocket, often assisted by borrowing student loans, in order to be able to attend that school.  "), __jsx("h2", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS"), __jsx("p", {
+    className: "jsx-1567202276",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "This refers to programs that specifically support first-generation or other underrepresented students on that campus."), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1567202276",
+    __self: this
+  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-1567202276{color:#82B441;font-size:4vh;font-family:'Oswald',sans-serif;}h2.jsx-1567202276{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;font-size:4vh;}p.jsx-1567202276{font-size:2.7vh;font-family:'Lato',sans-serif;}.terms.jsx-1567202276{font-size:1.3em;}div.jsx-1567202276{margin:2em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOENZLEFBRTJHLEFBS25GLEFBWThCLEFBUzdCLEFBT0EsQUFJTCxXQUNaLEdBaENnQixFQXFCaUIsQUFPakMsWUEzQm9DLGNBV3BCLElBWWhCLFVBWGdCLElBVGYsVUFVQSIsImZpbGUiOiJDOlxcVXNlcnNcXEpvaG5uaWVHXFxEZXNrdG9wXFxjb2xsZWdlLWZpdC1ndWlkZVxccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0JztcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcblxyXG5cclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCbG9nKCkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8TGF5b3V0PlxyXG4gICAgICA8ZGl2PlxyXG4gICAgICBcclxuICAgICAgPGgyPkhPVyBUTyBVU0UgVEhFIEdVSURFOjwvaDI+ICBcclxuIDxwPiAgICAgIFxyXG5XZSBkZXNpZ25lZCB0aGlzIGd1aWRlIHRvIGJlIHVzZWZ1bCB0byB5b3UsIEJyZWFrdGhyb3VnaCBzdHVkZW50cyBhbmQgZmFtaWxpZXMhIFxyXG5XZeKAmXZlIGNvbXBsZXRlZCBodW5kcmVkcyBvZiBob3VycyBvZiByZXNlYXJjaCB0byBmaW5kIG91dCB3aGljaCBjb2xsZWdlcyBhcmUgYmVzdCBzZXJ2aW5nIFxyXG5maXJzdC1nZW5lcmF0aW9uIGNvbGxlZ2Ugc3R1ZGVudHMuIFdlIGxvb2tlZCBjbG9zZWx5IGF0IGdyYWR1YXRpb24gcmF0ZXMgYW5kIGF2ZXJhZ2UgbmV0IHByaWNlIHRvIFxyXG5kZXRlcm1pbmUgd2hpY2ggY29sbGVnZXMgYXJlIG91dC1wZXJmb3JtaW5nIG90aGVyIGNvbGxlZ2VzIGluIGdyYWR1YXRpbmcgdGhlaXIgc3R1ZGVudHMgd2l0aG91dFxyXG4gcGxhY2luZyBhIGhlYXZ5IGZpbmFuY2lhbCBidXJkZW4gb24gdGhlbSwgYW5kIHdlIGFyZSBpbmNsdWRpbmcgdGhlIGNvbGxlZ2VzIHRoYXQgd2UgY29uc2lkZXIgdG8gXHJcbiBiZSDigJxiZXN0IGluIGNsYXNz4oCdIGluIHRoZXNlIHR3byBjYXRlZ29yaWVzLiBXZSBrbm93IG90aGVyIGZhY3RvcnMgYXJlIGltcG9ydGFudCBpbiBjaG9vc2luZyBhIFxyXG4gY29sbGVnZSBhcyB3ZWxsLCBzbyB3ZSBhbHNvIGluY2x1ZGVkIG90aGVyIGRhdGEgcG9pbnRzIHJlbGF0ZWQgdG8gYSB1bml2ZXJzaXR54oCZcyBhY2FkZW1pYywgXHJcbiBmaW5hbmNpYWwsIGFuZCBzb2NpYWwgcHJvZmlsZS4gV2Uga25vdyBjaG9vc2luZyBhIGNvbGxlZ2UgaXMgYSB2ZXJ5IHBlcnNvbmFsIGRlY2lzaW9uIGFuZCB5b3Ugd2lsbCBcclxuIGNvbnNpZGVyIG1hbnkgZGlmZmVyZW50IGZhY3RvcnMsIGFuZCB3ZSBob3BlIHRoaXMgZ3VpZGUgd2lsbCBwcm92aWRlIHVzZWZ1bCBpbmZvcm1hdGlvbiB0byBoZWxwIHlvdSBpbiBcclxuIHRoaXMgcHJvY2VzcyEgPC9wPiBcclxuPHAgY2xhc3NOYW1lID0gXCJ0ZXJtc1wiPkJlbG93IGFyZSBpbXBvcnRhbnQgdGVybXMgeW914oCZbGwgZmluZCBpbiB0aGUgZ3VpZGUsIGFsb25nIHdpdGggdGhlaXIgZGVmaW5pdGlvbnM6PC9wPiAgIFxyXG48aDI+TEVWRUwgT0YgU0VMRUNUSVZJVFk8L2gyPiBcclxuPHA+VGhpcyByZWZlcnMgdG8gYSBjb2xsZWdl4oCZcyBhZG1pc3Npb25zIHByb2Nlc3MuIEEgc2Nob29sIHRoYXQgaXMgbW9yZSBvciBtb3N0IFxyXG5zZWxlY3RpdmUgaGFzIGhpZ2hlciBzdGFuZGFyZHMgZm9yIGFkbWlzc2lvbnMgcmVxdWlyZW1lbnRzIGFuZCBhZG1pdHMgZmV3ZXIgc3R1ZGVudHMsIHdoZXJlYXMgYSBzY2hvb2wgXHJcbnRoYXQgaXMgbGVzcyBvciBsZWFzdCBzZWxlY3RpdmUgb2ZmZXJzIGFkbWlzc2lvbiB0byBtb3JlIHN0dWRlbnRzLjwvcD5cclxuXHJcbjxoMj5HUkFEVUFUSU9OIFJBVEVTPC9oMj4gPHA+VGhpcyByZWZlcnMgdG8gdGhlIHJhdGUgYXQgd2hpY2ggc3R1ZGVudHMgYXQgYSBwYXJ0aWN1bGFyIGluc3RpdHV0aW9uIHJlY2VpdmUgYmFjaGVsb3LigJlzIFxyXG5kZWdyZWVzIHdpdGhpbiBzaXggeWVhcnMgb3IgbGVzcy4gRm9yIHRoaXMgZ3VpZGUgd2UgaW50ZW50aW9uYWxseSBpbmNsdWRlZCB0aGUgZ3JhZHVhdGlvbiByYXRlcyBmb3Igc3R1ZGVudHMgXHJcbndobyByZWNlaXZlIFBlbGwgZ3JhbnRzIGF0IHRoYXQgaW5zdGl0dXRpb24sIHNpbmNlIG1vc3QgQnJlYWt0aHJvdWdoIHN0dWRlbnRzIHF1YWxpZnkgZm9yIFBlbGwgZ3JhbnRzLlxyXG48L3A+ICBcclxuPGgyPkFWRVJBR0UgTkVUIFBSSUNFPC9oMj4gXHJcbjxwPlRoZSDigJxhdmVyYWdlIG5ldCBwcmljZeKAnSBvZiBhIGNvbGxlZ2UgaXMgZGVmaW5lZCBhcyB0aGUgc2Nob29s4oCZcyDigJxzdGlja2VyIHByaWNl4oCdIFxyXG4ocHVibGlzaGVkIGNvc3Qgb2YgYXR0ZW5kYW5jZSkgbWludXMgdGhlIGF2ZXJhZ2UgZG9sbGFyIGFtb3VudCBvZiBncmFudHMgYW5kIHNjaG9sYXJzaGlwcyBhd2FyZGVkIHRvIFxyXG5zdHVkZW50cyA7IGluIG90aGVyIHdvcmRzLCB0aGUg4oCcYXZlcmFnZSBuZXQgcHJpY2XigJ0gYWxsb3dzIHVzIHRvIHNlZSB0aGUg4oCcZmluYW5jaWFsIGdhcOKAnSAoYmVmb3JlIGxvYW5zKSBcclxudGhhdCBvdXIgc3R1ZGVudHMgd2lsbCBsaWtlbHkgZmFjZSBpZiB0aGV5IGFyZSBhY2NlcHRlZCB0byB0aGF0IGNvbGxlZ2UuICBUaGlzIHRlbGxzIHVzIGhvdyBtdWNoIHRoZSBcclxu4oCcYXZlcmFnZeKAnSBzdHVkZW50IHdpbGwgbmVlZCB0byBjb3ZlciBvdXQgb2YgcG9ja2V0LCBvZnRlbiBhc3Npc3RlZCBieSBib3Jyb3dpbmcgc3R1ZGVudCBsb2FucywgaW4gb3JkZXIgXHJcbnRvIGJlIGFibGUgdG8gYXR0ZW5kIHRoYXQgc2Nob29sLiAgPC9wPlxyXG5cclxuPGgyPlBST0dSQU1TIFRIQVQgU1VQUE9SVCBGSVJTVC1HRU4gU1RVREVOVFMgT04gQ0FNUFVTPC9oMj4gXHJcbjxwPlRoaXMgcmVmZXJzIHRvIHByb2dyYW1zIHRoYXQgc3BlY2lmaWNhbGx5IHN1cHBvcnQgXHJcbmZpcnN0LWdlbmVyYXRpb24gb3Igb3RoZXIgdW5kZXJyZXByZXNlbnRlZCBzdHVkZW50cyBvbiB0aGF0IGNhbXB1cy4gIFxyXG48L3A+XHJcbjxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0b3xPc3dhbGR8Um9ib3RvK0NvbmRlbnNlZCZkaXNwbGF5PXN3YXAnKTtcclxuICAgICAgICAgIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBoMSB7XHJcblxyXG4gICAgICAgICAgY29sb3I6IzgyQjQ0MTtcclxuICAgICAgICAgIGZvbnQtc2l6ZTo0dmg7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcblxyXG5cclxuICAgICAgICB9XHJcbiAgICAgICAgICBcclxuXHJcblxyXG5cclxuICAgICAgICBoMiB7XHJcblxyXG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgIGNvbG9yOiNGQTlEMUM7XHJcbiAgICAgICAgICBmb250LXNpemU6NHZoO1xyXG4gICAgICAgIH1cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgXHJcblxyXG5cclxuICAgICAgIHAge1xyXG4gICAgICAgICBmb250LXNpemU6Mi43dmg7XHJcbiAgICAgICAgIGZvbnQtZmFtaWx5OiAnTGF0bycsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgIFxyXG5cclxuICAgICAgIH1cclxuXHJcbiAgICAgICAudGVybXMge1xyXG4gICAgICAgICBmb250LXNpemU6MS4zZW07XHJcbiAgICAgICB9XHJcblxyXG4gICAgICAgZGl2IHtcclxuICAgICAgICAgbWFyZ2luOjJlbTtcclxuICAgICAgIH1cclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9MYXlvdXQ+XHJcbiAgIFxyXG4gICk7XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\index.js */")));
+}
 
 /***/ }),
 
@@ -2601,14 +2210,14 @@ const texas_schools_100 = () => {
 
 /***/ }),
 
-/***/ 6:
-/*!******************************************!*\
-  !*** multi ./pages/texas_schools_100.js ***!
-  \******************************************/
+/***/ 7:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\JohnnieG\Desktop\college-fit-guide\pages\texas_schools_100.js */"./pages/texas_schools_100.js");
+module.exports = __webpack_require__(/*! C:\Users\JohnnieG\Desktop\college-fit-guide\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -2757,4 +2366,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=texas_schools_100.js.map
+//# sourceMappingURL=index.js.map

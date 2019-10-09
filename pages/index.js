@@ -9,8 +9,9 @@ export default function Blog() {
   return (
     <Layout>
       <div>
-      <h1>COLLEGE FIT GUIDE</h1>
-      <p>HOW TO USE THE GUIDE:   
+      
+      <h2>HOW TO USE THE GUIDE:</h2>  
+ <p>      
 We designed this guide to be useful to you, Breakthrough students and families! 
 We’ve completed hundreds of hours of research to find out which colleges are best serving 
 first-generation college students. We looked closely at graduation rates and average net price to 
@@ -47,9 +48,10 @@ first-generation or other underrepresented students on that campus.
           @import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');
           
           
-          h1{
+          h1 {
+
           color:#82B441;
-          font-size:2.3em;
+          font-size:4vh;
           font-family: 'Oswald', sans-serif;
 
 
@@ -58,22 +60,24 @@ first-generation or other underrepresented students on that campus.
 
 
 
-        h2{
+        h2 {
+
+          font-family: 'Roboto Condensed', sans-serif;
+          color:#FA9D1C;
+          font-size:4vh;
+        }
           
           
-        font-family: 'Roboto Condensed', sans-serif;
-        color:#FA9D1C;
-        font-size:2em;
-      }
 
 
-       p{
-         font-size:16px;
+       p {
+         font-size:2.7vh;
          font-family: 'Lato', sans-serif;
          
 
        }
-       .terms{
+
+       .terms {
          font-size:1.3em;
        }
 
