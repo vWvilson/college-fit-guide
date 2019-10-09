@@ -43,7 +43,7 @@ const IndividualDetails =(props)=> {
                
                <h2>SOCIAL INFORMATION</h2>
             <p>   
-               <span>RACIAL DEMOGRAPHIC DATA:</span> {props.damographic}<br></br>
+               <span>RACIAL DEMOGRAPHIC DATA:</span> {props.demographic}<br></br>
                <span>PERCENT OF STUDENTS AWARDED PELL GRANTS:</span> {props.grants}<br></br>
                <span>PERCENT OF STUDENTS WHO LIVE ON CAMPUS:</span> {props.lives}<br></br>
                <span>PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS: </span>{props.programs}<br></br>
