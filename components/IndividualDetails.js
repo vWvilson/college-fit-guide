@@ -21,7 +21,7 @@ const IndividualDetails =(props)=> {
                 <span>LOCATION:</span> {props.location} 
             </p>
             <div><iframe src= {props.iframe} 
-           width="300" height="300" frameborder="0"  allowfullscreen=""></iframe></div>
+           width="250" height="250" frameborder="0"  allowfullscreen=""></iframe></div>
            
            <h2>ACADEMIC INFORMATION</h2>
            <p>
