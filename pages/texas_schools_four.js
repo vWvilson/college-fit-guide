@@ -1,59 +1,39 @@
-import SchoolList from '../components/SchoolList'
-import texas_schools_four from '../data/texas_schools/teaxs_schools_four'
-import Layout from '../components/MyLayout'
- 
+import Layout from '../components/MyLayout';
+import IndividualDetails from '../components/IndividualDetails'
+import texas_schools_four from '../data/texas_schools/texas_schools_four'
 
 
-
-const TexasSchoolsFour = ()=> {
-  
+const texas_schools_400 =() => {
+    
     return(
-        <div>
-            <Layout>
-            <div className = "container">
-            <h1>ACT Score of 26 & Above & GPA 0f 3.5 - 4.0</h1>
-            <div>
-
-                {texas_schools_four.map(name => <SchoolList 
-                name = {name.name}           
-                />)}
-                </div>
-                </div>
-                
-            </Layout>
-
-            <style jsx>{`
-                  @import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');
+        <Layout>
+         {texas_schools_four.map(name => <IndividualDetails 
+         key = {name.id}
+         name = {name.name}
+         url = {name.url}
+         private = {name.public}
+         size ={name.size}
+         setting = {name.setting}
+         location = {name.location}
+         iframe = {null}
+         selectivity = {name.selectivity}
+         act = {name.act}
+         reading = {name.reading}
+         math = {name.math}
+         majors = {name.majors}
+         rate = {name.rate}
+         price = {name.netPrice}
+         demographic = {name.demographic}
+         grants = {name.grants}
+         lives = {name.livesOnCampus}
+         programs = {name.programs}
+         alumni  ={name.alumni}
 
          
-     h1{
-        color:#82B441;
-        font-size:2.3em;
-        font-family: 'Oswald', sans-serif;
-      }
-      p{
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size:1.3em;
-      }
-            
-      .container {
-        padding:10px;
-      }
-  
-       
-      `}</style>
-        </div>
-
-
+         />)}   
+        
+        </Layout> 
     )
-
-
-
-
-
-
-
 }
 
-
-export default TexasSchoolsFour
+export default texas_schools_400

@@ -1,57 +1,39 @@
-import SchoolList from '../components/SchoolList'
+import Layout from '../components/MyLayout';
+import IndividualDetails from '../components/IndividualDetails'
 import texas_schools_three from '../data/texas_schools/texas_schools_three'
-import Layout from '../components/MyLayout'
- 
 
 
-
-const TexasSchoolsThree = ()=> {
-  
+const texas_schools_300 =() => {
+    
     return(
-        <div>
-            <Layout>
-            <div className = "container">
-            <h1>ACT Score of 22 - 25 & GPA 0f 2.5 - 3.5</h1>
-            <div>
+        <Layout>
+         {texas_schools_three.map(name => <IndividualDetails 
+         key = {name.id}
+         name = {name.name}
+         url = {name.url}
+         private = {name.public}
+         size ={name.size}
+         setting = {name.setting}
+         location = {name.location}
+         iframe = {null}
+         selectivity = {name.selectivity}
+         act = {name.act}
+         reading = {name.reading}
+         math = {name.math}
+         majors = {name.majors}
+         rate = {name.rate}
+         price = {name.netPrice}
+         demographic = {name.demographic}
+         grants = {name.grants}
+         lives = {name.livesOnCampus}
+         programs = {name.programs}
+         alumni  ={name.alumni}
 
-                {texas_schools_three.map(name => <SchoolList 
-                
-                name = {name.name}           
-                />)}
-                </div>
-                </div>
-            </Layout>
-
-            <style jsx>{`
-                  @import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');
-
-                  h1{
-                    color:#82B441;
-                    font-size:2.3em;
-                    font-family: 'Oswald', sans-serif;
-                  }
-                  p{
-                    font-family: 'Roboto Condensed', sans-serif;
-                    font-size:1.3em;
-                  }
-                        
-                  .container {
-                    padding:20px;
-                  }
-       
-      `}</style>
-        </div>
-
-
+         
+         />)}   
+        
+        </Layout> 
     )
-
-
-
-
-
-
-
 }
 
-
-export default TexasSchoolsThree
+export default texas_schools_300
