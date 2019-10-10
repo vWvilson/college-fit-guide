@@ -31,7 +31,6 @@ const texas_schools_100 =() => {
 
          
          />)}   
-        
         </Layout> 
     )
 }

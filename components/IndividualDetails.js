@@ -1,10 +1,14 @@
 
 import React, {useState} from 'react'
+import Link from 'next/link';
+
 
 
 
 const IndividualDetails =(props)=> {
     const  [showText,setShowText] = useState(false)
+
+    
     return(
         <div>
             <h1 className="h1" onClick ={()=> setShowText(!showText)}>{props.name}</h1>
@@ -12,14 +16,16 @@ const IndividualDetails =(props)=> {
             {showText && <div className = "one" >
 
             <h2>GENERAL INFORMATION</h2>
+            
             <p>
                 <span>SCHOOL NAME:</span> {props.name} <br></br>
-                <span> WEBSITE:</span> {props.url}<br></br>
+                <span> WEBSITE:</span><a target="_blank" href ={props.url}> {props.url} </a><br></br>
                 <span>PUBLIC OR PRIVATE:</span> {props.private}<br></br>
                 <span>SIZE OF SCHOOL:</span> {props.size}(total undergraduate size)<br></br> 
                 <span>SETTING:</span> {props.setting} <br></br>
                 <span>LOCATION:</span> {props.location} 
             </p>
+           
             <div><iframe src= {props.iframe} 
            width="250" height="250" frameborder="0"  allowfullscreen=""></iframe></div>
            
@@ -56,7 +62,9 @@ const IndividualDetails =(props)=> {
         <style jsx>{`
                   @import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');
 
-    
+        a {
+            color:#82B441;
+        }
 
         .h1 {
             color:#82B441;
