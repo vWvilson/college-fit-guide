@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -747,269 +747,101 @@ const Layout = props => __jsx("div", {
 
 /***/ }),
 
-/***/ "./data/texas_schools/texas_schools_three.js":
-/*!***************************************************!*\
-  !*** ./data/texas_schools/texas_schools_three.js ***!
-  \***************************************************/
+/***/ "./data/texas_schools/texas_schools_one.js":
+/*!*************************************************!*\
+  !*** ./data/texas_schools/texas_schools_one.js ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-const texas_schools_three = [{
-  id: 18,
-  name: "Dallas Baptist University",
-  gpa: 202,
-  url: 'https://www.dbu.edu',
+const texas_schools_one = [{
+  id: 1,
+  name: "Dallas Christian College",
+  gpa: 200,
+  url: "https://www.dallas.edu/",
   public: 'Private',
-  size: "3,223",
-  setting: "Large City",
-  location: "Dallas, TX",
-  selectivity: 'More Selective',
-  act: 22,
-  reading: 560,
-  math: 560,
-  rate: '56%',
-  majors: 'Management - Music Business - Communication - Computer Science Education - Marketing - Biology - Psychology - Politics - Philiosophy - Economics',
-  netPrice: "$21,483",
-  demographic: "16% Latino, 13% African American, 58% white",
-  grants: "26%",
-  livesOnCampus: "60%",
-  programs: null,
-  alumni: null
-}, {
-  id: 19,
-  name: "Hardin-Simmons University",
-  gpa: 202,
-  url: 'https://www.hsutx.edu ',
-  public: 'Private',
-  size: "1,708",
-  setting: "Midsize City",
-  location: "Abilene, TX",
-  selectivity: 'More Selective',
-  act: 22,
-  reading: 505,
-  math: 505,
-  rate: '45%',
-  majors: 'Fitness and Sports Sciences - Nursing - Biology - Criminal Justice - Nonprofit Management - Economics - Express Teacher Certification - Ministry Practical Studies',
-  netPrice: "$15,349 ",
-  demographic: "17% Latino, 7% African American, 66% white",
-  grants: "34%",
-  livesOnCampus: "47%",
-  programs: null,
-  alumni: null
-}, {
-  id: 20,
-  name: "Saint Edward’s University",
-  gpa: 202,
-  url: 'https://www.stedwards.edu',
-  public: 'Private',
-  size: "4,056",
-  setting: "Large City",
-  location: "Austin, TX",
-  selectivity: 'More Selective',
-  act: 25,
-  reading: 560,
-  math: 560,
-  rate: '65%',
-  majors: 'Psychology - Communication and Media Studies  - Business Adminsitration & Management - International/Global Studies - Kinesiology and Exercise Science',
-  netPrice: "$15,737",
-  demographic: "41% Latino, 4% African American, 37% white",
-  grants: "34%",
-  livesOnCampus: "35%",
-  programs: null,
-  alumni: "Shayra Madero, International Business -- Thelma Martinez, International Business -- Wilber Jaimes, Business -- Gabriela Lopez-Ruiz, Education -- Gloria Perez, Accounting -- Bridget Gonzalez, Social Work -- Yasmine Smith, Criminal Justice (Pre-Law) -- Carlos Apuche, Computer Science -- Tiara Clayton, Acting -- Marimar Hernandez, Global Studies (Asia Focus) "
-}, {
-  id: 21,
-  name: "Sam Houston State University",
-  gpa: 202,
-  url: 'https://www.shsu.edu/',
-  public: 'Public',
-  size: "17,902",
-  setting: "Town: Distant",
-  location: "Huntsville, TX",
-  selectivity: 'More Selective',
-  act: 22,
-  reading: 485,
-  math: 485,
-  rate: '46%',
-  majors: 'Geography -  Victim Studies - Family and Consumer Sciences - Bilingual Health Care Studies - Art Advertising and Graphic Design - Banking and Finanacial Institutions - Computer Animation',
-  netPrice: "$9,997",
-  demographic: "22% Latino, 18% African American, 51% white",
-  grants: "48%",
-  livesOnCampus: "19%",
-  programs: "TRIO",
-  alumni: null
-}, {
-  id: 22,
-  name: "Schreiner University",
-  gpa: 202,
-  url: 'www.schreiner.edu',
-  public: 'Private',
-  size: "1,237",
-  setting: "Town: Remote",
-  location: "Kerrville, TX",
-  selectivity: 'More Selective',
-  act: 22,
-  reading: 490,
-  math: 490,
-  rate: '48%',
-  majors: 'Nursing - Biology - Psychology - Exercise Science - Education Professions - Accounting - Public Health Management',
-  netPrice: "$13,667",
-  demographic: "35% Latino, 3% African American, 46% white",
-  grants: "39%",
-  livesOnCampus: "61%",
-  programs: null,
-  alumni: "Amalia Fuentes, Psychology"
-}, {
-  id: 24,
-  name: "St. Mary’s University",
-  gpa: 202,
-  url: 'https://www.stmarytx.edu/',
-  public: 'Private',
-  size: "2,298",
-  setting: "Large City ",
-  location: "San Antonio, TX",
-  selectivity: 'More Selective',
-  act: 22,
-  reading: 515,
-  math: 515,
-  rate: '54%',
-  majors: 'Biology - Excercise and Sports Science - Accounting - English - Criminology - Mathematics - International and Global Studies - Psychology',
-  netPrice: "$13,710",
-  demographic: "67% Latino, 3% African American, 14% white",
-  grants: "48%",
-  livesOnCampus: "56%",
-  programs: "McNair Scholars -- FAM program",
-  alumni: "Paula Viruegas -- Cynthia Hernandez-Acosta, Business Administration -- Barbara Falcon-Mendoza, Political Science "
-}, {
-  id: 25,
-  name: "Stephen F Austin State University",
-  gpa: 202,
-  url: 'https://www.sfasu.edu',
-  public: 'Public',
-  size: "11,058",
-  setting: "Town: Remote",
-  location: "Nacogdoches, TX",
-  selectivity: 'More Selective',
-  act: 22,
-  reading: 585,
-  math: 585,
+  size: "240",
+  setting: "Large Suburb",
+  location: "Dallas,TX",
+  selectivity: 'Least Selective',
+  act: 19,
+  reading: 424,
+  math: 424,
   rate: '36%',
-  majors: 'Forestry - Construction Management - Cyber Security - Social Work - Corrections (Criminal Justice) - Deaf Education - Liberal Studies - Music',
-  netPrice: "$6,876",
-  demographic: "18% Latino, 18% African American, 57% white",
-  grants: "39%",
-  livesOnCampus: "44%",
-  programs: "Generation Jacks",
-  alumni: "Tiburcio Garcia, Finance -- Gabriel Garcia, Mathematics"
-}, {
-  id: 26,
-  name: "Texas State University",
-  gpa: 202,
-  url: 'https://www.txstate.edu',
-  public: 'Public',
-  size: "34,244",
-  setting: "Small Suburb",
-  location: "San Marcos, TX",
-  selectivity: 'More Selective',
-  act: 23,
-  reading: 510,
-  math: 510,
-  rate: '52%',
-  majors: 'Concrete Industry Management - Psychology - English - Excercise Science - Criminal Justice - Public Relations - Marketing - Finance ',
-  netPrice: "$10,472",
-  demographic: "36% Latino, 10% African American, 47% white",
-  grants: "39%",
-  livesOnCampus: "19%",
-  programs: "Student Support Services",
-  alumni: "Rogelio Gomez, Environmental Studies -- Ariel Barrera, Computer Information Systems -- Giovanna Perez, Biology --Janeli Cardenas-Arellano, Teaching -- Karen Arredondo, Mass Communication -- Kelly Rangel, Biology - Claudia Ochoa, Teaching -- Christian Torres, Criminal Justice -- Manuel Munoz, Political Science -- Brenda Ortiz, International Business -- Sergio Olguin-Cruz, Computer Science -- Vincent Morales-Pardo, Economics"
-}, {
-  id: 27,
-  name: "Texas Tech University",
-  gpa: 202,
-  url: 'https://www.ttu.edu ',
-  public: 'Public',
-  size: "29,963",
-  setting: "Midsize City",
-  location: "Lubbock, TX",
-  selectivity: 'More Selective',
-  act: 25,
-  reading: 545,
-  math: 545,
-  rate: '52%',
-  majors: 'Kinesiology - Agribusiness - Mechanical Engineering - Petroleum Engineering - Plant and Soil Science - Marketing - Finance - Zoology',
-  netPrice: "$11,410",
-  demographic: "24% Latino, 6% African American, 59% white",
-  grants: "23%",
-  livesOnCampus: "24%",
-  programs: "First Gen Learning Community -- First Generation Transition and Mentoring Program",
+  majors: 'Interdisiplinary studies - Practical Ministries - Worship Arts - Humanities - Business - Psychology - Teacher Education - Biblical Ministry',
+  netPrice: "$22,929",
+  demographic: "16% Latino, 24% African American, 46% white",
+  grants: "53%",
+  livesOnCampus: "46%",
+  programs: null,
   alumni: null
 }, {
-  id: 28,
-  name: "The University of Texas at Arlington",
-  gpa: 202,
-  url: 'https://WWW.UTA.EDU',
+  id: 2,
+  name: "Prairie View A&M University",
+  gpa: 200,
+  url: 'https://www.pvamu.edu',
   public: 'Public',
-  size: "32,775",
+  size: "7,417",
+  setting: "Town: Distant",
+  location: "Prairie View, TX",
+  selectivity: 'Least Selective',
+  act: 17,
+  reading: 420,
+  math: 420,
+  rate: '31%',
+  majors: 'Juvenile Justice and Psychology - Agriculture - Architecture - Agriculture - Army/Navy ROTC - Construction Science - Executive MBA - Civil and Environmental Engineering',
+  netPrice: "$7,447",
+  demographic: "7% Latino, 85% African American, 2% white",
+  grants: "70%",
+  livesOnCampus: "51%",
+  programs: null,
+  alumni: "Felicia Monroe, Criminal Justice"
+}, {
+  id: 3,
+  name: "Texas A&M International University",
+  gpa: 200,
+  url: 'https://www.tamiu.edu',
+  public: 'Public',
+  size: "6,591",
   setting: "Large City",
-  location: "Arlington, TX",
-  selectivity: 'More Selective',
-  act: 23,
-  reading: 520,
-  math: 520,
-  rate: '52%',
-  majors: 'Nursing - Social Work - Mathamatics - Critical Languages and International Studies - Aerospace Engineering - Marketing - Finance - Interior Design',
-  netPrice: "$11,062",
-  demographic: "26% Latino, 15% African American, 38% white",
-  grants: "43%",
-  livesOnCampus: "10%",
-  programs: "McNair Scholars",
-  alumni: null
+  location: "Laredo, TX",
+  selectivity: 'Least Selective',
+  act: 19,
+  reading: 450,
+  math: 450,
+  rate: '41%',
+  majors: 'International Economics - Elementary Education with EC-6 Certification and a Bilingual Emphasis - Multidisiplinary Studies in Health Administration - Systems Engineering - Communication Disorders',
+  netPrice: "$5,617 ",
+  demographic: "95% Latino, 0% African American, 2% white",
+  grants: "55%",
+  livesOnCampus: "8%",
+  programs: null,
+  alumni: "Mario Palomo, Criminal Justice"
 }, {
-  id: 28,
-  name: "University of North Texas",
-  gpa: 202,
-  url: 'https://www.unt.edu',
-  public: 'Public',
-  size: "31,241",
-  setting: "Midsize City",
-  location: "Denton, TX",
-  selectivity: 'More Selective',
-  act: 24,
-  reading: 545,
-  math: 545,
-  rate: '50%',
-  majors: 'Emergency Administration and Planning - Journalism - Marketing - Radio, Television, and Film - Accounting - Criminal Justice - Home Furnishing Merchandising - Jazz Studies',
-  netPrice: "$4,846",
-  demographic: "23% Latino, 13% African American, 46% white",
-  grants: "37%",
-  livesOnCampus: "20%",
-  programs: "McNair Scholars",
-  alumni: "Arianna Jones, Fashion Design and Merchandising -- Daija Efferson, Biology -- Symoine Proctor-Lockett, Psychology"
-}, {
-  id: 29,
-  name: "University of St. Thomas",
-  gpa: 202,
-  url: 'https://www.stthom.edu',
+  id: 4,
+  name: "University of the Incarnate Word",
+  gpa: 200,
+  url: 'https://www.uiw.edu ',
   public: 'Private',
-  size: "1,768",
+  size: "6,423",
   setting: "Large City",
-  location: "Houston, TX",
-  selectivity: 'More Selective',
-  act: 24,
-  reading: 537.5,
-  math: 537.5,
-  rate: '62%',
-  majors: 'Liberal Arts - Nursing - Chemistry - Cell and Molecular Biology - Biology - Marketing - Communication - Finance',
-  netPrice: "$15,862",
-  demographic: "43% Latino, 7% African American, 25% white",
-  grants: "35%",
-  livesOnCampus: "40%",
-  programs: "UST FirstGen Group",
+  location: "San Antonio, TX  ",
+  selectivity: 'Least Selective',
+  act: 19,
+  reading: 445,
+  math: 445,
+  rate: '51%',
+  majors: '3-D Animation and Game Design - Asian Studies - Bilingual Communication Arts - Fashion Design - Professional Golf Management - Nuclear Medicine - Vision Studies',
+  netPrice: "$17,912",
+  demographic: "57% Latino, 7% African American, 19% white",
+  grants: "46%",
+  livesOnCampus: "17%",
+  programs: "TRiO",
   alumni: null
 }];
-/* harmony default export */ __webpack_exports__["default"] = (texas_schools_three);
+/* harmony default export */ __webpack_exports__["default"] = (texas_schools_one);
 
 /***/ }),
 
@@ -2709,10 +2541,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/texas_schools_three.js":
-/*!**************************************!*\
-  !*** ./pages/texas_schools_three.js ***!
-  \**************************************/
+/***/ "./pages/texas_schools_100.js":
+/*!************************************!*\
+  !*** ./pages/texas_schools_100.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2722,22 +2554,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/IndividualDetails */ "./components/IndividualDetails.js");
-/* harmony import */ var _data_texas_schools_texas_schools_three__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/texas_schools/texas_schools_three */ "./data/texas_schools/texas_schools_three.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools_three.js";
+/* harmony import */ var _data_texas_schools_texas_schools_one__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/texas_schools/texas_schools_one */ "./data/texas_schools/texas_schools_one.js");
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools_100.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-const texas_schools_300 = () => {
+const texas_schools_100 = () => {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: undefined
-  }, _data_texas_schools_texas_schools_three__WEBPACK_IMPORTED_MODULE_3__["default"].map(name => __jsx(_components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, _data_texas_schools_texas_schools_one__WEBPACK_IMPORTED_MODULE_3__["default"].map(name => __jsx(_components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__["default"], {
     key: name.id,
     name: name.name,
     url: name.url,
@@ -2766,7 +2598,7 @@ const texas_schools_300 = () => {
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (texas_schools_300);
+/* harmony default export */ __webpack_exports__["default"] = (texas_schools_100);
 
 /***/ }),
 
@@ -2781,14 +2613,14 @@ const texas_schools_300 = () => {
 
 /***/ }),
 
-/***/ 4:
-/*!********************************************!*\
-  !*** multi ./pages/texas_schools_three.js ***!
-  \********************************************/
+/***/ 6:
+/*!******************************************!*\
+  !*** multi ./pages/texas_schools_100.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\JohnnieG\Desktop\college-fit-guide\pages\texas_schools_three.js */"./pages/texas_schools_three.js");
+module.exports = __webpack_require__(/*! C:\Users\JohnnieG\Desktop\college-fit-guide\pages\texas_schools_100.js */"./pages/texas_schools_100.js");
 
 
 /***/ }),
@@ -2937,4 +2769,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=texas_schools_three.js.map
+//# sourceMappingURL=texas_schools_100.js.map

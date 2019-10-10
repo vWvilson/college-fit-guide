@@ -46,7 +46,7 @@ const texas_schools_four = [
         
     },{
         id: 32,
-        name: "https://Southwestern University",
+        name: "Southwestern University",
         gpa:203,
         url: 'www.southwestern.edu',
         public:'Private',
