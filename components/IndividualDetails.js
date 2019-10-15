@@ -12,6 +12,7 @@ const IndividualDetails =(props)=> {
     return(
         <div>
             <h1 className="h1" onClick ={()=> setShowText(!showText)}>{props.name}</h1>
+            
 
             {showText && <div className = "one" >
 

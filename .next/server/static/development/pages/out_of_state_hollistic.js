@@ -382,54 +382,31 @@ const IndividualDetails = props => {
     className: "jsx-4043928333" + " " + "one",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: undefined
   }, __jsx("h2", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: undefined
   }, "GENERAL INFORMATION"), __jsx("p", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: undefined
   }, __jsx("span", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: undefined
   }, "SCHOOL NAME:"), " ", props.name, " ", __jsx("br", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: undefined
-  }, " WEBSITE:"), __jsx("a", {
-    target: "_blank",
-    href: props.url,
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: undefined
-  }, " ", props.url, " "), __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -443,7 +420,16 @@ const IndividualDetails = props => {
       lineNumber: 23
     },
     __self: undefined
-  }, "PUBLIC OR PRIVATE:"), " ", props.private, __jsx("br", {
+  }, " WEBSITE:"), __jsx("a", {
+    target: "_blank",
+    href: props.url,
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, " ", props.url, " "), __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -457,7 +443,7 @@ const IndividualDetails = props => {
       lineNumber: 24
     },
     __self: undefined
-  }, "SIZE OF SCHOOL:"), " ", props.size, "(total undergraduate size)", __jsx("br", {
+  }, "PUBLIC OR PRIVATE:"), " ", props.private, __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -471,7 +457,7 @@ const IndividualDetails = props => {
       lineNumber: 25
     },
     __self: undefined
-  }, "SETTING:"), " ", props.setting, " ", __jsx("br", {
+  }, "SIZE OF SCHOOL:"), " ", props.size, "(total undergraduate size)", __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -485,11 +471,25 @@ const IndividualDetails = props => {
       lineNumber: 26
     },
     __self: undefined
+  }, "SETTING:"), " ", props.setting, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
   }, "LOCATION:"), " ", props.location), __jsx("div", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: undefined
   }, __jsx("iframe", {
@@ -501,45 +501,31 @@ const IndividualDetails = props => {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: undefined
   })), __jsx("h2", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: undefined
   }, "ACADEMIC INFORMATION"), __jsx("p", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: undefined
   }, __jsx("span", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: undefined
-  }, "LEVEL OF SELECTIVITY:"), " ", props.selectivity, " ", __jsx("br", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: undefined
-  }), __jsx("span", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: undefined
-  }, "MEDIAN ACT SCORE:"), " ", props.act, __jsx("br", {
+  }, "LEVEL OF SELECTIVITY:"), " ", props.selectivity, " ", __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -553,7 +539,7 @@ const IndividualDetails = props => {
       lineNumber: 36
     },
     __self: undefined
-  }, "MEDIAN SAT CRITICAL READING SCORE:"), " ", props.reading, " ", __jsx("br", {
+  }, "MEDIAN ACT SCORE:"), " ", props.act, __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -567,7 +553,7 @@ const IndividualDetails = props => {
       lineNumber: 37
     },
     __self: undefined
-  }, "MEDIAN SAT MATH SCORE:"), " ", props.math, " ", __jsx("br", {
+  }, "MEDIAN SAT CRITICAL READING SCORE:"), " ", props.reading, " ", __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -581,7 +567,7 @@ const IndividualDetails = props => {
       lineNumber: 38
     },
     __self: undefined
-  }, "GRADUATION RATE FOR STUDENTS RECEIVING PELL GRANTS:"), " ", props.rate, " ", __jsx("br", {
+  }, "MEDIAN SAT MATH SCORE:"), " ", props.math, " ", __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -595,63 +581,63 @@ const IndividualDetails = props => {
       lineNumber: 39
     },
     __self: undefined
-  }, "MOST POPULAR MAJORS: "), " ", props.majors), __jsx("h2", {
+  }, "GRADUATION RATE FOR STUDENTS RECEIVING PELL GRANTS:"), " ", props.rate, " ", __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: undefined
-  }, "FINANCIAL INFORMATION"), __jsx("p", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: undefined
-  }, __jsx("span", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: undefined
-  }, "AVERAGE NET PRICE FOR LOW INCOME STUDENTS:"), " ", props.price), __jsx("h2", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: undefined
-  }, "SOCIAL INFORMATION"), __jsx("p", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: undefined
-  }, __jsx("span", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: undefined
-  }, "RACIAL DEMOGRAPHIC DATA:"), " ", props.demographic, __jsx("br", {
-    className: "jsx-4043928333",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 39
     },
     __self: undefined
   }), __jsx("span", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }, "MOST POPULAR MAJORS: "), " ", props.majors), __jsx("h2", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  }, "FINANCIAL INFORMATION"), __jsx("p", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: undefined
+  }, "AVERAGE NET PRICE FOR LOW INCOME STUDENTS:"), " ", props.price), __jsx("h2", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: undefined
+  }, "SOCIAL INFORMATION"), __jsx("p", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: undefined
-  }, "PERCENT OF STUDENTS AWARDED PELL GRANTS:"), " ", props.grants, __jsx("br", {
+  }, "RACIAL DEMOGRAPHIC DATA:"), " ", props.demographic, __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -665,7 +651,7 @@ const IndividualDetails = props => {
       lineNumber: 54
     },
     __self: undefined
-  }, "PERCENT OF STUDENTS WHO LIVE ON CAMPUS:"), " ", props.lives, __jsx("br", {
+  }, "PERCENT OF STUDENTS AWARDED PELL GRANTS:"), " ", props.grants, __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -679,7 +665,7 @@ const IndividualDetails = props => {
       lineNumber: 55
     },
     __self: undefined
-  }, "PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS: "), props.programs, __jsx("br", {
+  }, "PERCENT OF STUDENTS WHO LIVE ON CAMPUS:"), " ", props.lives, __jsx("br", {
     className: "jsx-4043928333",
     __source: {
       fileName: _jsxFileName,
@@ -693,10 +679,24 @@ const IndividualDetails = props => {
       lineNumber: 56
     },
     __self: undefined
+  }, "PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS: "), props.programs, __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: undefined
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: undefined
   }, "BREAKTHROUGH ALUMNI:"), " ", props.alumni)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "4043928333",
     __self: undefined
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');a.jsx-4043928333{color:#82B441;}.h1.jsx-4043928333{color:#82B441;font-size:4vh;font-family:'Oswald',sans-serif;cursor:pointer;margin:5vw;}.one.jsx-4043928333{background-color:#E2E2E2;margin:20px;}h2.jsx-4043928333{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;padding:10px;font-size:4vh;}span.jsx-4043928333{color:#0074C8;font-family:'Roboto Condensed',sans-serif;}p.jsx-4043928333{font-family:'Roboto Condensed',sans-serif;font-size:2.7vh;padding:20px;}iframe.jsx-4043928333{margin:0 20px;background:grey;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxJbmRpdmlkdWFsRGV0YWlscy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2RG9CLEFBRW1ILEFBR3pGLEFBSUEsQUFTVyxBQUttQixBQU85QixBQU84QixBQU85QixjQXRDakIsQUFJaUIsQUFxQjhCLEFBYzNCLFdBMUJMLEdBUnNCLEVBbUNyQyxPQTFCQSxLQUlrQixBQWNDLGNBYkYsQUFPakIsRUFPZ0IsRUEzQkcsU0FjRCxFQWVsQixJQTVCYyxRQWNWLEdBYkoiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXGNvbXBvbmVudHNcXEluZGl2aWR1YWxEZXRhaWxzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCBSZWFjdCwge3VzZVN0YXRlfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcblxyXG5cclxuXHJcbmNvbnN0IEluZGl2aWR1YWxEZXRhaWxzID0ocHJvcHMpPT4ge1xyXG4gICAgY29uc3QgIFtzaG93VGV4dCxzZXRTaG93VGV4dF0gPSB1c2VTdGF0ZShmYWxzZSlcclxuXHJcbiAgICBcclxuICAgIHJldHVybihcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiaDFcIiBvbkNsaWNrID17KCk9PiBzZXRTaG93VGV4dCghc2hvd1RleHQpfT57cHJvcHMubmFtZX08L2gxPlxyXG5cclxuICAgICAgICAgICAge3Nob3dUZXh0ICYmIDxkaXYgY2xhc3NOYW1lID0gXCJvbmVcIiA+XHJcblxyXG4gICAgICAgICAgICA8aDI+R0VORVJBTCBJTkZPUk1BVElPTjwvaDI+XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgIDxzcGFuPlNDSE9PTCBOQU1FOjwvc3Bhbj4ge3Byb3BzLm5hbWV9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+IFdFQlNJVEU6PC9zcGFuPjxhIHRhcmdldD1cIl9ibGFua1wiIGhyZWYgPXtwcm9wcy51cmx9PiB7cHJvcHMudXJsfSA8L2E+PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5QVUJMSUMgT1IgUFJJVkFURTo8L3NwYW4+IHtwcm9wcy5wcml2YXRlfTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+U0laRSBPRiBTQ0hPT0w6PC9zcGFuPiB7cHJvcHMuc2l6ZX0odG90YWwgdW5kZXJncmFkdWF0ZSBzaXplKTxicj48L2JyPiBcclxuICAgICAgICAgICAgICAgIDxzcGFuPlNFVFRJTkc6PC9zcGFuPiB7cHJvcHMuc2V0dGluZ30gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5MT0NBVElPTjo8L3NwYW4+IHtwcm9wcy5sb2NhdGlvbn0gXHJcbiAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICBcclxuICAgICAgICAgICAgPGRpdj48aWZyYW1lIHNyYz0ge3Byb3BzLmlmcmFtZX0gXHJcbiAgICAgICAgICAgd2lkdGg9XCIyNTBcIiBoZWlnaHQ9XCIyNTBcIiBmcmFtZWJvcmRlcj1cIjBcIiAgYWxsb3dmdWxsc2NyZWVuPVwiXCI+PC9pZnJhbWU+PC9kaXY+XHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgICAgPGgyPkFDQURFTUlDIElORk9STUFUSU9OPC9oMj5cclxuICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgPHNwYW4+TEVWRUwgT0YgU0VMRUNUSVZJVFk6PC9zcGFuPiB7cHJvcHMuc2VsZWN0aXZpdHl9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5NRURJQU4gQUNUIFNDT1JFOjwvc3Bhbj4ge3Byb3BzLmFjdH08YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TUVESUFOIFNBVCBDUklUSUNBTCBSRUFESU5HIFNDT1JFOjwvc3Bhbj4ge3Byb3BzLnJlYWRpbmd9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5NRURJQU4gU0FUIE1BVEggU0NPUkU6PC9zcGFuPiB7cHJvcHMubWF0aH0gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPkdSQURVQVRJT04gUkFURSBGT1IgU1RVREVOVFMgUkVDRUlWSU5HIFBFTEwgR1JBTlRTOjwvc3Bhbj4ge3Byb3BzLnJhdGV9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5NT1NUIFBPUFVMQVIgTUFKT1JTOiA8L3NwYW4+IHtwcm9wcy5tYWpvcnN9XHJcbiAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgXHJcblxyXG4gICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICA8aDI+RklOQU5DSUFMIElORk9STUFUSU9OPC9oMj5cclxuICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgIDxzcGFuPkFWRVJBR0UgTkVUIFBSSUNFIEZPUiBMT1cgSU5DT01FIFNUVURFTlRTOjwvc3Bhbj4ge3Byb3BzLnByaWNlfVxyXG4gICAgICAgICAgICAgICA8L3A+XHJcblxyXG4gICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgPGgyPlNPQ0lBTCBJTkZPUk1BVElPTjwvaDI+XHJcbiAgICAgICAgICAgIDxwPiAgIFxyXG4gICAgICAgICAgICAgICA8c3Bhbj5SQUNJQUwgREVNT0dSQVBISUMgREFUQTo8L3NwYW4+IHtwcm9wcy5kZW1vZ3JhcGhpY308YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+UEVSQ0VOVCBPRiBTVFVERU5UUyBBV0FSREVEIFBFTEwgR1JBTlRTOjwvc3Bhbj4ge3Byb3BzLmdyYW50c308YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+UEVSQ0VOVCBPRiBTVFVERU5UUyBXSE8gTElWRSBPTiBDQU1QVVM6PC9zcGFuPiB7cHJvcHMubGl2ZXN9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPlBST0dSQU1TIFRIQVQgU1VQUE9SVCBGSVJTVC1HRU4gU1RVREVOVFMgT04gQ0FNUFVTOiA8L3NwYW4+e3Byb3BzLnByb2dyYW1zfTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5CUkVBS1RIUk9VR0ggQUxVTU5JOjwvc3Bhbj4ge3Byb3BzLmFsdW1uaX1cclxuICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPC9kaXY+fVxyXG4gICAgICAgICAgICAgXHJcbiAgICAgICAgXHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG98T3N3YWxkfFJvYm90bytDb25kZW5zZWQmZGlzcGxheT1zd2FwJyk7XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICBjb2xvcjojODJCNDQxO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLmgxIHtcclxuICAgICAgICAgICAgY29sb3I6IzgyQjQ0MTtcclxuICAgICAgICAgICAgZm9udC1zaXplOjR2aDtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgIG1hcmdpbjo1dnc7XHJcbiAgICAgICAgfVxyXG4gICAgICAgXHJcbiAgICAgICBcclxuICAgICAgICAub25lIHtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojRTJFMkUyO1xyXG4gICAgICAgICAgICBtYXJnaW46MjBweDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGgye1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICAgY29sb3I6I0ZBOUQxQztcclxuICAgICAgICAgICAgIHBhZGRpbmc6MTBweDtcclxuICAgICAgICAgICAgIGZvbnQtc2l6ZTo0dmg7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgc3BhbiB7XHJcbiAgICAgICAgICAgIGNvbG9yOiMwMDc0Qzg7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgfVxyXG5cclxuXHJcbiAgICAgICBcclxuICAgICAgICBwIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgZm9udC1zaXplOjIuN3ZoO1xyXG4gICAgICAgICAgICBwYWRkaW5nOjIwcHg7XHJcblxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgaWZyYW1le1xyXG4gICAgICAgICAgICBtYXJnaW46MCAyMHB4O1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBncmV5O1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuIFxyXG5cclxuICAgIFxyXG4gICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufVxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGl2aWR1YWxEZXRhaWxzOyJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\IndividualDetails.js */"));
+  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');a.jsx-4043928333{color:#82B441;}.h1.jsx-4043928333{color:#82B441;font-size:4vh;font-family:'Oswald',sans-serif;cursor:pointer;margin:5vw;}.one.jsx-4043928333{background-color:#E2E2E2;margin:20px;}h2.jsx-4043928333{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;padding:10px;font-size:4vh;}span.jsx-4043928333{color:#0074C8;font-family:'Roboto Condensed',sans-serif;}p.jsx-4043928333{font-family:'Roboto Condensed',sans-serif;font-size:2.7vh;padding:20px;}iframe.jsx-4043928333{margin:0 20px;background:grey;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxJbmRpdmlkdWFsRGV0YWlscy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4RG9CLEFBRW1ILEFBR3pGLEFBSUEsQUFTVyxBQUttQixBQU85QixBQU84QixBQU85QixjQXRDakIsQUFJaUIsQUFxQjhCLEFBYzNCLFdBMUJMLEdBUnNCLEVBbUNyQyxPQTFCQSxLQUlrQixBQWNDLGNBYkYsQUFPakIsRUFPZ0IsRUEzQkcsU0FjRCxFQWVsQixJQTVCYyxRQWNWLEdBYkoiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXGNvbXBvbmVudHNcXEluZGl2aWR1YWxEZXRhaWxzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCBSZWFjdCwge3VzZVN0YXRlfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcblxyXG5cclxuXHJcbmNvbnN0IEluZGl2aWR1YWxEZXRhaWxzID0ocHJvcHMpPT4ge1xyXG4gICAgY29uc3QgIFtzaG93VGV4dCxzZXRTaG93VGV4dF0gPSB1c2VTdGF0ZShmYWxzZSlcclxuXHJcbiAgICBcclxuICAgIHJldHVybihcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiaDFcIiBvbkNsaWNrID17KCk9PiBzZXRTaG93VGV4dCghc2hvd1RleHQpfT57cHJvcHMubmFtZX08L2gxPlxyXG4gICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgIHtzaG93VGV4dCAmJiA8ZGl2IGNsYXNzTmFtZSA9IFwib25lXCIgPlxyXG5cclxuICAgICAgICAgICAgPGgyPkdFTkVSQUwgSU5GT1JNQVRJT048L2gyPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5TQ0hPT0wgTkFNRTo8L3NwYW4+IHtwcm9wcy5uYW1lfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPiBXRUJTSVRFOjwvc3Bhbj48YSB0YXJnZXQ9XCJfYmxhbmtcIiBocmVmID17cHJvcHMudXJsfT4ge3Byb3BzLnVybH0gPC9hPjxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+UFVCTElDIE9SIFBSSVZBVEU6PC9zcGFuPiB7cHJvcHMucHJpdmF0ZX08YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPlNJWkUgT0YgU0NIT09MOjwvc3Bhbj4ge3Byb3BzLnNpemV9KHRvdGFsIHVuZGVyZ3JhZHVhdGUgc2l6ZSk8YnI+PC9icj4gXHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5TRVRUSU5HOjwvc3Bhbj4ge3Byb3BzLnNldHRpbmd9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+TE9DQVRJT046PC9zcGFuPiB7cHJvcHMubG9jYXRpb259IFxyXG4gICAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxkaXY+PGlmcmFtZSBzcmM9IHtwcm9wcy5pZnJhbWV9IFxyXG4gICAgICAgICAgIHdpZHRoPVwiMjUwXCIgaGVpZ2h0PVwiMjUwXCIgZnJhbWVib3JkZXI9XCIwXCIgIGFsbG93ZnVsbHNjcmVlbj1cIlwiPjwvaWZyYW1lPjwvZGl2PlxyXG4gICAgICAgICAgIFxyXG4gICAgICAgICAgIDxoMj5BQ0FERU1JQyBJTkZPUk1BVElPTjwvaDI+XHJcbiAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPkxFVkVMIE9GIFNFTEVDVElWSVRZOjwvc3Bhbj4ge3Byb3BzLnNlbGVjdGl2aXR5fSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TUVESUFOIEFDVCBTQ09SRTo8L3NwYW4+IHtwcm9wcy5hY3R9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPk1FRElBTiBTQVQgQ1JJVElDQUwgUkVBRElORyBTQ09SRTo8L3NwYW4+IHtwcm9wcy5yZWFkaW5nfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TUVESUFOIFNBVCBNQVRIIFNDT1JFOjwvc3Bhbj4ge3Byb3BzLm1hdGh9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5HUkFEVUFUSU9OIFJBVEUgRk9SIFNUVURFTlRTIFJFQ0VJVklORyBQRUxMIEdSQU5UUzo8L3NwYW4+IHtwcm9wcy5yYXRlfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TU9TVCBQT1BVTEFSIE1BSk9SUzogPC9zcGFuPiB7cHJvcHMubWFqb3JzfVxyXG4gICAgICAgICAgIDwvcD5cclxuICAgICAgICAgIFxyXG5cclxuICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgPGgyPkZJTkFOQ0lBTCBJTkZPUk1BVElPTjwvaDI+XHJcbiAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICA8c3Bhbj5BVkVSQUdFIE5FVCBQUklDRSBGT1IgTE9XIElOQ09NRSBTVFVERU5UUzo8L3NwYW4+IHtwcm9wcy5wcmljZX1cclxuICAgICAgICAgICAgICAgPC9wPlxyXG5cclxuICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgIDxoMj5TT0NJQUwgSU5GT1JNQVRJT048L2gyPlxyXG4gICAgICAgICAgICA8cD4gICBcclxuICAgICAgICAgICAgICAgPHNwYW4+UkFDSUFMIERFTU9HUkFQSElDIERBVEE6PC9zcGFuPiB7cHJvcHMuZGVtb2dyYXBoaWN9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPlBFUkNFTlQgT0YgU1RVREVOVFMgQVdBUkRFRCBQRUxMIEdSQU5UUzo8L3NwYW4+IHtwcm9wcy5ncmFudHN9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPlBFUkNFTlQgT0YgU1RVREVOVFMgV0hPIExJVkUgT04gQ0FNUFVTOjwvc3Bhbj4ge3Byb3BzLmxpdmVzfTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5QUk9HUkFNUyBUSEFUIFNVUFBPUlQgRklSU1QtR0VOIFNUVURFTlRTIE9OIENBTVBVUzogPC9zcGFuPntwcm9wcy5wcm9ncmFtc308YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+QlJFQUtUSFJPVUdIIEFMVU1OSTo8L3NwYW4+IHtwcm9wcy5hbHVtbml9XHJcbiAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDwvZGl2Pn1cclxuICAgICAgICAgICAgIFxyXG4gICAgICAgIFxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgICAgICAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1MYXRvfE9zd2FsZHxSb2JvdG8rQ29uZGVuc2VkJmRpc3BsYXk9c3dhcCcpO1xyXG5cclxuICAgICAgICBhIHtcclxuICAgICAgICAgICAgY29sb3I6IzgyQjQ0MTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5oMSB7XHJcbiAgICAgICAgICAgIGNvbG9yOiM4MkI0NDE7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTo0dmg7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgICAgICAgICBtYXJnaW46NXZ3O1xyXG4gICAgICAgIH1cclxuICAgICAgIFxyXG4gICAgICAgXHJcbiAgICAgICAgLm9uZSB7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6I0UyRTJFMjtcclxuICAgICAgICAgICAgbWFyZ2luOjIwcHg7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBoMntcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgIGNvbG9yOiNGQTlEMUM7XHJcbiAgICAgICAgICAgICBwYWRkaW5nOjEwcHg7XHJcbiAgICAgICAgICAgICBmb250LXNpemU6NHZoO1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgIHNwYW4ge1xyXG4gICAgICAgICAgICBjb2xvcjojMDA3NEM4O1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgIH1cclxuXHJcblxyXG4gICAgICAgXHJcbiAgICAgICAgcCB7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZToyLjd2aDtcclxuICAgICAgICAgICAgcGFkZGluZzoyMHB4O1xyXG5cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGlmcmFtZXtcclxuICAgICAgICAgICAgbWFyZ2luOjAgMjBweDtcclxuICAgICAgICAgICAgYmFja2dyb3VuZDogZ3JleTtcclxuICAgICAgICB9XHJcbiAgICAgICAgXHJcbiBcclxuXHJcbiAgICBcclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBJbmRpdmlkdWFsRGV0YWlsczsiXX0= */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\IndividualDetails.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndividualDetails);
@@ -747,101 +747,395 @@ const Layout = props => __jsx("div", {
 
 /***/ }),
 
-/***/ "./data/texas_schools/texas_schools_one.js":
-/*!*************************************************!*\
-  !*** ./data/texas_schools/texas_schools_one.js ***!
-  \*************************************************/
+/***/ "./data/outside_schools/hollisticSchools.js":
+/*!**************************************************!*\
+  !*** ./data/outside_schools/hollisticSchools.js ***!
+  \**************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-const texas_schools_one = [{
-  id: 1,
-  name: "Dallas Christian College",
-  gpa: 200,
-  url: "https://www.dallas.edu/",
+const hollistic = [{
+  id: 104,
+  name: "Bates College",
+  act: "holistic",
+  url: 'https://www.bates.edu',
   public: 'Private',
-  size: "240",
-  setting: "Large Suburb",
-  location: "Dallas,TX",
-  selectivity: 'Least Selective',
-  act: 19,
-  reading: 424,
-  math: 424,
-  rate: '36%',
-  majors: 'Interdisiplinary studies - Practical Ministries - Worship Arts - Humanities - Business - Psychology - Teacher Education - Biblical Ministry',
-  netPrice: "$22,929",
-  demographic: "16% Latino, 24% African American, 46% white",
-  grants: "53%",
-  livesOnCampus: "46%",
+  size: "1,780",
+  setting: "Small City",
+  location: "Lewiston, ME",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '94%',
+  majors: 'Neuroscience and Neurobiology - Environmental Studies - Art and Visual Culture - Biochemistry and Molecular Biology - Physics - Rhetoric - Anthropology - Politics',
+  netPrice: "$3,497",
+  demographic: "9% Latino, 6% African American, 70% white",
+  grants: "10%",
+  livesOnCampus: "90%",
+  programs: "New Scholars Program - Bobcat First! Program",
+  alumni: null
+}, {
+  id: 105,
+  name: "Bowdoin College",
+  act: "holistic",
+  url: 'https://www.bowdoin.edu',
+  public: 'Private',
+  size: "1,806",
+  setting: "Town: Fringe",
+  location: "Brunswick, ME",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '90%',
+  majors: 'Anthropology - Biochemistry - Government and Legal Studies - Political Science and Government - Religion - Africana Studies - Hispanic Studies',
+  netPrice: "$6,822",
+  demographic: "11% Latino, 6% African American, 64% white",
+  grants: "14%",
+  livesOnCampus: "88%",
+  programs: "Back for the First Time Retreat - Various First Generation Student Initiatives",
+  alumni: null
+}, {
+  id: 106,
+  name: "College of the Holy Cross",
+  act: "holistic",
+  url: 'https://www.holycross.edu',
+  public: 'Private',
+  size: "2,720",
+  setting: "Midsize City",
+  location: "Worcester, MA",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '92%',
+  majors: 'Computer Science - Classics - International Studies - Studies in World Literatures - Environmental Studies - Accounting - Theater',
+  netPrice: "$9,169",
+  demographic: "10% Latino, 4% African American, 69% white",
+  grants: "15%",
+  livesOnCampus: "89%",
+  programs: "Odyssey Orientation Program - HCF1RST Scholars - The Mentor/Passport Programs",
+  alumni: null
+}, {
+  id: 107,
+  name: "Colorado College",
+  act: "holistic",
+  url: 'https://www.coloradocollege.edu',
+  public: 'Private',
+  size: "2,101",
+  setting: "Large City",
+  location: "Colorado Springs, CO",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '95%',
+  majors: 'Organismal Biology and Ecology - International Political Economy - Mathematical Economics - Geology - Molecular Biology - Race, Ethnicity, and Migration Studies - Film and Media Studies',
+  netPrice: "$,7136 ",
+  demographic: "9% Latino, 3% African American, 66% white",
+  grants: "15%",
+  livesOnCampus: "75%",
+  programs: "First Generation Collegiate Program (Butler Center) - Bridge Scholars Program",
+  alumni: null
+}, {
+  id: 108,
+  name: "Connecticut College",
+  act: "holistic",
+  url: 'https://www.conncoll.edu',
+  public: 'Private',
+  size: "1,865",
+  setting: "Small City",
+  location: "New London, CT",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '89%',
+  majors: 'Architectural Studies - Botany - Global Islamic Studies - International Relations - Music and Technology - Human Development - Linguistics - Economics',
+  netPrice: "$15,498",
+  demographic: "9% Latino, 4% African American, 70% white",
+  grants: "17%",
+  livesOnCampus: "98%",
+  programs: "Genesis Program - Unity House",
+  alumni: null
+}, {
+  id: 109,
+  name: "Franklin and Marshall College",
+  act: "holistic",
+  url: 'https://www.fandm.edu',
+  public: 'Private',
+  size: "2,255",
+  setting: "Small City",
+  location: "Lancaster, PA",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '86%',
+  majors: 'Public Health - Astronomy and Astrophysics - Animal Behavior - Pre-Dental - Pre-Veterinary - Government - International Studies - Moral Psychology',
+  netPrice: "$11,849",
+  demographic: "9% Latino, 6% African American, 57% white",
+  grants: "19%",
+  livesOnCampus: "99%",
+  programs: "First Generation Diplomats - College Prep Program",
+  alumni: null
+}, {
+  id: 110,
+  name: "Gettysburg College",
+  act: "holistic",
+  url: 'https://www.gettysburg.edu',
+  public: 'Private',
+  size: "2,394",
+  setting: "Small City",
+  location: "Gettysburg, PA",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '86%',
+  majors: 'Business Administration and Management - Exercise Physiology - Globalization Studies - Health Sciences - Public Policy - Music/Sunderman Conservatory of Music - Neuroscience - Organization and Management Studies',
+  netPrice: "$9,956",
+  demographic: "6% Latino, 3% African American, 76% white",
+  grants: "10%",
+  livesOnCampus: "94%",
   programs: null,
   alumni: null
 }, {
-  id: 2,
-  name: "Prairie View A&M University",
-  gpa: 200,
-  url: 'https://www.pvamu.edu',
-  public: 'Public',
-  size: "7,417",
-  setting: "Town: Distant",
-  location: "Prairie View, TX",
-  selectivity: 'Least Selective',
-  act: 17,
-  reading: 420,
-  math: 420,
-  rate: '31%',
-  majors: 'Juvenile Justice and Psychology - Agriculture - Architecture - Agriculture - Army/Navy ROTC - Construction Science - Executive MBA - Civil and Environmental Engineering',
-  netPrice: "$7,447",
-  demographic: "7% Latino, 85% African American, 2% white",
-  grants: "70%",
-  livesOnCampus: "51%",
-  programs: null,
-  alumni: "Felicia Monroe, Criminal Justice"
-}, {
-  id: 3,
-  name: "Texas A&M International University",
-  gpa: 200,
-  url: 'https://www.tamiu.edu',
-  public: 'Public',
-  size: "6,591",
-  setting: "Large City",
-  location: "Laredo, TX",
-  selectivity: 'Least Selective',
-  act: 19,
-  reading: 450,
-  math: 450,
-  rate: '41%',
-  majors: 'International Economics - Elementary Education with EC-6 Certification and a Bilingual Emphasis - Multidisiplinary Studies in Health Administration - Systems Engineering - Communication Disorders',
-  netPrice: "$5,617 ",
-  demographic: "95% Latino, 0% African American, 2% white",
-  grants: "55%",
-  livesOnCampus: "8%",
-  programs: null,
-  alumni: "Mario Palomo, Criminal Justice"
-}, {
-  id: 4,
-  name: "University of the Incarnate Word",
-  gpa: 200,
-  url: 'https://www.uiw.edu ',
+  id: 111,
+  name: "Montclair State University",
+  act: "holistic",
+  url: 'https://www.montclair.edu',
   public: 'Private',
-  size: "6,423",
-  setting: "Large City",
-  location: "San Antonio, TX  ",
-  selectivity: 'Least Selective',
-  act: 19,
-  reading: 445,
-  math: 445,
-  rate: '51%',
-  majors: '3-D Animation and Game Design - Asian Studies - Bilingual Communication Arts - Fashion Design - Professional Golf Management - Nuclear Medicine - Vision Studies',
-  netPrice: "$17,912",
-  demographic: "57% Latino, 7% African American, 19% white",
+  size: "16,810",
+  setting: "Large Suburb",
+  location: "Montclair, NJ",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '63%',
+  majors: 'Family Science and Human Development - Fashion Design/Merchandising - Justice Studies - Nutrition and Food Science - Social Work - Television and Digital Media - American Sign Language - Communication Studies',
+  netPrice: null,
+  demographic: "26% Latino, 12% African American, 43% white",
   grants: "46%",
-  livesOnCampus: "17%",
+  livesOnCampus: "30%",
+  programs: "STEM Pioneers",
+  alumni: null
+}, {
+  id: 112,
+  name: "Pitzer College",
+  act: "holistic",
+  url: 'https://www.pitzer.edu',
+  public: 'Private',
+  size: "1,062",
+  setting: "Large Suburb",
+  location: "Claremont, CA ",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '92%',
+  majors: 'Environmental Analysis - Organizational Studies - Communications - Sociology - Linguistics - International Political Economy - International & Intercultural Studies - English and World Literature',
+  netPrice: "$11,553",
+  demographic: "15% Latino, 5% African American, 46% white",
+  grants: "13%",
+  livesOnCampus: "73%",
+  programs: "FirstGen Program - Affinity Groups (First-Generation, Low-Income, Students of Color)",
+  alumni: null
+}, {
+  id: 113,
+  name: "Plymouth State University",
+  act: "holistic",
+  url: 'https://www.plymouth.edu',
+  public: 'Public',
+  size: "4,124",
+  setting: "Town: Remote",
+  location: "Plymouth, NH",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '47%',
+  majors: 'Elementary Education - Electromechanical Technology and Robotics - Accounting - Tourism Management and Policy - Sports Management - Meteorology - Public Management - Environmental Planning',
+  netPrice: null,
+  demographic: "1% Latino, 2% African American, 82% white",
+  grants: "32%",
+  livesOnCampus: "56%",
+  programs: "TRiO - Morgridge Family Opportunity Scholarship - Advancement Scholarship",
+  alumni: null
+}, {
+  id: 114,
+  name: "Smith College",
+  act: "holistic",
+  url: 'https://www.smith.edu',
+  public: 'Public',
+  size: "2,514",
+  setting: "Large Suburb",
+  location: "Northampton, MA",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '94%',
+  majors: "Engineering - Research and Experimental Psychology - Education and Child Study - Statistical and Data Sciences - Women's Studies - Comparative Literature - Astronomy - Dance",
+  netPrice: "$9,038",
+  demographic: "10% Latino, 6% African American, 45% white",
+  grants: "32%",
+  livesOnCampus: "56%",
+  programs: "First-Generation Student Alliance - First Generation Support Group",
+  alumni: null
+}, {
+  id: 115,
+  name: "SUNY-Potsdam",
+  act: "holistic",
+  url: 'https://www.potsdam.edu',
+  public: 'Public',
+  size: "3,416",
+  setting: "Town: Remote",
+  location: "Potsdam, NY",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '46%',
+  majors: "Archeological Studies - Music Business - Music Teacher Education - Sociology - Graphic Design and New Media - Community Health - Communication - Creative Writing",
+  netPrice: null,
+  demographic: "14% Latino, 11% African American, 62% white",
+  grants: "56%",
+  livesOnCampus: "60%",
   programs: "TRiO",
   alumni: null
+}, {
+  id: 116,
+  name: "Trinity College",
+  act: "holistic",
+  url: 'https://www.trincoll.edu',
+  public: 'Private',
+  size: "2,259",
+  setting: "Midsize City",
+  location: "Hartford, CT",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '91%',
+  majors: "World Literature and Culture Studies - Public Policy and Law - Language and Culture Studies - Interdisciplinary Computing - Biochemistry - Sociology - Neuroscience - Religious Studies",
+  netPrice: null,
+  demographic: "7% Latino, 6% African American, 65% white",
+  grants: "12%",
+  livesOnCampus: "50%",
+  programs: "First Generation Pre-Orientation Program",
+  alumni: null
+}, {
+  id: 117,
+  name: "Union College",
+  act: "holistic",
+  url: 'https://www.union.edu/',
+  public: 'Private',
+  size: "2,203",
+  setting: "Small City",
+  location: "Schenectady, NY",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '89%',
+  majors: "Environmental Policy - Modern Languages and Literatures - Neuroscience - Managerial Economics - Science, Medicine and Technology in Culture - Computer Engineering - American Studies - Economic",
+  netPrice: "$8,133",
+  demographic: "7% Latino, 4% African American, 71% white",
+  grants: "12%",
+  livesOnCampus: "90%",
+  programs: "AOP/HEOP",
+  alumni: null
+}, {
+  id: 118,
+  name: "University of Maine at Farmington",
+  act: "holistic",
+  url: 'https://www.umf.maine.edu',
+  public: 'Public',
+  size: "1,782",
+  setting: "Town: Remote",
+  location: "Farmington, ME",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '51%',
+  majors: "Rehabilitation Services - Community Health Education - Community, Meaning, and Society - Education - Actuarial Science - Special Education - International and Global Studies - Outdoor Rec. Business Administration",
+  netPrice: null,
+  demographic: "2% Latino, 2% African American, 87% white",
+  grants: "47%",
+  livesOnCampus: "50%",
+  programs: "Johnson Scholars Program (TRiO)",
+  alumni: null
+}, {
+  id: 119,
+  name: "University of Rochester",
+  act: "holistic",
+  url: 'https://www.rochester.edu',
+  public: 'Private',
+  size: "6,386",
+  setting: "Midsize City",
+  location: "Rochester, NY",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '97% ',
+  majors: "Music Performance - Nursing - Alternative Energy - Archaeology, Technology and Historical Structures - Epidemiology - Health Policy - Bioethics - Mechanical Engineering",
+  netPrice: "$12,725",
+  demographic: "7% Latino, 5% African American, 47% white",
+  grants: "20%",
+  livesOnCampus: "77%",
+  programs: "First-Generation Inititatives (Kearns Center)",
+  alumni: null
+}, {
+  id: 120,
+  name: "Wake Forest University",
+  act: "holistic",
+  url: 'https://www.wfu.edu',
+  public: 'Private',
+  size: "4,955",
+  setting: "Midsize City",
+  location: "Winston-Salem, NC",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '84%',
+  majors: "Finance - Health and Exercise Science - Elementary Education - Communication - Biophysics - Politics and International Affairs - Music in Liberal Arts",
+  netPrice: "$10,818",
+  demographic: "7% Latino, 7% African American, 71% white",
+  grants: "10%",
+  livesOnCampus: "76%",
+  programs: "First in the Forest Programs - Magnolia Scholars",
+  alumni: null
+}, {
+  id: 121,
+  name: "Wesleyan University",
+  act: "holistic",
+  url: 'https://www.wesleyan.edu',
+  public: 'Private',
+  size: "2,971",
+  setting: "Small City",
+  location: "Middletown, CT",
+  selectivity: 'Holistic',
+  act: "Test Optional",
+  reading: "Test Optional",
+  math: "Test Optional",
+  rate: '847',
+  majors: "Business Administration and Management - Advertising   Nursing - Music History and Literature - Science in Society - Neuroscience and Behavior - Hispanic Literatures and Cultures - Molecular Biology & Biochemistry",
+  netPrice: "$5,647",
+  demographic: "10% Latino, 7% African American, 55% white",
+  grants: "22%",
+  livesOnCampus: "100%",
+  programs: "McNair Scholars Program - First Class - First Things First Pre-Orientation",
+  alumni: null
 }];
-/* harmony default export */ __webpack_exports__["default"] = (texas_schools_one);
+/* harmony default export */ __webpack_exports__["default"] = (hollistic);
 
 /***/ }),
 
@@ -2541,10 +2835,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/texas_schools_100.js":
-/*!************************************!*\
-  !*** ./pages/texas_schools_100.js ***!
-  \************************************/
+/***/ "./pages/out_of_state_hollistic.js":
+/*!*****************************************!*\
+  !*** ./pages/out_of_state_hollistic.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2552,24 +2846,24 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/IndividualDetails */ "./components/IndividualDetails.js");
-/* harmony import */ var _data_texas_schools_texas_schools_one__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/texas_schools/texas_schools_one */ "./data/texas_schools/texas_schools_one.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools_100.js";
+/* harmony import */ var _data_outside_schools_hollisticSchools__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/outside_schools/hollisticSchools */ "./data/outside_schools/hollisticSchools.js");
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var _components_IndividualDetails__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/IndividualDetails */ "./components/IndividualDetails.js");
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\out_of_state_hollistic.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-const texas_schools_100 = () => {
-  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+const Hollistic = () => {
+  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 12
     },
     __self: undefined
-  }, _data_texas_schools_texas_schools_one__WEBPACK_IMPORTED_MODULE_3__["default"].map(name => __jsx(_components_IndividualDetails__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, _data_outside_schools_hollisticSchools__WEBPACK_IMPORTED_MODULE_1__["default"].map(name => __jsx(_components_IndividualDetails__WEBPACK_IMPORTED_MODULE_3__["default"], {
     key: name.id,
     name: name.name,
     url: name.url,
@@ -2592,13 +2886,13 @@ const texas_schools_100 = () => {
     alumni: name.alumni,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: undefined
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (texas_schools_100);
+/* harmony default export */ __webpack_exports__["default"] = (Hollistic);
 
 /***/ }),
 
@@ -2614,13 +2908,13 @@ const texas_schools_100 = () => {
 /***/ }),
 
 /***/ 6:
-/*!******************************************!*\
-  !*** multi ./pages/texas_schools_100.js ***!
-  \******************************************/
+/*!***********************************************!*\
+  !*** multi ./pages/out_of_state_hollistic.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\JohnnieG\Desktop\college-fit-guide\pages\texas_schools_100.js */"./pages/texas_schools_100.js");
+module.exports = __webpack_require__(/*! C:\Users\JohnnieG\Desktop\college-fit-guide\pages\out_of_state_hollistic.js */"./pages/out_of_state_hollistic.js");
 
 
 /***/ }),
@@ -2769,4 +3063,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=texas_schools_100.js.map
+//# sourceMappingURL=out_of_state_hollistic.js.map

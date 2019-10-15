@@ -12,13 +12,13 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/texas_schools": [
+    "/out_of_state_hollistic": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/texas_schools_100": [
+    "/outside_texas": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

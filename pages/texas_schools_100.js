@@ -10,6 +10,7 @@ const texas_schools_100 =() => {
          {texas_schools_one.map(name => <IndividualDetails 
          key = {name.id}
          name = {name.name}
+         
          url = {name.url}
          private = {name.public}
          size ={name.size}

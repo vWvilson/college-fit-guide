@@ -1,51 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\texas_schools.js"],{
-
-/***/ "./components/Button.js":
-/*!******************************!*\
-  !*** ./components/Button.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\Button.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Button = function Button(props) {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    to: true,
-    href: props.url,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("button", {
-    className: "bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, props.label)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Button);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\out_of_state_hollistic.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -297,6 +250,374 @@ function HeaderTailwinds() {
 
 /***/ }),
 
+/***/ "./components/IndividualDetails.js":
+/*!*****************************************!*\
+  !*** ./components/IndividualDetails.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\IndividualDetails.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
+var IndividualDetails = function IndividualDetails(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+      showText = _useState[0],
+      setShowText = _useState[1];
+
+  return __jsx("div", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("h1", {
+    onClick: function onClick() {
+      return setShowText(!showText);
+    },
+    className: "jsx-4043928333" + " " + "h1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, props.name), showText && __jsx("div", {
+    className: "jsx-4043928333" + " " + "one",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("h2", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "GENERAL INFORMATION"), __jsx("p", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "SCHOOL NAME:"), " ", props.name, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, " WEBSITE:"), __jsx("a", {
+    target: "_blank",
+    href: props.url,
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, " ", props.url, " "), __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "PUBLIC OR PRIVATE:"), " ", props["private"], __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "SIZE OF SCHOOL:"), " ", props.size, "(total undergraduate size)", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "SETTING:"), " ", props.setting, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "LOCATION:"), " ", props.location), __jsx("div", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("iframe", {
+    src: props.iframe,
+    width: "250",
+    height: "250",
+    frameborder: "0",
+    allowfullscreen: "",
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  })), __jsx("h2", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "ACADEMIC INFORMATION"), __jsx("p", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "LEVEL OF SELECTIVITY:"), " ", props.selectivity, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "MEDIAN ACT SCORE:"), " ", props.act, __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "MEDIAN SAT CRITICAL READING SCORE:"), " ", props.reading, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "MEDIAN SAT MATH SCORE:"), " ", props.math, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "GRADUATION RATE FOR STUDENTS RECEIVING PELL GRANTS:"), " ", props.rate, " ", __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "MOST POPULAR MAJORS: "), " ", props.majors), __jsx("h2", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "FINANCIAL INFORMATION"), __jsx("p", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "AVERAGE NET PRICE FOR LOW INCOME STUDENTS:"), " ", props.price), __jsx("h2", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "SOCIAL INFORMATION"), __jsx("p", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "RACIAL DEMOGRAPHIC DATA:"), " ", props.demographic, __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "PERCENT OF STUDENTS AWARDED PELL GRANTS:"), " ", props.grants, __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "PERCENT OF STUDENTS WHO LIVE ON CAMPUS:"), " ", props.lives, __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "PROGRAMS THAT SUPPORT FIRST-GEN STUDENTS ON CAMPUS: "), props.programs, __jsx("br", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "jsx-4043928333",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "BREAKTHROUGH ALUMNI:"), " ", props.alumni)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "4043928333",
+    __self: this
+  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');a.jsx-4043928333{color:#82B441;}.h1.jsx-4043928333{color:#82B441;font-size:4vh;font-family:'Oswald',sans-serif;cursor:pointer;margin:5vw;}.one.jsx-4043928333{background-color:#E2E2E2;margin:20px;}h2.jsx-4043928333{font-family:'Roboto Condensed',sans-serif;color:#FA9D1C;padding:10px;font-size:4vh;}span.jsx-4043928333{color:#0074C8;font-family:'Roboto Condensed',sans-serif;}p.jsx-4043928333{font-family:'Roboto Condensed',sans-serif;font-size:2.7vh;padding:20px;}iframe.jsx-4043928333{margin:0 20px;background:grey;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxjb21wb25lbnRzXFxJbmRpdmlkdWFsRGV0YWlscy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4RG9CLEFBRW1ILEFBR3pGLEFBSUEsQUFTVyxBQUttQixBQU85QixBQU84QixBQU85QixjQXRDakIsQUFJaUIsQUFxQjhCLEFBYzNCLFdBMUJMLEdBUnNCLEVBbUNyQyxPQTFCQSxLQUlrQixBQWNDLGNBYkYsQUFPakIsRUFPZ0IsRUEzQkcsU0FjRCxFQWVsQixJQTVCYyxRQWNWLEdBYkoiLCJmaWxlIjoiQzpcXFVzZXJzXFxKb2hubmllR1xcRGVza3RvcFxcY29sbGVnZS1maXQtZ3VpZGVcXGNvbXBvbmVudHNcXEluZGl2aWR1YWxEZXRhaWxzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCBSZWFjdCwge3VzZVN0YXRlfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcblxyXG5cclxuXHJcbmNvbnN0IEluZGl2aWR1YWxEZXRhaWxzID0ocHJvcHMpPT4ge1xyXG4gICAgY29uc3QgIFtzaG93VGV4dCxzZXRTaG93VGV4dF0gPSB1c2VTdGF0ZShmYWxzZSlcclxuXHJcbiAgICBcclxuICAgIHJldHVybihcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiaDFcIiBvbkNsaWNrID17KCk9PiBzZXRTaG93VGV4dCghc2hvd1RleHQpfT57cHJvcHMubmFtZX08L2gxPlxyXG4gICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgIHtzaG93VGV4dCAmJiA8ZGl2IGNsYXNzTmFtZSA9IFwib25lXCIgPlxyXG5cclxuICAgICAgICAgICAgPGgyPkdFTkVSQUwgSU5GT1JNQVRJT048L2gyPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5TQ0hPT0wgTkFNRTo8L3NwYW4+IHtwcm9wcy5uYW1lfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPiBXRUJTSVRFOjwvc3Bhbj48YSB0YXJnZXQ9XCJfYmxhbmtcIiBocmVmID17cHJvcHMudXJsfT4ge3Byb3BzLnVybH0gPC9hPjxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+UFVCTElDIE9SIFBSSVZBVEU6PC9zcGFuPiB7cHJvcHMucHJpdmF0ZX08YnI+PC9icj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPlNJWkUgT0YgU0NIT09MOjwvc3Bhbj4ge3Byb3BzLnNpemV9KHRvdGFsIHVuZGVyZ3JhZHVhdGUgc2l6ZSk8YnI+PC9icj4gXHJcbiAgICAgICAgICAgICAgICA8c3Bhbj5TRVRUSU5HOjwvc3Bhbj4ge3Byb3BzLnNldHRpbmd9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+TE9DQVRJT046PC9zcGFuPiB7cHJvcHMubG9jYXRpb259IFxyXG4gICAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxkaXY+PGlmcmFtZSBzcmM9IHtwcm9wcy5pZnJhbWV9IFxyXG4gICAgICAgICAgIHdpZHRoPVwiMjUwXCIgaGVpZ2h0PVwiMjUwXCIgZnJhbWVib3JkZXI9XCIwXCIgIGFsbG93ZnVsbHNjcmVlbj1cIlwiPjwvaWZyYW1lPjwvZGl2PlxyXG4gICAgICAgICAgIFxyXG4gICAgICAgICAgIDxoMj5BQ0FERU1JQyBJTkZPUk1BVElPTjwvaDI+XHJcbiAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPkxFVkVMIE9GIFNFTEVDVElWSVRZOjwvc3Bhbj4ge3Byb3BzLnNlbGVjdGl2aXR5fSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TUVESUFOIEFDVCBTQ09SRTo8L3NwYW4+IHtwcm9wcy5hY3R9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPk1FRElBTiBTQVQgQ1JJVElDQUwgUkVBRElORyBTQ09SRTo8L3NwYW4+IHtwcm9wcy5yZWFkaW5nfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TUVESUFOIFNBVCBNQVRIIFNDT1JFOjwvc3Bhbj4ge3Byb3BzLm1hdGh9IDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5HUkFEVUFUSU9OIFJBVEUgRk9SIFNUVURFTlRTIFJFQ0VJVklORyBQRUxMIEdSQU5UUzo8L3NwYW4+IHtwcm9wcy5yYXRlfSA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+TU9TVCBQT1BVTEFSIE1BSk9SUzogPC9zcGFuPiB7cHJvcHMubWFqb3JzfVxyXG4gICAgICAgICAgIDwvcD5cclxuICAgICAgICAgIFxyXG5cclxuICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgPGgyPkZJTkFOQ0lBTCBJTkZPUk1BVElPTjwvaDI+XHJcbiAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICA8c3Bhbj5BVkVSQUdFIE5FVCBQUklDRSBGT1IgTE9XIElOQ09NRSBTVFVERU5UUzo8L3NwYW4+IHtwcm9wcy5wcmljZX1cclxuICAgICAgICAgICAgICAgPC9wPlxyXG5cclxuICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgIDxoMj5TT0NJQUwgSU5GT1JNQVRJT048L2gyPlxyXG4gICAgICAgICAgICA8cD4gICBcclxuICAgICAgICAgICAgICAgPHNwYW4+UkFDSUFMIERFTU9HUkFQSElDIERBVEE6PC9zcGFuPiB7cHJvcHMuZGVtb2dyYXBoaWN9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPlBFUkNFTlQgT0YgU1RVREVOVFMgQVdBUkRFRCBQRUxMIEdSQU5UUzo8L3NwYW4+IHtwcm9wcy5ncmFudHN9PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgIDxzcGFuPlBFUkNFTlQgT0YgU1RVREVOVFMgV0hPIExJVkUgT04gQ0FNUFVTOjwvc3Bhbj4ge3Byb3BzLmxpdmVzfTxicj48L2JyPlxyXG4gICAgICAgICAgICAgICA8c3Bhbj5QUk9HUkFNUyBUSEFUIFNVUFBPUlQgRklSU1QtR0VOIFNUVURFTlRTIE9OIENBTVBVUzogPC9zcGFuPntwcm9wcy5wcm9ncmFtc308YnI+PC9icj5cclxuICAgICAgICAgICAgICAgPHNwYW4+QlJFQUtUSFJPVUdIIEFMVU1OSTo8L3NwYW4+IHtwcm9wcy5hbHVtbml9XHJcbiAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDwvZGl2Pn1cclxuICAgICAgICAgICAgIFxyXG4gICAgICAgIFxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgICAgICAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1MYXRvfE9zd2FsZHxSb2JvdG8rQ29uZGVuc2VkJmRpc3BsYXk9c3dhcCcpO1xyXG5cclxuICAgICAgICBhIHtcclxuICAgICAgICAgICAgY29sb3I6IzgyQjQ0MTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5oMSB7XHJcbiAgICAgICAgICAgIGNvbG9yOiM4MkI0NDE7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTo0dmg7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgICAgICAgICBtYXJnaW46NXZ3O1xyXG4gICAgICAgIH1cclxuICAgICAgIFxyXG4gICAgICAgXHJcbiAgICAgICAgLm9uZSB7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6I0UyRTJFMjtcclxuICAgICAgICAgICAgbWFyZ2luOjIwcHg7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBoMntcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgIGNvbG9yOiNGQTlEMUM7XHJcbiAgICAgICAgICAgICBwYWRkaW5nOjEwcHg7XHJcbiAgICAgICAgICAgICBmb250LXNpemU6NHZoO1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgIHNwYW4ge1xyXG4gICAgICAgICAgICBjb2xvcjojMDA3NEM4O1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ1JvYm90byBDb25kZW5zZWQnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgIH1cclxuXHJcblxyXG4gICAgICAgXHJcbiAgICAgICAgcCB7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZToyLjd2aDtcclxuICAgICAgICAgICAgcGFkZGluZzoyMHB4O1xyXG5cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGlmcmFtZXtcclxuICAgICAgICAgICAgbWFyZ2luOjAgMjBweDtcclxuICAgICAgICAgICAgYmFja2dyb3VuZDogZ3JleTtcclxuICAgICAgICB9XHJcbiAgICAgICAgXHJcbiBcclxuXHJcbiAgICBcclxuICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBJbmRpdmlkdWFsRGV0YWlsczsiXX0= */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\components\\IndividualDetails.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (IndividualDetails);
+
+/***/ }),
+
 /***/ "./components/MyLayout.js":
 /*!********************************!*\
   !*** ./components/MyLayout.js ***!
@@ -340,6 +661,205 @@ var Layout = function Layout(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./data/outside_schools/hollisticSchools.js":
+/*!**************************************************!*\
+  !*** ./data/outside_schools/hollisticSchools.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+
+
+var _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18;
+
+var hollistic = [(_ref = {
+  id: 104,
+  name: "Bates College",
+  act: "holistic",
+  url: 'https://www.bates.edu',
+  "public": 'Private',
+  size: "1,780",
+  setting: "Small City",
+  location: "Lewiston, ME",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "rate", '94%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "majors", 'Neuroscience and Neurobiology - Environmental Studies - Art and Visual Culture - Biochemistry and Molecular Biology - Physics - Rhetoric - Anthropology - Politics'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "netPrice", "$3,497"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "demographic", "9% Latino, 6% African American, 70% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "grants", "10%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "livesOnCampus", "90%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "programs", "New Scholars Program - Bobcat First! Program"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "alumni", null), _ref), (_ref2 = {
+  id: 105,
+  name: "Bowdoin College",
+  act: "holistic",
+  url: 'https://www.bowdoin.edu',
+  "public": 'Private',
+  size: "1,806",
+  setting: "Town: Fringe",
+  location: "Brunswick, ME",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "rate", '90%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "majors", 'Anthropology - Biochemistry - Government and Legal Studies - Political Science and Government - Religion - Africana Studies - Hispanic Studies'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "netPrice", "$6,822"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "demographic", "11% Latino, 6% African American, 64% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "grants", "14%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "livesOnCampus", "88%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "programs", "Back for the First Time Retreat - Various First Generation Student Initiatives"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "alumni", null), _ref2), (_ref3 = {
+  id: 106,
+  name: "College of the Holy Cross",
+  act: "holistic",
+  url: 'https://www.holycross.edu',
+  "public": 'Private',
+  size: "2,720",
+  setting: "Midsize City",
+  location: "Worcester, MA",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "rate", '92%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "majors", 'Computer Science - Classics - International Studies - Studies in World Literatures - Environmental Studies - Accounting - Theater'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "netPrice", "$9,169"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "demographic", "10% Latino, 4% African American, 69% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "grants", "15%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "livesOnCampus", "89%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "programs", "Odyssey Orientation Program - HCF1RST Scholars - The Mentor/Passport Programs"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref3, "alumni", null), _ref3), (_ref4 = {
+  id: 107,
+  name: "Colorado College",
+  act: "holistic",
+  url: 'https://www.coloradocollege.edu',
+  "public": 'Private',
+  size: "2,101",
+  setting: "Large City",
+  location: "Colorado Springs, CO",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "rate", '95%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "majors", 'Organismal Biology and Ecology - International Political Economy - Mathematical Economics - Geology - Molecular Biology - Race, Ethnicity, and Migration Studies - Film and Media Studies'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "netPrice", "$,7136 "), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "demographic", "9% Latino, 3% African American, 66% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "grants", "15%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "livesOnCampus", "75%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "programs", "First Generation Collegiate Program (Butler Center) - Bridge Scholars Program"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref4, "alumni", null), _ref4), (_ref5 = {
+  id: 108,
+  name: "Connecticut College",
+  act: "holistic",
+  url: 'https://www.conncoll.edu',
+  "public": 'Private',
+  size: "1,865",
+  setting: "Small City",
+  location: "New London, CT",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "rate", '89%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "majors", 'Architectural Studies - Botany - Global Islamic Studies - International Relations - Music and Technology - Human Development - Linguistics - Economics'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "netPrice", "$15,498"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "demographic", "9% Latino, 4% African American, 70% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "grants", "17%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "livesOnCampus", "98%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "programs", "Genesis Program - Unity House"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref5, "alumni", null), _ref5), (_ref6 = {
+  id: 109,
+  name: "Franklin and Marshall College",
+  act: "holistic",
+  url: 'https://www.fandm.edu',
+  "public": 'Private',
+  size: "2,255",
+  setting: "Small City",
+  location: "Lancaster, PA",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "rate", '86%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "majors", 'Public Health - Astronomy and Astrophysics - Animal Behavior - Pre-Dental - Pre-Veterinary - Government - International Studies - Moral Psychology'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "netPrice", "$11,849"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "demographic", "9% Latino, 6% African American, 57% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "grants", "19%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "livesOnCampus", "99%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "programs", "First Generation Diplomats - College Prep Program"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref6, "alumni", null), _ref6), (_ref7 = {
+  id: 110,
+  name: "Gettysburg College",
+  act: "holistic",
+  url: 'https://www.gettysburg.edu',
+  "public": 'Private',
+  size: "2,394",
+  setting: "Small City",
+  location: "Gettysburg, PA",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "rate", '86%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "majors", 'Business Administration and Management - Exercise Physiology - Globalization Studies - Health Sciences - Public Policy - Music/Sunderman Conservatory of Music - Neuroscience - Organization and Management Studies'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "netPrice", "$9,956"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "demographic", "6% Latino, 3% African American, 76% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "grants", "10%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "livesOnCampus", "94%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "programs", null), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref7, "alumni", null), _ref7), (_ref8 = {
+  id: 111,
+  name: "Montclair State University",
+  act: "holistic",
+  url: 'https://www.montclair.edu',
+  "public": 'Private',
+  size: "16,810",
+  setting: "Large Suburb",
+  location: "Montclair, NJ",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "rate", '63%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "majors", 'Family Science and Human Development - Fashion Design/Merchandising - Justice Studies - Nutrition and Food Science - Social Work - Television and Digital Media - American Sign Language - Communication Studies'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "netPrice", null), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "demographic", "26% Latino, 12% African American, 43% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "grants", "46%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "livesOnCampus", "30%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "programs", "STEM Pioneers"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref8, "alumni", null), _ref8), (_ref9 = {
+  id: 112,
+  name: "Pitzer College",
+  act: "holistic",
+  url: 'https://www.pitzer.edu',
+  "public": 'Private',
+  size: "1,062",
+  setting: "Large Suburb",
+  location: "Claremont, CA ",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "rate", '92%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "majors", 'Environmental Analysis - Organizational Studies - Communications - Sociology - Linguistics - International Political Economy - International & Intercultural Studies - English and World Literature'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "netPrice", "$11,553"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "demographic", "15% Latino, 5% African American, 46% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "grants", "13%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "livesOnCampus", "73%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "programs", "FirstGen Program - Affinity Groups (First-Generation, Low-Income, Students of Color)"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref9, "alumni", null), _ref9), (_ref10 = {
+  id: 113,
+  name: "Plymouth State University",
+  act: "holistic",
+  url: 'https://www.plymouth.edu',
+  "public": 'Public',
+  size: "4,124",
+  setting: "Town: Remote",
+  location: "Plymouth, NH",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "rate", '47%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "majors", 'Elementary Education - Electromechanical Technology and Robotics - Accounting - Tourism Management and Policy - Sports Management - Meteorology - Public Management - Environmental Planning'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "netPrice", null), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "demographic", "1% Latino, 2% African American, 82% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "grants", "32%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "livesOnCampus", "56%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "programs", "TRiO - Morgridge Family Opportunity Scholarship - Advancement Scholarship"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref10, "alumni", null), _ref10), (_ref11 = {
+  id: 114,
+  name: "Smith College",
+  act: "holistic",
+  url: 'https://www.smith.edu',
+  "public": 'Public',
+  size: "2,514",
+  setting: "Large Suburb",
+  location: "Northampton, MA",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "rate", '94%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "majors", "Engineering - Research and Experimental Psychology - Education and Child Study - Statistical and Data Sciences - Women's Studies - Comparative Literature - Astronomy - Dance"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "netPrice", "$9,038"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "demographic", "10% Latino, 6% African American, 45% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "grants", "32%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "livesOnCampus", "56%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "programs", "First-Generation Student Alliance - First Generation Support Group"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref11, "alumni", null), _ref11), (_ref12 = {
+  id: 115,
+  name: "SUNY-Potsdam",
+  act: "holistic",
+  url: 'https://www.potsdam.edu',
+  "public": 'Public',
+  size: "3,416",
+  setting: "Town: Remote",
+  location: "Potsdam, NY",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "rate", '46%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "majors", "Archeological Studies - Music Business - Music Teacher Education - Sociology - Graphic Design and New Media - Community Health - Communication - Creative Writing"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "netPrice", null), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "demographic", "14% Latino, 11% African American, 62% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "grants", "56%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "livesOnCampus", "60%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "programs", "TRiO"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref12, "alumni", null), _ref12), (_ref13 = {
+  id: 116,
+  name: "Trinity College",
+  act: "holistic",
+  url: 'https://www.trincoll.edu',
+  "public": 'Private',
+  size: "2,259",
+  setting: "Midsize City",
+  location: "Hartford, CT",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "rate", '91%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "majors", "World Literature and Culture Studies - Public Policy and Law - Language and Culture Studies - Interdisciplinary Computing - Biochemistry - Sociology - Neuroscience - Religious Studies"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "netPrice", null), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "demographic", "7% Latino, 6% African American, 65% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "grants", "12%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "livesOnCampus", "50%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "programs", "First Generation Pre-Orientation Program"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref13, "alumni", null), _ref13), (_ref14 = {
+  id: 117,
+  name: "Union College",
+  act: "holistic",
+  url: 'https://www.union.edu/',
+  "public": 'Private',
+  size: "2,203",
+  setting: "Small City",
+  location: "Schenectady, NY",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "rate", '89%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "majors", "Environmental Policy - Modern Languages and Literatures - Neuroscience - Managerial Economics - Science, Medicine and Technology in Culture - Computer Engineering - American Studies - Economic"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "netPrice", "$8,133"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "demographic", "7% Latino, 4% African American, 71% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "grants", "12%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "livesOnCampus", "90%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "programs", "AOP/HEOP"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref14, "alumni", null), _ref14), (_ref15 = {
+  id: 118,
+  name: "University of Maine at Farmington",
+  act: "holistic",
+  url: 'https://www.umf.maine.edu',
+  "public": 'Public',
+  size: "1,782",
+  setting: "Town: Remote",
+  location: "Farmington, ME",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "rate", '51%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "majors", "Rehabilitation Services - Community Health Education - Community, Meaning, and Society - Education - Actuarial Science - Special Education - International and Global Studies - Outdoor Rec. Business Administration"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "netPrice", null), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "demographic", "2% Latino, 2% African American, 87% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "grants", "47%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "livesOnCampus", "50%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "programs", "Johnson Scholars Program (TRiO)"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref15, "alumni", null), _ref15), (_ref16 = {
+  id: 119,
+  name: "University of Rochester",
+  act: "holistic",
+  url: 'https://www.rochester.edu',
+  "public": 'Private',
+  size: "6,386",
+  setting: "Midsize City",
+  location: "Rochester, NY",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "rate", '97% '), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "majors", "Music Performance - Nursing - Alternative Energy - Archaeology, Technology and Historical Structures - Epidemiology - Health Policy - Bioethics - Mechanical Engineering"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "netPrice", "$12,725"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "demographic", "7% Latino, 5% African American, 47% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "grants", "20%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "livesOnCampus", "77%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "programs", "First-Generation Inititatives (Kearns Center)"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref16, "alumni", null), _ref16), (_ref17 = {
+  id: 120,
+  name: "Wake Forest University",
+  act: "holistic",
+  url: 'https://www.wfu.edu',
+  "public": 'Private',
+  size: "4,955",
+  setting: "Midsize City",
+  location: "Winston-Salem, NC",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "rate", '84%'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "majors", "Finance - Health and Exercise Science - Elementary Education - Communication - Biophysics - Politics and International Affairs - Music in Liberal Arts"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "netPrice", "$10,818"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "demographic", "7% Latino, 7% African American, 71% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "grants", "10%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "livesOnCampus", "76%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "programs", "First in the Forest Programs - Magnolia Scholars"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref17, "alumni", null), _ref17), (_ref18 = {
+  id: 121,
+  name: "Wesleyan University",
+  act: "holistic",
+  url: 'https://www.wesleyan.edu',
+  "public": 'Private',
+  size: "2,971",
+  setting: "Small City",
+  location: "Middletown, CT",
+  selectivity: 'Holistic'
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "act", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "reading", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "math", "Test Optional"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "rate", '847'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "majors", "Business Administration and Management - Advertising   Nursing - Music History and Literature - Science in Society - Neuroscience and Behavior - Hispanic Literatures and Cultures - Molecular Biology & Biochemistry"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "netPrice", "$5,647"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "demographic", "10% Latino, 7% African American, 55% white"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "grants", "22%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "livesOnCampus", "100%"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "programs", "McNair Scholars Program - First Class - First Things First Pre-Orientation"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref18, "alumni", null), _ref18)];
+/* harmony default export */ __webpack_exports__["default"] = (hollistic);
 
 /***/ }),
 
@@ -671,6 +1191,36 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
 
 /***/ }),
 
@@ -4775,21 +5325,21 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fout_of_state_hollistic&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cout_of_state_hollistic.js!./":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fout_of_state_hollistic&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cout_of_state_hollistic.js ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/texas_schools", function() {
-      var mod = __webpack_require__(/*! ./pages/texas_schools.js */ "./pages/texas_schools.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/out_of_state_hollistic", function() {
+      var mod = __webpack_require__(/*! ./pages/out_of_state_hollistic.js */ "./pages/out_of_state_hollistic.js")
       if(true) {
-        module.hot.accept(/*! ./pages/texas_schools.js */ "./pages/texas_schools.js", function() {
-          if(!next.router.components["/texas_schools"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/texas_schools.js */ "./pages/texas_schools.js")
-          next.router.update("/texas_schools", updatedPage)
+        module.hot.accept(/*! ./pages/out_of_state_hollistic.js */ "./pages/out_of_state_hollistic.js", function() {
+          if(!next.router.components["/out_of_state_hollistic"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/out_of_state_hollistic.js */ "./pages/out_of_state_hollistic.js")
+          next.router.update("/out_of_state_hollistic", updatedPage)
         })
       }
       return mod
@@ -11264,162 +11814,77 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/texas_schools.js":
-/*!********************************!*\
-  !*** ./pages/texas_schools.js ***!
-  \********************************/
+/***/ "./pages/out_of_state_hollistic.js":
+/*!*****************************************!*\
+  !*** ./pages/out_of_state_hollistic.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _data_outside_schools_hollisticSchools__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/outside_schools/hollisticSchools */ "./data/outside_schools/hollisticSchools.js");
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Button */ "./components/Button.js");
-var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js";
+/* harmony import */ var _components_IndividualDetails__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/IndividualDetails */ "./components/IndividualDetails.js");
+var _jsxFileName = "C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\out_of_state_hollistic.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-
-var TexasSchools = function TexasSchools() {
-  return __jsx("div", {
-    className: "jsx-3879602729",
+var Hollistic = function Hollistic() {
+  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
-  }, __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-3879602729" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Texas Schools"), __jsx("div", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "ACT Score of 19 or Below & GPA 0f 2.0 - 2.5 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    label: "SHOW",
-    url: "/texas_schools_100",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "ACT Score of 20 - 21  & GPA 0f 2.0 - 3.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    label: "SHOW",
-    url: "/texas_schools_two",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "ACT Score of 22 - 25  & GPA 0f 2.5 - 3.5 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    label: "SHOW",
-    url: "/texas_schools_three",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "jsx-3879602729",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "ACT Score of 26 and Above  & GPA 0f 3.5 - 4.0 "), __jsx(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    label: "SHOW",
-    url: "/texas_schools_four",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3879602729",
-    __self: this
-  }, "@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Condensed&display=swap');h1.jsx-3879602729{color:#82B441;font-size:2.3em;font-family:'Oswald',sans-serif;}p.jsx-3879602729{font-family:'Roboto Condensed',sans-serif;font-size:1.3em;}.container.jsx-3879602729{padding:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1Q2dCLEFBRXNHLEFBSWxGLEFBSzhCLEFBSy9CLGFBQ2QsQ0FWaUIsZ0JBQ2tCLFlBSWxCLGdCQUNqQixJQUpBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSm9obm5pZUdcXERlc2t0b3BcXGNvbGxlZ2UtZml0LWd1aWRlXFxwYWdlc1xcdGV4YXNfc2Nob29scy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCc7XHJcbmltcG9ydCBCdXR0b24gZnJvbSAnLi4vY29tcG9uZW50cy9CdXR0b24nXHJcblxyXG5cclxuXHJcbiBcclxuIFxyXG4gXHJcblxyXG5jb25zdCBUZXhhc1NjaG9vbHMgPSgpPT4ge1xyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lID0gXCJjb250YWluZXJcIj5cclxuICA8aDE+VGV4YXMgU2Nob29sczwvaDE+XHJcblxyXG4gICAgPGRpdj5cclxuICAgICA8cD5BQ1QgU2NvcmUgb2YgMTkgb3IgQmVsb3cgJiBHUEEgMGYgMi4wIC0gMi41IDwvcD4gXHJcbiAgICAgPEJ1dHRvbiBsYWJlbCA9IFwiU0hPV1wiIHVybCA9IFwiL3RleGFzX3NjaG9vbHNfMTAwXCIvPiBcclxuICAgIDwvZGl2PlxyXG4gICAgICAgIFxyXG5cclxuICAgICA8ZGl2PjxwPkFDVCBTY29yZSBvZiAyMCAtIDIxICAmIEdQQSAwZiAyLjAgLSAzLjAgPC9wPlxyXG4gICAgIDxCdXR0b24gbGFiZWwgPSBcIlNIT1dcIiB1cmwgPSBcIi90ZXhhc19zY2hvb2xzX3R3b1wiLz5cclxuICAgICA8L2Rpdj5cclxuXHJcbiAgICAgPGRpdj48cD5BQ1QgU2NvcmUgb2YgMjIgLSAyNSAgJiBHUEEgMGYgMi41IC0gMy41IDwvcD5cclxuICAgICA8QnV0dG9uIGxhYmVsID0gXCJTSE9XXCIgdXJsID0gXCIvdGV4YXNfc2Nob29sc190aHJlZVwiLz5cclxuICAgICA8L2Rpdj5cclxuICAgICBcclxuICAgIDxkaXY+PHA+QUNUIFNjb3JlIG9mIDI2IGFuZCBBYm92ZSAgJiBHUEEgMGYgMy41IC0gNC4wIDwvcD5cclxuICAgICA8QnV0dG9uIGxhYmVsID0gXCJTSE9XXCIgdXJsID0gXCIvdGV4YXNfc2Nob29sc19mb3VyXCIgLz4gICBcclxuICAgIDwvZGl2PlxyXG4gICAgIFxyXG4gICAgIDwvZGl2PlxyXG5cclxuICAgIDwvTGF5b3V0PlxyXG5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG98T3N3YWxkfFJvYm90bytDb25kZW5zZWQmZGlzcGxheT1zd2FwJyk7XHJcblxyXG4gICAgICAgXHJcbiAgICAgaDF7XHJcbiAgICAgIGNvbG9yOiM4MkI0NDE7XHJcbiAgICAgIGZvbnQtc2l6ZToyLjNlbTtcclxuICAgICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgfVxyXG4gICAgcHtcclxuICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcclxuICAgICAgZm9udC1zaXplOjEuM2VtO1xyXG4gICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgcGFkZGluZzoyMHB4O1xyXG4gICAgfVxyXG5cclxuXHJcbiAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgPC9kaXY+XHJcblxyXG4gICk7XHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgVGV4YXNTY2hvb2xzOyJdfQ== */\n/*@ sourceURL=C:\\Users\\JohnnieG\\Desktop\\college-fit-guide\\pages\\texas_schools.js */"));
+  }, _data_outside_schools_hollisticSchools__WEBPACK_IMPORTED_MODULE_1__["default"].map(function (name) {
+    return __jsx(_components_IndividualDetails__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      key: name.id,
+      name: name.name,
+      url: name.url,
+      "private": name["public"],
+      size: name.size,
+      setting: name.setting,
+      location: name.location,
+      iframe: null,
+      selectivity: name.selectivity,
+      act: name.act,
+      reading: name.reading,
+      math: name.math,
+      majors: name.majors,
+      rate: name.rate,
+      price: name.netPrice,
+      demographic: name.demographic,
+      grants: name.grants,
+      lives: name.livesOnCampus,
+      programs: name.programs,
+      alumni: name.alumni,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    });
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (TexasSchools);
+/* harmony default export */ __webpack_exports__["default"] = (Hollistic);
 
 /***/ }),
 
-/***/ 3:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ 4:
+/*!********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fout_of_state_hollistic&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cout_of_state_hollistic.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftexas_schools&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Ctexas_schools.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fout_of_state_hollistic&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cout_of_state_hollistic.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fout_of_state_hollistic&absolutePagePath=C%3A%5CUsers%5CJohnnieG%5CDesktop%5Ccollege-fit-guide%5Cpages%5Cout_of_state_hollistic.js!./");
 
 
 /***/ }),
@@ -11435,5 +11900,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=texas_schools.js.map
+},[[4,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=out_of_state_hollistic.js.map
