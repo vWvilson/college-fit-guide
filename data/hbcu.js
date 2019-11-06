@@ -8,7 +8,7 @@ const hbcu = [
         public:'Private ',
         size: "474",
         setting:"Large City",
-        location:"",
+        location:"Greensboro, NC",
         selectivity: 'Least Selective',
         act: "Open Enrollment",
         reading:"Open Enrollment",
@@ -21,6 +21,7 @@ const hbcu = [
         livesOnCampus: "69%",
         programs:null,
         alumni: null,
+        iframe: "https://goo.gl/maps/QGXYk7YRUdzwspWk6"
         
     },
 
