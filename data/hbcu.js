@@ -21,7 +21,7 @@ const hbcu = [
         livesOnCampus: "69%",
         programs:null,
         alumni: null,
-        iframe: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.050513882875!2d-79.7814046840219!3d36.06787198010595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885318dc2a3e8187%3A0x45f5c17486eb9c16!2sBennett%20College!5e0!3m2!1sen!2sus!4v1573048774629!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>'
+        iframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.050513882875!2d-79.7814046840219!3d36.06787198010595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885318dc2a3e8187%3A0x45f5c17486eb9c16!2sBennett%20College!5e0!3m2!1sen!2sus!4v1573048774629!5m2!1sen!2sus"  style="border:0;"'
         
     },
 
