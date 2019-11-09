@@ -47,6 +47,7 @@ const hbcu = [
         livesOnCampus: "66%",
         programs:"Thurgood Marshall College Fund Scholarships",
         alumni: null,
+        iframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3482.4262311041352!2d-81.03376368440586!3d29.211014864412796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e6dbd54d02ff2b%3A0xcd347da32e843e8c!2sBethune%20Cookman%20University!5e0!3m2!1sen!2sus!4v1573049419060!5m2!1sen!2sus"  style="border:0;" '
     },
     {
         id: 3,
@@ -69,6 +70,7 @@ const hbcu = [
         livesOnCampus: null,
         programs:"Learning in Communities for Success (LinCs) ",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.090370178878!2d-80.85639968434076!3d33.499025854126174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8d5008de1c253%3A0x8bf68d8c27cfc84a!2sClaflin%20University!5e0!3m2!1sen!2sus!4v1573049535333!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 4,
@@ -91,6 +93,7 @@ const hbcu = [
         livesOnCampus: "59%",
         programs:"DSU-PEA Initiative - Access to Success",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.4975705047195!2d-75.54446218423915!3d39.186141337476485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c77b3a51fc436b%3A0xb5497dfb5b185d57!2sDelaware%20State%20University!5e0!3m2!1sen!2sus!4v1573049616368!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 5,
@@ -113,6 +116,7 @@ const hbcu = [
         livesOnCampus: null,
         programs:"TRIO Programs",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3216.2876699485155!2d-76.21614848429326!3d36.28106930444744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a54452c01cc907%3A0xa5b9e8dca9bd8d5d!2sElizabeth%20City%20State%20University!5e0!3m2!1sen!2sus!4v1573049709510!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 6,
@@ -135,6 +139,7 @@ const hbcu = [
         livesOnCampus: "65%",
         programs:"SSS/TRiO - Dream No Small Dreams II Campaign ",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.4530197421645!2d-76.33654898427987!3d37.02284346283386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba84b7f410cf0b%3A0x14fbeecf7f30fa45!2sHampton%20University!5e0!3m2!1sen!2sus!4v1573314002325!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 7,
@@ -157,6 +162,7 @@ const hbcu = [
         livesOnCampus: "61%",
         programs:"TRiO",
         alumni: null,
+        iframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.0563962239917!2d-77.02162638424433!3d38.92268845305717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7fc56b4cef9%3A0x32dcc71fc8db77c2!2sHoward%20University!5e0!2sus!4v1573314111466!5m2!1sen!2sus" style="border:0;"'
     },
     {
         id: 8,
@@ -179,6 +185,7 @@ const hbcu = [
         livesOnCampus: null,
         programs:"Summer Bridge program - 1st Year Internship program",
         alumni: " James Carter, Education -- Jesus Herrera, Mathematics",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.0359874209503!2d-97.72450988439088!3d30.264555815094752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5b79c773627%3A0x6d6346e940aef476!2sHuston-Tillotson%20University!5e0!3m2!1sen!2sus!4v1573314190853!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 9,
@@ -201,6 +208,7 @@ const hbcu = [
         livesOnCampus: null,
         programs:"Upward Bound (TRiO)",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.517092303168!2d-80.85798218431154!3d35.24338946146592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a1b53e6e1721%3A0x23d0a0bc0c914690!2sJohnson%20C.%20Smith%20University!5e0!3m2!1sen!2sus!4v1573314415726!5m2!1sen!2sus" style="border:0;" '
     },
   
     {
@@ -224,6 +232,7 @@ const hbcu = [
         livesOnCampus: "64%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.9978568732436!2d-88.80830198430478!3d35.62777934050799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887ea0bf8516aec7%3A0xeb6d4845a151ea8a!2sLane%20College!5e0!3m2!1sen!2sus!4v1573314615654!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 12,
@@ -246,6 +255,7 @@ const hbcu = [
         livesOnCampus: "84%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.990000446999!2d-75.92952638422702!3d39.807216100405405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c64d0e87cda563%3A0x52b8c13b6127568b!2sLincoln%20University!5e0!3m2!1sen!2sus!4v1573314774583!5m2!1sen!2sus"  style="border:0;" '
     },
     {
         id: 13,
@@ -268,6 +278,7 @@ const hbcu = [
         livesOnCampus: "80%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.225654195278!2d-80.486863684304!3d35.67144533811501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853f2e2480be721%3A0xf9dffe3a16a69679!2sLivingstone%20College!5e0!3m2!1sen!2sus!4v1573314844256!5m2!1sen!2sus style="border:0;" '
     },
      {
         id: 14,
@@ -290,6 +301,7 @@ const hbcu = [
         livesOnCampus: "48%",
         programs:"TRiO/SSS",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12915.56059615063!2d-78.90554870810436!3d35.97411104740528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace44f89243cf5%3A0x93c0dba73c468932!2sNorth%20Carolina%20Central%20University%2C%20Durham%2C%20NC!5e0!3m2!1sen!2sus!4v1573315276849!5m2!1se style="border:0;" '
     },
     {
         id: 15,
@@ -312,6 +324,7 @@ const hbcu = [
         livesOnCampus: null,
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.7318230814585!2d-92.28515798432014!3d34.737153588771804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2bb426d9021b1%3A0x2fcb1994d460eed1!2sPhilander%20Smith%20College!5e0!3m2!1sen!2sus!4v1573315403282!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 16,
@@ -334,6 +347,7 @@ const hbcu = [
         livesOnCampus: null,
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.6351063707775!2d-86.11574998434193!3d33.432756357566575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888bdcc2eb2178f3%3A0xa804cb22ab0afb61!2sTalladega%20College!5e0!3m2!1sen!2sus!4v1573315490823!5m2!1sen!2sus" style="border:0;" '
     },
  
     {
@@ -357,6 +371,7 @@ const hbcu = [
         livesOnCampus: "45%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.9860399853646!2d-75.68698888425791!3d38.210220794758726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b9013cc9b49193%3A0xde23577075f071fc!2sUniversity%20of%20Maryland%20Eastern%20Shore!5e0!3m2!1sen!2sus!4v1573315790400!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 19,
@@ -379,6 +394,7 @@ const hbcu = [
         livesOnCampus: "72%",
         programs:"TRiO",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.6802790353468!2d-77.45365828426993!3d37.5625958321107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b116b4e9f5d103%3A0x83b82f93baf1058!2sVirginia%20Union%20University!5e0!3m2!1sen!2sus!4v1573316451363!5m2!1sen!2sus" style="border:0;" '
     },
     
     {
@@ -402,6 +418,7 @@ const hbcu = [
         livesOnCampus: "59%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.771910047001!2d-79.15376088427303!3d37.39522604167723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b2d97e35248f0b%3A0xc0ad8836001f4c3d!2sVirginia%20University-Lynchburg!5e0!3m2!1sen!2sus!4v1573316542950!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id:22,
@@ -424,6 +441,7 @@ const hbcu = [
         livesOnCampus: "59%",
         programs:"Team B.O.S.S. (TRiO)",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.1480733611784!2d-80.22730548429672!3d36.08987831505838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853aefa6881ea1d%3A0x895b2fc4c6c6e542!2sWinston-Salem%20State%20University!5e0!3m2!1sen!2sus!4v1573316604238!5m2!1sen!2sus" style="border:0;" '
     }
 
 
