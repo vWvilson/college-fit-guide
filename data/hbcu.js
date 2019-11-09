@@ -301,7 +301,7 @@ const hbcu = [
         livesOnCampus: "48%",
         programs:"TRiO/SSS",
         alumni: null,
-        iframe:'"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.8908471786362!2d-78.89898263402357!3d35.97409398012704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace44f89243cf5%3A0x93c0dba73c468932!2sNorth%20Carolina%20Central%20University%2C%20Durham%2C%20NC!5e0!3m2!1sen!2sus!4v1573317037048!5m2!1sen!2sus" style="border:0;" '
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1614.4391610396865!2d-78.89898767200924!3d35.97440017703835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace44f6989da05%3A0x8c04bdb838409144!2sWillis%20Commerce%20(School%20of%20Business)%20Building!5e0!3m2!1sen!2sus!4v1573317816752!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 15,
