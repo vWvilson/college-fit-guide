@@ -19,7 +19,7 @@ const Hollistic = ()=> {
      size ={name.size}
      setting = {name.setting}
      location = {name.location}
-     iframe = {null}
+     iframe = {name.iframe}
      selectivity = {name.selectivity}
      act = {name.act}
      reading = {name.reading}
