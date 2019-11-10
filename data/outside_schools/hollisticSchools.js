@@ -19,7 +19,8 @@ const hollistic = [
         grants: "10%",
         livesOnCampus: "90%",
         programs:"New Scholars Program - Bobcat First! Program",
-        alumni: null,        
+        alumni: null,   
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2864.9159892272914!2d-70.204375184571!3d44.10572543106856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb26b95e156aed5%3A0xe09394fc40abee2!2sBates%20College!5e0!3m2!1sen!2sus!4v1573423158234!5m2!1sen!2sus"  style="border:0;" '     
         
     },
     {
@@ -42,7 +43,8 @@ const hollistic = [
         grants: "14%",
         livesOnCampus: "88%",
         programs:"Back for the First Time Retreat - Various First Generation Student Initiatives",
-        alumni: null,        
+        alumni: null,  
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5748.861537807526!2d-69.96598902319366!3d43.9090549459663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cad873e343ba803%3A0xa9b08c7cc377609!2sBowdoin%20College!5e0!3m2!1sen!2sus!4v1573423235998!5m2!1sen!2sus"  style="border:0;" '      
         
     },
     {
@@ -66,6 +68,7 @@ const hollistic = [
         livesOnCampus: "89%",
         programs:"Odyssey Orientation Program - HCF1RST Scholars - The Mentor/Passport Programs",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.8394406075286!2d-71.81014948462426!3d42.23924305071562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e405ccfd5de543%3A0x4141b2d853d5c862!2sCollege%20of%20the%20Holy%20Cross!5e0!3m2!1sen!2sus!4v1573423296811!5m2!1sen!2sus" style="border:0;" '
 
     },
     {
@@ -89,6 +92,7 @@ const hollistic = [
         livesOnCampus: "75%",
         programs:"First Generation Collegiate Program (Butler Center) - Bridge Scholars Program",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.322852800384!2d-104.82792328471554!3d38.84796615746159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8713454067bf7d47%3A0x1a86fbdaf85af7a!2sColorado%20College!5e0!3m2!1sen!2sus!4v1573423362067!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -112,6 +116,7 @@ const hollistic = [
         livesOnCampus: "98%",
         programs:"Genesis Program - Unity House",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.787948721263!2d-72.10677558464813!3d41.378691604497284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e60dd0f1aaa525%3A0xdcead620e7196159!2sConnecticut%20College!5e0!3m2!1sen!2sus!4v1573423424104!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 109,
@@ -134,6 +139,7 @@ const hollistic = [
         livesOnCampus: "99%",
         programs:"First Generation Diplomats - College Prep Program",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.1952628850227!2d-76.32211138468405!3d40.04874318586116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c62461e430738b%3A0x7bd7753b4293fe4b!2sFranklin%20%26%20Marshall%20College!5e0!3m2!1sen!2sus!4v1573423491962!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -157,6 +163,7 @@ const hollistic = [
         livesOnCampus: "94%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.71984585392!2d-77.23782258468968!3d39.83569849869462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c9ac886243410b%3A0xefadf3c0eb221002!2sGettysburg%20College!5e0!3m2!1sen!2sus!4v1573423574797!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -180,6 +187,7 @@ const hollistic = [
         livesOnCampus: "30%",
         programs:"STEM Pioneers",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.438058580651!2d-74.19999748466216!3d40.862259836346404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fe352883ec55%3A0xeece028744cfc9ae!2sMontclair%20State%20University!5e0!3m2!1sen!2sus!4v1573423644019!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -203,6 +211,7 @@ const hollistic = [
         livesOnCampus: "73%",
         programs:"FirstGen Program - Affinity Groups (First-Generation, Low-Income, Students of Color)",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.668948146652!2d-117.70605508483021!3d34.10362032246835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c331bb82a8709f%3A0xfb65610bc89080d6!2sPitzer%20College!5e0!3m2!1sen!2sus!4v1573423708720!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -225,7 +234,8 @@ const hollistic = [
         grants: "32%",
         livesOnCampus: "56%",
         programs:"TRiO - Morgridge Family Opportunity Scholarship - Advancement Scholarship",
-        alumni: null,        
+        alumni: null,     
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.64311939566!2d-71.69044298458105!3d43.759507253568124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb35c395b233497%3A0x7389086583e3ca32!2sPlymouth%20State%20University!5e0!3m2!1sen!2sus!4v1573423764826!5m2!1sen!2sus" style="border:0"'   
     },
     {
         id: 114,
@@ -248,6 +258,7 @@ const hollistic = [
         livesOnCampus: "56%",
         programs:"First-Generation Student Alliance - First Generation Support Group",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.2295178507597!2d-72.64249818462217!3d42.316303145856544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6d7686a2e5a89%3A0x1e164445789d4484!2sSmith%20College!5e0!3m2!1sen!2sus!4v1573423825905!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -271,6 +282,7 @@ const hollistic = [
         livesOnCampus: "60%",
         programs:"TRiO",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.708156781173!2d-74.97829458455465!3d44.664313994478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc60dcf6b9fe91%3A0xadbd5b579f3a0791!2sSUNY%20Potsdam!5e0!3m2!1sen!2sus!4v1573423874425!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -294,6 +306,7 @@ const hollistic = [
         livesOnCampus: "50%",
         programs:"First Generation Pre-Orientation Program",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6012159.151873321!2d-80.53232834243934!3d42.62691726507846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8252abc84cf5fa5!2sTrinity%20College!5e0!3m2!1sen!2sus!4v1573423940004!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -317,6 +330,7 @@ const hollistic = [
         livesOnCampus: "90%",
         programs:"AOP/HEOP",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12607809.352446722!2d-87.90208196179722!3d39.512718951401126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c4f2b18944634f1!2sUnion%20College!5e0!3m2!1sen!2sus!4v1573424015870!5m2!1sen!2sus" style="border:0;" '
 
     },
     {
@@ -340,6 +354,7 @@ const hollistic = [
         livesOnCampus: "50%",
         programs:"Johnson Scholars Program (TRiO)",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.5295653687776!2d-70.15031408455455!3d44.66796229423796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb19a37a8d00e53%3A0xfe698a10579c21de!2sUniversity%20of%20Maine%20Farmington!5e0!3m2!1sen!2sus!4v1573424080191!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 119,
@@ -362,6 +377,7 @@ const hollistic = [
         livesOnCampus: "77%",
         programs:"First-Generation Inititatives (Kearns Center)",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.7605093887823!2d-77.62819198459908!3d43.130556994086675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6b4c60f59a507%3A0x6847ecd04cdde1d7!2sUniversity%20of%20Rochester!5e0!3m2!1sen!2sus!4v1573424133074!5m2!1sen!2sus" style="border:0;" '
         
     },
      {
@@ -384,7 +400,8 @@ const hollistic = [
         grants: "10%",
         livesOnCampus: "76%",
         programs:"First in the Forest Programs - Magnolia Scholars",
-        alumni: null,        
+        alumni: null,  
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.333067435402!2d-80.28008378478302!3d36.1341028126093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853adf824f2c181%3A0x9e805d290cfd29f0!2sWake%20Forest%20University!5e0!3m2!1sen!2sus!4v1573424183331sen!2sus" style="border:0;" '      
     },
     {
         id: 121,
@@ -407,6 +424,7 @@ const hollistic = [
         livesOnCampus: "100%",
         programs:"McNair Scholars Program - First Class - First Things First Pre-Orientation",
         alumni: null, 
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.583504391762!2d-72.6590927846432!3d41.556614393450225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e64a60965d6f5d%3A0x1a2661291fd59573!2sWesleyan%20University!5e0!3m2!1sen!2sus!4v1573424252418!5m2!1sen!2sus" style="border:0;" '
         
     }
 ]
