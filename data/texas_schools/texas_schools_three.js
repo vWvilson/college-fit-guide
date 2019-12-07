@@ -22,6 +22,7 @@ const texas_schools_three = [
         livesOnCampus: "60%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.127720423719!2d-96.94915958486112!3d32.70923369474572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e856314271135%3A0x8a13b68513396f87!2sDallas%20Baptist%20University!5e0!3m2!1sen!2sus!4v1575750362163!5m2!1sen!2sus" style="border:0;" '
 
         
     },
@@ -46,6 +47,7 @@ const texas_schools_three = [
         livesOnCampus: "47%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.810458848998!2d-99.73653328486614!3d32.477761106490824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86568fcdca5621a5%3A0xa3593dc9ac1003e3!2sHardin-Simmons%20University!5e0!3m2!1sen!2sus!4v1575750427423!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -69,7 +71,7 @@ const texas_schools_three = [
         livesOnCampus: "35%",
         programs:null,
         alumni: "Shayra Madero, International Business -- Thelma Martinez, International Business -- Wilber Jaimes, Business -- Gabriela Lopez-Ruiz, Education -- Gloria Perez, Accounting -- Bridget Gonzalez, Social Work -- Yasmine Smith, Criminal Justice (Pre-Law) -- Carlos Apuche, Computer Science -- Tiara Clayton, Acting -- Marimar Hernandez, Global Studies (Asia Focus) ",
-        
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.257695779924!2d-97.75604688491254!3d30.229727016751006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b492ae61201b%3A0x1142c282cbe51336!2sSt.%20Edward&#39;s%20University!5e0!3m2!1sen!2sus!4v1575750482366!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 21,
@@ -92,6 +94,7 @@ const texas_schools_three = [
         livesOnCampus: "19%",
         programs:"TRIO",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.192012175994!2d-95.54947918490286!3d30.71300199363429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86470897b3bc944d%3A0xa82f4c1703e6e67c!2sSam%20Houston%20State%20University!5e0!3m2!1sen!2sus!4v1575750540532!5m2!1sen!2sus"  style="border:0;" '
     },
     {
         id: 22,
@@ -114,6 +117,7 @@ const texas_schools_three = [
         livesOnCampus: "61%",
         programs:null,
         alumni: "Amalia Fuentes, Psychology",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.18452025811!2d-99.13124808491642!3d30.031563726136046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865be333ffb992c7%3A0x5580b804f64f29f!2sSchreiner%20University!5e0!3m2!1sen!2sus!4v1575750592374!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -137,6 +141,7 @@ const texas_schools_three = [
         livesOnCampus: "56%",
         programs:"McNair Scholars -- FAM program",
         alumni: "Paula Viruegas -- Cynthia Hernandez-Acosta, Business Administration -- Barbara Falcon-Mendoza, Political Science ",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.194083574997!2d-98.56628678492774!3d29.45234245325405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5e9758e349f3%3A0x3fa3ee73734ab7bf!2sSt.%20Mary&#39;s%20University!5e0!3m2!1sen!2sus!4v1575750657116!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 25,
@@ -159,7 +164,7 @@ const texas_schools_three = [
         livesOnCampus: "44%",
         programs:"Generation Jacks",
         alumni: "Tiburcio Garcia, Finance -- Gabriel Garcia, Mathematics",
-        
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.435362543653!2d-94.64844678488419!3d31.621928149284138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86378be2e3e68f1d%3A0x60920053bc6c3def!2sStephen%20F.%20Austin%20State%20University!5e0!3m2!1sen!2sus!4v1575750726588!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 26,
@@ -182,6 +187,7 @@ const texas_schools_three = [
         livesOnCampus: "19%",
         programs:"Student Support Services",
         alumni: "Rogelio Gomez, Environmental Studies -- Ariel Barrera, Computer Information Systems -- Giovanna Perez, Biology --Janeli Cardenas-Arellano, Teaching -- Karen Arredondo, Mass Communication -- Kelly Rangel, Biology - Claudia Ochoa, Teaching -- Christian Torres, Criminal Justice -- Manuel Munoz, Political Science -- Brenda Ortiz, International Business -- Sergio Olguin-Cruz, Computer Science -- Vincent Morales-Pardo, Economics",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.1625815396524!2d-97.94053968491922!3d29.888415632881443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865ca87036ad24df%3A0x7117159ea740e992!2sTexas%20State%20University!5e0!3m2!1sen!2sus!4v1575750782938!5m2!1sen!2sus" "style="border:0;" '
     },
     {
         id: 27,
@@ -204,6 +210,7 @@ const texas_schools_three = [
         livesOnCampus: "24%",
         programs:"First Gen Learning Community -- First Generation Transition and Mentoring Program",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.8107150293486!2d-101.88047088484198!3d33.5842635496935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c413f31ec847%3A0x52db374b7b07849!2sTexas%20Tech%20University!5e0!3m2!1sen!2sus!4v1575750858460!5m2!1sen!2sus" style="border:0;" '
         
         
     },
@@ -228,6 +235,7 @@ const texas_schools_three = [
         livesOnCampus: "10%",
         programs:"McNair Scholars",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.3507353940768!2d-97.11620028486067!3d32.72987629369494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7d6dabc9564d%3A0x6c5cbeb084c8b76a!2sThe%20University%20of%20Texas%20at%20Arlington!5e0!3m2!1sen!2sus!4v1575750931407!5m2!1sen!2sus" style="border:0;" '
         
     }, 
     {
@@ -251,7 +259,7 @@ const texas_schools_three = [
         livesOnCampus: "20%",
         programs:"McNair Scholars",
         alumni: "Arianna Jones, Fashion Design and Merchandising -- Daija Efferson, Biology -- Symoine Proctor-Lockett, Psychology",
-        
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.25187259828!2d-97.15477488485028!3d33.20749246921822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864dca73e4358fc9%3A0xbbd9f45fa47690a!2sUniversity%20of%20North%20Texas!5e0!3m2!1sen!2sus!4v1575750979492!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 29,
@@ -274,6 +282,7 @@ const texas_schools_three = [
         livesOnCampus: "40%",
         programs:"UST FirstGen Group",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.4140249456996!2d-95.39537118492221!3d29.736728639998194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf62db65447f%3A0x80933a001da13d1a!2sUniversity%20of%20St.%20Thomas!5e0!3m2!1sen!2sus!4v1575751035328!5m2!1sen!2sus" style="border:0;" '
         
     }
 

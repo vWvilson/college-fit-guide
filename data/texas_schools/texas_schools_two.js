@@ -21,6 +21,7 @@ const texas_school_two = [
         livesOnCampus: "59%",
         programs:"TRiO",
         alumni: "Justin Jones, Criminal Justice",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.004010186464!2d-98.98951898488225!3d31.715785444639902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8650c7b43b387fb7%3A0xd65b775c634d44bf!2sHoward%20Payne%20University!5e0!3m2!1sen!2sus!4v1573425777999!5m2!1sen!2sus" style="border:0;" '
         
 
         
@@ -46,6 +47,7 @@ const texas_school_two = [
         livesOnCampus: null,
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.593056277381!2d-98.52320518483546!3d33.8743770345298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86532031313098e1%3A0x6e67c7a02a356cce!2sMidwestern%20State%20University!5e0!3m2!1sen!2sus!4v1573425834397!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -69,6 +71,7 @@ const texas_school_two = [
         livesOnCampus: "37%",
         programs:"McNair Scholars Program (TRiO)",
         alumni: "Rhiannon Aleman, Kinesiology",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.0821007954946!2d-98.54557678492824!3d29.426396754457755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5ecc39335bc5%3A0xb7ed2070f76424c8!2sOur%20Lady%20of%20the%20Lake%20University!5e0!3m2!1sen!2sus!4v1573425892602!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 8,
@@ -91,6 +94,7 @@ const texas_school_two = [
         livesOnCampus: "48%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.8250180853793!2d-97.32832628486783!3d32.39705201056903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e446bbc5fbce9%3A0x9b338d9e54e8ef6c!2sSouthwestern%20Adventist%20University!5e0!3m2!1sen!2sus!4v1573426050547!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -114,6 +118,7 @@ const texas_school_two = [
         livesOnCampus: "28%",
         programs:"Generation Proud Texan Residential College",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.5614024751926!2d-98.21814238487167!3d32.21604711968286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651b6d37480660f%3A0x26bfdf650afcc3e1!2sTarleton%20State%20University!5e0!3m2!1sen!2sus!4v1573426145796!5m2!1sen!2sus" style="border:0;" '
         
         
     },
@@ -138,6 +143,7 @@ const texas_school_two = [
         livesOnCampus: null,
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.9860463307245!2d-95.91260358484955!3d33.240668967506636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864bc625c1962233%3A0x41cdb5cb25cca9e4!2sTexas%20A%26M%20University-Commerce!5e0!3m2!1sen!2sus!4v1573426222949!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -161,7 +167,7 @@ const texas_school_two = [
         livesOnCampus: "62%",
         programs:"TLU Firsts",
         alumni: "Emerald Crayton, Kinesiology -- Maria Orozco, Biology, Chemistry",
-        
+        iframe :'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3470.046916799393!2d-97.98715578489589!3d29.57323818205624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cb84198e9e249%3A0x3dcac8df6ad210e7!2sTexas%20Lutheran%20University!5e0!3m2!1sen!2sus!4v1575749649617!5m2!1sen!2sus" style="border:0;"' 
     },
     {
         id: 12,
@@ -184,6 +190,7 @@ const texas_school_two = [
         livesOnCampus: "21%",
         programs:"Success Program -- Impact Program",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.7975134033754!2d-97.1286509918515!3d33.22471163895405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864dca85d2673761%3A0x36a2fea32e08401e!2sTexas%20Woman&#39;s%20University!5e0!3m2!1sen!2sus!4v1575749874840!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -207,6 +214,7 @@ const texas_school_two = [
         livesOnCampus: null,
         programs:"Student Support Services Program",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.9833026626566!2d-106.50682918488106!3d31.770941341905125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e7585aee8062d7%3A0xd1fa952f6437ecbc!2sThe%20University%20of%20Texas%20at%20El%20Paso!5e0!3m2!1sen!2sus!4v1575749967046!5m2!1sen!2sus"  style="border:0;" '
         
     },
     {
@@ -230,6 +238,7 @@ const texas_school_two = [
         livesOnCampus: "21%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.6985959207086!2d-102.32519328487867!3d31.88761123610652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fbcee7a65244b3%3A0xde8f15d59d143cbd!2sThe%20University%20of%20Texas%20of%20the%20Permian%20Basin!5e0!3m2!1sen!2sus!4v1575750027528!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -253,6 +262,7 @@ const texas_school_two = [
         livesOnCampus: "4%",
         programs:"ASPIRE",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57225.59024912997!2d-98.20874112089844!3d26.30708400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665a24b15a78c4d%3A0x2cdc1bf01639f10c!2sUniversity%20of%20Texas%20Rio%20Grande%20Valley!5e0!3m2!1sen!2sus!4v1575750129715!5m2!1sen!2sus" style="border:0;" '
         
     },
     {
@@ -276,6 +286,7 @@ const texas_school_two = [
         livesOnCampus: null,
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107414.88235272773!2d-96.86946275406693!3d32.720198158762045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e96e5721027b1%3A0x40391cd0b2f59c95!2sUNT%20Dallas!5e0!3m2!1sen!2sus!4v1575750227712!5m2!1sen!2sus" style="border:0;" '
     },
     {
         id: 17,
@@ -298,6 +309,7 @@ const texas_school_two = [
         livesOnCampus: null,
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.010521772855!2d-101.91806238481018!3d34.98140117564055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870168026919ea7d%3A0x5930f6aec23fb7b7!2sWest%20Texas%20A%26M%20University!5e0!3m2!1sen!2sus!4v1575750291836!5m2!1sen!2sus" style="border:0;" '
         
     },
 

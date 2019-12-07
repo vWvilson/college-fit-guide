@@ -23,6 +23,7 @@ const texas_schools_one  = [
         livesOnCampus: "46%",
         programs:null,
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.412188690526!2d-96.88977498485669!3d32.91370638431046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c27a2d5347751%3A0xa4e88076142acd66!2sDallas%20Christian%20College!5e0!3m2!1sen!2sus!4v1573425496551!5m2!1sen!2sus" style="border:0;" '
         
 
 
@@ -48,6 +49,7 @@ const texas_schools_one  = [
         livesOnCampus: "51%",
         programs:null,
         alumni: "Felicia Monroe, Criminal Justice",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.0092255292134!2d-95.99208508491519!3d30.09392212318865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8646cc0a5cf0f4f1%3A0x103242a0436c12b2!2sPrairie%20View%20A%26M%20University!5e0!3m2!1sen!2sus!4v1573425567324!5m2!1sen!2sus" style="border:0;" '
         
 
     },
@@ -72,6 +74,7 @@ const texas_schools_one  = [
         livesOnCampus: "8%",
         programs:null,
         alumni: "Mario Palomo, Criminal Justice",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.7107862827693!2d-99.43716728496267!3d27.571484938056344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8661258e0b2846a5%3A0x6e6836a6ad65843d!2sTexas%20A%26M%20International%20University!5e0!3m2!1sen!2sus!4v1573425634372!5m2!1sen!2sus" style="border:0;" '
         
 
         
@@ -97,6 +100,7 @@ const texas_schools_one  = [
         livesOnCampus: "17%",
         programs:"TRiO",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.6715958532245!2d-98.46981038492746!3d29.46759855254578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf59c51c82699%3A0xdd3c9862c4ee8c50!2sUniversity%20of%20the%20Incarnate%20Word!5e0!3m2!1sen!2sus!4v1573425695141!5m2!1sen!2sus" style="border:0;" '
         
         
     },
