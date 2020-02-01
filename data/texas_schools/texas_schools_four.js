@@ -21,6 +21,9 @@ const texas_schools_four = [
         livesOnCampus: "82%",
         programs:"ENSURE summer program",
         alumni: "Lukas Koube, Political Science and English",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.3928221914393!2d-96.60039578422314!3d33.64698208071828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c886ba370ae43%3A0x83a31fa86b758de1!2sAustin%20College!5e0!3m2!1sen!2sus!4v1580579956266!5m2!1sen!2sus" style="border:0;" '
+
+
         
     }, {
         id: 31,
@@ -43,6 +46,7 @@ const texas_schools_four = [
         livesOnCampus: "72%",
         programs:"Student Success Initiatives - Rice Firsts",
         alumni: "James Carter, Psychology -- Esteban Serrano, Business Administration",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.0816483979966!2d-95.40401988429535!3d29.717394082002496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c064b7f18e1f%3A0xe2cd9cf065c43eb5!2sRice%20University!5e0!3m2!1sen!2sus!4v1580580213067!5m2!1sen!2sus" style="border:0;" '
         
     },{
         id: 32,
@@ -65,6 +69,8 @@ const texas_schools_four = [
         livesOnCampus: "72%",
         programs:"Captain's Academy",
         alumni: "Issa El Hage, Psychology -- Jose Vara, Economics -- Malcolm Harvin Connor, Communication Studies",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.3928221914393!2d-96.60039578422314!3d33.64698208071828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c886ba370ae43%3A0x83a31fa86b758de1!2sAustin%20College!5e0!3m2!1sen!2sus!4v1580579956266!5m2!1sen!2sus" style="border:0;" '
+
         
     },{
         id: 33,
@@ -87,6 +93,7 @@ const texas_schools_four = [
         livesOnCampus: "24%",
         programs:"Regents Scholarship Program - First-Generation Engineering Student Mentoring Program (FGEn) ",
         alumni: "Rosalba Danae Vazquez, Biomedical Science -- Febe Collazo-Martinez, Applied Mathematical Science -- Amely Vela, Nutrition -- Telvi Altamirano, Sociology",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.539281938942!2d-96.3386658842795!3d30.618755781676963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864683f733c00001%3A0x9747b8a4b9c03bc8!2sTexas%20A%26M%20University!5e0!3m2!1sen!2sus!4v1580580317930!5m2!1sen!2sus" style="border:0"'
         
     },{
         id: 34,
@@ -109,6 +116,7 @@ const texas_schools_four = [
         livesOnCampus: "18%",
         programs:"McNair Scholars - Longhorn Link Program ",
         alumni: "Ravi Patel, Computer Science -- Tahtiana Caldwell, Nutrition -- Brianna Walker, Journalism and Communication Studies -- Jocelyn Monrroy, Sociology -- Alverto Perez, Accounting -- Javier Ramirez, Economics -- Anissa Capuchino, Anthropology and Linguistics -- Tabita Collazo, Mathematics -- Leslie Olmos, Latin American Studies ",
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.321125394998!2d-97.73624538428537!3d30.284918481795327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59b2584cfb7%3A0x8131ee4f174a21de!2sThe%20University%20of%20Texas%20at%20Austin!5e0!3m2!1sen!2sus!4v1580580408871!5m2!1sen!2sus" style="border:0;" '
         
     },{
         id: 35,
@@ -131,7 +139,7 @@ const texas_schools_four = [
         livesOnCampus: "25%",
         programs:"First Generation Learning Community - Undergraduate Success Scholars",
         alumni: "Andrea Cabrera, Arts and Performance",
-        
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.683091052608!2d-96.75228798423588!3d32.98576188090952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21ff895e4aa5%3A0xd9098b32e9aa1331!2sThe%20University%20of%20Texas%20at%20Dallas!5e0!3m2!1sen!2sus!4v1580580971710!5m2!1sen!2sus" style="border:0;" '
         
     },{
         id: 36,
@@ -154,6 +162,7 @@ const texas_schools_four = [
         livesOnCampus: "77%",
         programs:"Allies: First Generation - Under Represented Students (FGUS)",
         alumni: null,
+        iframe:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.8688568165144!2d-98.48550078429977!3d29.46183958209809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c61995bf8bac5%3A0x15695af613b9989b!2sTrinity%20University!5e0!3m2!1sen!2sus!4v1580581094725!5m2!1sen!2sus" style="border:0;" '
         
     }
 
